@@ -93,7 +93,7 @@ WidgetVerify.createImg = function(exec, onload) {
     return img;
 }
 WidgetVerify.getRandomImg = function() {
-    return "/html5/img/widget/widgetVerify/imgVerify/imgVerify_" + WidgetVerify.getRandomNumberByRange(0, 100) + ".jpg";
+    return "/JSONEditor/project/img/widget/widgetVerify/imgVerify/imgVerify_" + WidgetVerify.getRandomNumberByRange(0, 100) + ".jpg";
 }
 
 WidgetVerify.getRandomImgWeb = function() {
