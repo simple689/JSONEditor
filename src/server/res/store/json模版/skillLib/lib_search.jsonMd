@@ -1,0 +1,100 @@
+	<Lib_Search>
+		<unit id="id_coredemo">
+			<!--搜索精灵目标的关系类型:skill_lib/sprite_target.sklib-->
+			<libTargetSpriteType>id_enemy</libTargetSpriteType>
+			<!--xxxx-->
+			<unit id="id_coreBase">
+				<!--搜索基点设置
+					T_init_standard 	: 使用技能初始化时候的标准体信息.
+					T_standard_sprite	: 使用标准精灵的当前信息做为标准体.
+				-->
+				<standardType>drop_list</standardType>
+				<!--搜索的目标类型
+					none		不搜索
+					sprite	精灵
+					pos		地点
+					dir		方向
+					eara		区域-->
+				<TargetType>drop_list</TargetType>
+				<!--搜索数据
+					T_none						：不搜索
+					++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+					搜索精灵目标类型.
+					T_sprite_in_circle			：精灵，圆形范围
+							param[0]半径
+					T_sprite_in_fan				：精灵，扇形范围
+							param[0]半径;param[1]角度;
+					T_sprite_in_rect			：精灵，矩形范围。参数1x周长度，参数2z轴长度，参数3x偏移，参数4，z便宜			.
+							param[0]X轴长;[1]Z轴长;[2]X轴偏移;[3]Z轴偏移;
+					++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++			
+					T_pos_at_face_interval	：地点，基点方向上的点.
+							param[0]前方开始点距离
+							param[1]距离间隔.
+					T_pos_at_circle			：地点，圆周上均匀分布点.
+							param[0]前方开始点距离.
+							param[1]半径.
+					T_pos_in_fan			：地点，扇面上均匀分布点
+							param[0]前方开始点距离
+							param[1]半径
+							param[2]扇形角度
+					T_pos_at_segment		：地点，前方线段.
+							param[0]开始距离.
+							param[1]结束距离.
+					T_pos_at_wall			：地点，前方墙.
+							param[0]开始距离
+							param[1]墙长度.
+					T_pos_in_fan_random		：地点，扇形面积内随机点
+							param[0]前方开始点距离									(标准单位:厘米:浮点).
+							param[1]半径											(标准单位:厘米:浮点).
+							param[2]扇形角度
+							param[3]每个点间隔最小距离								(标准单位:厘米:浮点).
+					++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++		
+					T_dir_at_face			：方向，基点方向.
+					T_dir_in_around			：方向，全方向均匀分布.
+					T_dir_in_fan			：方向，扇形区域内均匀分布.
+							param[0]扇形角度
+							param[1]方向存储顺序（0，顺时针，1逆时针，2中间向两边）
+							param[2]与标准朝向的偏移角度.
+					T_dir_vector			：方向，给出指定朝向.与基点标准体朝向关联。
+							param[0]X轴值，
+							param[1]Y轴值，
+							param[2]Z轴值;
+					++++++++++++++++++++++++++++++++++++++++区域++++++++++++++++++++++++++++++++++++++++++++++++	
+					T_eare_circle			：区域.圆.						
+							param[0]	X轴偏移.
+							param[1]	Z轴偏移.
+	
+							param[2]	半径
+					T_eare_rece				：区域.矩形.
+							param[0]	X轴偏移.
+							param[1]	Z轴偏移.
+	
+							param[2]	X轴长度
+							param[3]	Z轴长度
+							
+					T_eare_fan
+							param[0]	X轴偏移.
+							param[1]	Z轴偏移.
+	
+							param[2]	半径
+							param[3]	开始角度
+							param[4]	结束角度.
+					T_eara_ring
+							param[0]	X轴偏移.
+							param[1]	Z轴偏移.
+	
+							param[2]	外半径
+							param[3]	内半径.
+				-->
+				<type>drop_list</type>
+				<param>text_field</param>
+				<!--搜索的是位置或精灵
+					return	如果存在障碍则抛弃
+					check	检测碰撞盒是否会撞击到障碍上，如果撞击到则抛弃，如果不撞击到则正常释放
+					ignore	忽略障碍-->
+				<checkBlock>drop_list</checkBlock>
+				<!--选取精灵的优先级：使用库索引.使用的库索引值:skill_lib/search_sprite_priority.sklib-->
+				<libSearchSpritePriorityID>text_field</libSearchSpritePriorityID>
+			</unit>
+		</unit>
+	</Lib_Search>

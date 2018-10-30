@@ -1,0 +1,31 @@
+<root>
+	<unit id="tx_demo">	
+		<!--使目标不可见-->
+		<dispearTarget>
+			<!--
+				T_none			:无操作
+				T_yes			:不可见
+			-->
+			<type>drop_list</type>
+			<param>text_field</param>
+		</dispearTarget>
+		
+		<!--受击变色-->
+		<beHitflashColor>
+			<!--
+				T_none			:无操作
+				T_common		:变色
+					param[0] 颜色值-r (取值范围[0-1]).
+					param[1] 颜色值-g (取值范围[0-1]).
+					param[2] 颜色值-b (取值范围[0-1]).
+					param[3] 颜色值-a 强度值 (取值范围[0-1]).
+				T_material		:更换材质(不改变贴图).
+					param[0] 材质名.
+			-->
+			<type>drop_list</type>
+			<param>text_field</param>
+			<!--持续时间-->
+			<duration>text_field</duration>
+		</beHitflashColor>
+	</unit>
+</root>

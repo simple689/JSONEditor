@@ -1,0 +1,41 @@
+<root>
+	<!--受创精灵的模型震动-->
+	<unit id="hurt_demo">			
+		<!--受击精灵移动方向设定
+				T_creator_to_target			：角色向目标
+				T_target_to_creator			：目标向角色
+				T_target_forward			：目标当前方向
+				T_target_backward			：目标反向
+				T_creator_forward			：角色方向
+				T_creator_backward			：角色反向
+				T_creator_to_target_when_init：角色技能初始化时向目标方向
+		-->
+		<moveDirectionType>drop_list</moveDirectionType>
+		<!--打击震动触发方式
+				T_none						: 无效
+				T_always					: 可以让受击震动在任意时刻生效
+				T_playHurtAction			: 只在不能播放受击动作的时候生效
+		-->
+		<trigger>drop_list</trigger>
+		<!--震动的方向类型
+				T_sameWithHurtMoveDir		: 与受创的移动方向 一致.
+				T_pointDir					: 指定方向
+					param[0] : 给出水平角度.				
+		-->
+		<dir>drop_list</dir>
+		<dirParam>text_field</dirParam>
+		<!--持续时间-->
+		<duration>text_field</duration>
+		
+		<!--震动参数:移动振幅-->				
+		<paramMoveRange>text_field</paramMoveRange>
+		<!--震动参数:缩放振幅-->				
+		<paramScaleRange>text_field</paramScaleRange>
+		<!--震动参数:持续时间-->
+		<paramDuration>text_field</paramDuration>
+		<!--震动参数:衰减-->
+		<paramFade>text_field</paramFade>
+		<!--震动参数:振动次数-->
+		<paramCounter>text_field</paramCounter>
+	</unit>
+</root>

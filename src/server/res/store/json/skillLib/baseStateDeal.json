@@ -1,0 +1,32 @@
+<root>
+	<unit id = "id_none">
+		<!--技能的状态处理，所谓状态，主要指死亡、控制发生的时候技能的处理-->
+		<!--编辑器用复选框进行选择，如果需要处理的状态则加入-->
+		<!--			
+			要求技能死亡
+			<skill_dead>false</skill_dead>
+			清除动作
+			<clear_action>false</clear_action>
+			清除轨迹
+			<clear_trace>false</clear_trace>
+			清除发射器
+			<clear_emitter>false</clear_emitter>
+			清除核心体
+			<clear_core>false</clear_core>
+			清除特效
+			<clear_qnode>false</clear_qnode>
+			清除属性
+			<clear_attri>false</clear_attri>
+			清除音效
+			<clear_sound>false</clear_sound>
+			清除role状态
+			<clear_roleState>false</clear_roleState>			
+		</State>-->
+	</unit>
+	<unit id = "id_skillDead">		
+		<State>
+		<!--多项参数，用逗号隔开-->
+			<Action>drop_list_multi</Action>				
+		</State>
+	</unit>
+</root>

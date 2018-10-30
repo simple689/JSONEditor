@@ -1,0 +1,39 @@
+	<Lib_Qnode>
+		<unit id="first">
+			<!--编辑器中使用时实际作为一个特效绑定组件去使用-->
+			<bind>
+				<!--					
+					T_sprite			:精灵
+					T_leftEquip			:左手武器
+					T_rightEquip		:右手武器
+				-->
+				<targetType>drop_list</targetType>
+				<!--Bip001 Spine		胸
+					Bip001 Head		头
+					Bip001 L Hand	左手
+					Bip001 R Hand	右手
+					Bip001 L Calf	左小腿
+					Bip001 R Calf	右小腿
+					none		原点-->
+				<targetBone>text_field</targetBone>
+				<!--
+					T_none				:无绑定
+					T_half				:半绑定(只绑定位置不绑定方向)
+					T_full				:全绑定（方向和位置都绑定）
+				-->
+				<bindType>drop_list</bindType>
+				<bindParam>text_field</bindParam>
+				<!--
+					T_none				:无偏移.
+					T_offset			:绝对偏移.
+							param[0][1][2]X偏移值;Y偏移;Z偏移值.
+					T_spriteHeight		:给定的目标身高比
+							param[0]身高百分比.
+					T_roleHeight		:主角身百分比.
+							param[0]身高百分比.
+				-->
+				<offsetType>drop_list</offsetType>
+				<offsetParam>text_field</offsetParam>
+			</bind>
+		</unit>
+	</Lib_Qnode>

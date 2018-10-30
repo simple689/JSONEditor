@@ -1,0 +1,55 @@
+﻿{
+  "ignore": {
+    "beginList": [
+      "$"
+    ]
+  },
+  "file": {
+    "unitList": {
+      "showTitle": "列表",
+      "valueType": "array",
+      "value": {
+        "unit": {
+          "showTitle": "列表成员",
+          "valueType": "object",
+          "value": {
+            "id": {
+              "showTitle": "ID",
+              "valueType": "string"
+            },
+            "rotZ": {
+              "showTitle": "轨道Z轴旋转",
+              "valueType": "number"
+            },
+            "traceType": {
+              "showTitle": "轨迹类型",
+              "valueType": "enum",
+              "value": {
+                "enumTypeDefault": "diy",
+                "enumList": {
+                  "none": {
+                    "showTitle": "无轨迹",
+                    "enumParamList": {}
+                  },
+                  "diy": {
+                    "showTitle": "自定义的轨迹信息",
+                    "enumParamList": {
+                      "traceDiyId": {
+                        "showTitle": "自定义轨迹",
+                        "valueType": "link",
+                        "value": {
+                          "file": "traceDiy",
+                          "key": "unitList@unit@id"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+	<Lib_AttackSegment>
+		<!--攻击段单元-->
+		<unit id="demo">
+			<base>
+				<!--服务器作用库索引skill_lib/lib_sever模块-->
+				<libServerID>text_field</libServerID>
+				<!--打断技能等级值,当打断等级>抗打断等级时，可以打断对应技能-->
+				<levelInterrupt>text_field</levelInterrupt>
+				<!--受创移动等级,当受创移动等级>抗受创移动等级时，可以进行受创-->
+				<levelHurt>text_field</levelHurt>
+				<!--受创硬直
+					如值为-1代表使用轨迹的结束作为硬直结束.
+					若值>= 0代表直接使用该硬直时间.-->
+				<uncontrolTime>0</uncontrolTime>
+				<!--打击停顿
+					大于0有效(毫秒).动作停顿、特效停顿、屏蔽轨迹
+				-->
+				<hitstop>0</hitstop>
+				<!--播放速率百分比: 打击停顿修改为播放速率-->
+				<hitstopPlayrate>0</hitstopPlayrate>
+			</base>
+			<!--显示效果-->
+			<display>
+				<Lib_Qnode>
+					<!--特效索引core_qnode.sklib模块-->
+					<CoreQnodeID>text_field</CoreQnodeID>
+					<!--特效绑定索引lib_qnode.sklib模块-->
+					<libQnodeID>text_field</libQnodeID>
+				</Lib_Qnode>
+				<Lib_Qnode_ToSprite>
+					<!--特效索引core_qnode.sklib模块-->
+					<CoreQnodeID>text_field</CoreQnodeID>
+					<!--特效绑定索引lib_qnode.sklib模块-->
+					<libQnodeID>text_field</libQnodeID>
+				</Lib_Qnode_ToSprite>
+				<Lib_Sound>
+					<unit>
+						<!--音效索引 lib_sound.sklib模块-->
+						<libSoundID>text_field</libSoundID>
+						<!--音效索引 sound_contral.sklib模块-->
+						<libSoundContralID>text_field</libSoundContralID>
+						<!--附带参数: [0]代表音量放大百分比;-->
+						<libSoundParam>0</libSoundParam>
+					</unit>
+				</Lib_Sound>
+				<Lib_Camera>
+				<!--unit里内容可增加，用增加按钮-->
+					<unit>
+						<!--相机效果作用的对象：
+							role		自己
+							behit		受击方
+							others	其他人-->
+						<CameraObj>drop_list</CameraObj>
+						<cameraMoveFocusType>
+							<!--焦点位置
+								Default		当前焦点：即采用当前客户端的摄像机的焦点位置
+									param2		相对偏移X
+									param2		相对偏移Y
+									param2		相对偏移Z
+								Admin		技能目标：距离当前客户端摄像机焦点夹角最小的目标
+									param2		相对偏移X
+									param2		相对偏移Y
+									param2		相对偏移Z
+								Core			核心体：技能发射的核心体
+									param1		批次
+									param2		相对偏移X
+									param2		相对偏移Y
+									param2		相对偏移Z
+								Role			当前角色：当前释放技能的角色
+									param2		相对偏移X
+									param2		相对偏移Y
+									param2		相对偏移Z-->
+							<focusType>check_box</focusType>
+							<param>text_field</param>
+						</cameraMoveFocusType>
+						<cameraMove>
+							<!--目前相机移动只存在绝对控制，配置成相对控制，将无效.
+								摄像机控制权：绝对控制权、相对控制权（基于玩家对摄像机操作基础上的相对变化）
+								T_absolute					:绝对控制权.
+								T_relative					:相对控制权（基于玩家对摄像机操作基础上的相对变化）.
+							-->				
+							<contralType>T_absolute</contralType>				
+							<!--依次执行-->
+							<U>
+								<!--startTime无效：move会依次执行-->
+								<startTime>0</startTime>
+								<!--位移轨迹:skill/sklib/camera_move.sklib-->
+								<libCameraID>id_none</libCameraID>
+							</U>
+						</cameraMove>
+						<cameraEffect>
+							<contralType>T_absolute</contralType>
+							<!--相机效果:skill/sklib/camera_effect.sklib-->
+							<libCameraID>id_none,id_1,id_2</libCameraID>
+							<!--按时序执行-->
+							<U>
+								<!--该值有效-->
+								<startTime>0</startTime>
+								<!--相机效果:skill/sklib/camera_effect.sklib-->
+								<libCameraID>id_none</libCameraID>
+								
+							</U>
+						</cameraEffect>
+						<cameraShake>
+							<contralType>T_absolute</contralType>
+							<!--按时序执行-->
+							<U>
+								<!--该值有效-->
+								<startTime>0</startTime>
+								<!--相机震动库索引.skill/sklib/camera_shake.sklib-->
+								<libCameraID>id_none</libCameraID>					
+							</U>
+						</cameraShake>
+					</unit>
+				</Lib_Camera>
+					<!--其他效果库索引attacksegment_tx.sklib-->
+					<libTxID>text_field</libTxID>
+					<!--受创模型震动attacksegment_hurtShake.sklib-->
+					<libHurtShakeID>text_field</libHurtShakeID>
+			</display>
+			<!--受创处理-->
+			<trace>
+				<!--目标设定处理方式:attacksegment_hurtTargetSet.sklib-->
+				<libTargetSetID>text_field</libTargetSetID>
+				<!--轨迹库索引 lib_hurttrace.sklib模块-->
+				<libTraceID>text_field</libTraceID>
+			</trace>
+		</unit>
+	</Lib_AttackSegment>

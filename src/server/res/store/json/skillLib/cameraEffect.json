@@ -1,0 +1,28 @@
+<root>
+	<!--限制状态-->
+	<unit id="id_none">					
+		<!--特效类型（血迹、闪白、模糊、弹坑）、特效位置、全屏适应
+			T_none				:无效果
+
+			T_blood				:血迹 - 使用pos的位置.
+									使用qnode给定的特效.
+			T_crater				:弹坑 - 使用外部输入的位置.
+									使用qnode给定的特效.	
+
+			T_flash				:闪白 - 全屏适应.
+									不管qnode和
+			T_blur				:模糊 - 全屏适应.
+					
+		-->
+		<type>drop_list</type>		
+		<!--持续时间(毫秒)-->
+		<duration>text_field</duration>
+		<!--使用的特效名字,（特效文件名）-->
+		<qnode>text_field</qnode>
+		<!--特效位置
+				[0]屏幕宽百分比
+				[1]屏幕高百分比
+		-->
+		<pos>text_field</pos>			
+	</unit>
+</root>

@@ -1,0 +1,23 @@
+	<!--服务器通信信息-->
+	<Lib_Server>
+		<unit id="id_common">
+			<!--发送内容设定
+				T_none		  	：什么也不发送.
+				T_skillCreator	：发送技能创建者发送给服务器.
+						无参数
+				T_pretargets	：将预处理的精灵发送给服务器.
+						无参数
+				T_caller		：召唤位置发送给服务器.
+					参数[0] 选取位置类型.
+						0 : 技能标准体位置.
+							[无其他参数]
+						1 : 技能释放者的位置
+							偏移：X,Y,Z（以主角朝向为Z正）
+			-->
+			<type>T_none</type>
+			<!--内容参数,逗号分隔-->
+			<param>0</param>
+			<!--服务器打击段-->
+			<serverEffectKey>dddd</serverEffectKey>
+		</unit>
+	</Lib_Server>

@@ -1,0 +1,73 @@
+.nodeDiv {
+
+}
+
+.nodeSpan {
+
+}
+
+.nodeLabel {
+    margin-right: 10px;
+}
+
+.nodeInput {
+    margin-right: 10px;
+    background: #666666;
+    color: #aaaaaa;
+}
+
+.nodeInputDefault {
+    border: 0;
+}
+
+.nodeInputButton {
+    border-width: 1px;
+    border-color: #aaaaaa;
+}
+
+.nodeInputButtonMenu {
+    border-width: 1px;
+    border-color: #aaaaaa;
+}
+
+.nodeInputCheckbox {
+
+}
+
+.nodeInputRadio {
+
+}
+
+.nodeInputFile {
+
+}
+
+.nodeInputImage {
+
+}
+
+.nodeInputPassword {
+    border: 0;
+}
+
+.nodeInputSubmit {
+
+}
+
+.nodeInputReset {
+
+}
+
+.nodeInputColor {
+    border-width: 1px;
+    border-color: #aaaaaa;
+    border-radius: 5px;
+}
+
+.nodeSelect {
+
+}
+
+.nodeOption {
+
+}

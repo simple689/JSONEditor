@@ -1,0 +1,57 @@
+<root>
+	<unit id="id_enemy">
+		<!--对目标的处理-->
+		<target>
+			<!--作用和搜索的目标精灵类型.-->
+			<!--
+				0 - none			： 无(任何精灵都不符合要求,即选人模块无效)
+				1 - any 			： 任何精灵都可以
+				2 - role			： 技能释放者.
+				3 - standard_role	： 标准体精灵.
+				4 - owner			： 自己的主人(针对宠物使用的技能).
+				5 - teamer			： 队友.
+				6 - caller			： 我的召唤物.
+				7 - enemy			： 敌方对象
+				8 - friend  		： 友方对象
+				9 - any_exceptRole	： 任何精灵都可以除了Role	
+			-->
+			<type>drop_list</type>
+			<!--类型为enemy，参数如下-->
+			<enemyParam>
+				<!--是否包含怪物-->
+				<monster_ornot>check_box</monster_ornot>
+				<!--是否包含召唤物-->
+				<summon_ornot>check_box</summon_ornot>
+			</enemyParam>
+			<!--类型为friend，参数如下-->
+			<friendParam>
+				<!--是否包含召唤物-->
+				<summon_ornot>check_box</summon_ornot>
+				<!--是否包含monster类型的精灵 : 道具-->
+				<monster_ornot>check_box</monster_ornot>
+				<!--是否包含自己-->
+				<self_ornot>check_box</self_ornot>
+				<!--是否只对队伍生效-->
+				<team_ornot>check_box</team_ornot>
+			</friendParam>
+			<!--额外参数 : 可多个whitelist模块-->
+			<!--如果有设定则继续检测-->
+			<whitelist>
+				<!--白名单方式: 
+					T_none : 无效;
+					T_white: 正向;
+					T_black: 反向,即黑名单
+				-->
+				<type>drop_list</type>
+				<!--内容类型
+					T_none：无效;
+					T_material：材质;
+					T_buff：buff-->
+				<category>drop_list</category>
+				<!--具体字符串的值,keys可以是多个-->
+				<keys>text_field</keys>
+				<keys>text_field</keys>
+			</whitelist>
+		</target>
+	</unit>
+</root>

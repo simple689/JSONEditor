@@ -1,0 +1,65 @@
+<root>	
+	<unit id="id_demo">
+			<!--特效名:可以是多个,逗号分隔开-->
+			<qnodeKeys>text_field</qnodeKeys>
+			<!--特效原始类型.
+				T_none 				: 正常特效.
+				T_soft				: 柔体特效.
+					[说明]基本上其他配置都不会生效.
+			-->
+			<orginType>drop_list</orginType>
+			<!--裁剪特效-->
+			<play>
+				<!--是否裁剪-->
+				<enable>check_box</enable>
+				<!--特效文件的开始结束时间-->
+				<qnode_startframe>text_field(int)</qnode_startframe>
+				<qnode_endframe>text_field(int)</qnode_endframe>
+				<!--特效的循环次数，-1为无限循环-->
+				<QnodeTimes>text_field(int)</QnodeTimes>
+			</play>
+			<scale><!--缩放,0~+∞的浮点数，1为原比例-->
+				<scaleX>text_field</scaleX>
+				<scaleY>text_field</scaleY>
+				<scaleZ>text_field</scaleZ>
+			</scale>
+			<dead>
+				<!--
+					T_none					:永不死亡.
+					T_duration				:时间控制.
+						param[0]时间长度（毫秒）.
+					T_loopNum				:循环次数控制
+						param[0]循环次数.
+					T_coreEmitOver			:发射体发射完毕.
+					T_roleDead				:role死亡.
+				-->
+				<type>T_none</type>
+				<param>0</param>
+			</dead>
+			<dispear>
+				<!--
+					T_remove						:直接剔除.
+					T_dispear						:时间控制.
+						param[0] 特效死亡后最大存活时间(该值大于0有效).			
+				-->
+				<type>drop_list</type>
+				<param>text_field</param>
+			</dispear>
+			<dir>
+				<!--
+					T_none							:无操作.
+					T_initDir						:使用初始方向(根据传进来的方向).
+					T_pointDir						:使用给出的方向.
+						param[X,Y,Z].三个方向的旋转（rotation）
+					T_moveDir						:与核心体飞行方向一致.
+					T_standardDir					:标准体方向.
+					T_roleHurtDir					:技能Role受创方向,若不存在则使用标准体方向.
+						[需求] 血腥死亡,冰冻死亡.
+					T_lineBlockSpriteDir			:障碍精灵 障碍的朝向.
+						[需求] 线段面障碍，需要特效与其方向一致.
+				-->
+				<type>drop_list</type>
+				<param>text_field</param>
+			</dir>
+		</unit>
+</root>

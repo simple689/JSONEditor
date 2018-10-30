@@ -1,0 +1,22 @@
+	<Lib_Sound>
+		<!--音效震动单元-->
+		<unit id="id_demo">
+			<!--声音key，可以有多个-->
+			<soundKeys>text_filed</soundKeys>
+			<!--音源裁切，单位ms-->
+			<SoundStart>text_field(int)</SoundStart>
+			<SoundEnd>text_field(int)</SoundEnd>
+			<!--播放音效的音量(0-100)-->
+			<baseVolume>text_field(int)</baseVolume>
+			<!--关联类型
+				T_none				:无关联
+				T_goundMaterial			:与地面的材质关联,映射新的声音key.
+				声音命名格式为，自定义名称_序列号地表_材质名
+				程序匹配地表字段
+				T_modelMaterial			:与模型的材质关联,映射新的声音key.
+			-->
+			<associateType>drop_list</associateType>
+			<!--播放音效控制类型,循环次数，对应loop字段-->
+			<loop>T_once</loop>
+		</unit>
+	</Lib_Sound>

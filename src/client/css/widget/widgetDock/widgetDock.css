@@ -1,0 +1,14 @@
+.panelFixed {
+    position: absolute;
+    background: #666666;
+}
+
+.panelCenter {
+    overflow: hidden;
+    background: #666666;
+}
+
+.panelFloat {
+    overflow: auto;
+    background: #666666;
+}

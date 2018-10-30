@@ -1,0 +1,44 @@
+.searchRoot {
+    position: relative;
+}
+
+.searchText {
+
+}
+
+.searchBtn {
+
+}
+
+.searchHistoryBox {
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    display: none;
+    color: lightgray;
+}
+
+.searchHistoryBox ul {
+    font-size: 16px;
+    padding: 2px 0;
+    text-align: left;
+    list-style: none;
+    border: 1px solid #979797;
+    border-radius: 2px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .2);
+    margin: 0;
+    min-width: 150px;
+    background: gray;
+}
+
+.searchHistoryBox ul li {
+    cursor: pointer;
+    padding: 0 30px;
+    white-space: nowrap;
+}
+
+.searchHistoryBox ul li.active {
+    border: 1px solid #5588cc;
+    border-radius: 3px;
+    background: #5588cc;
+}

@@ -1,0 +1,63 @@
+	<Lib_HurtTrace>
+		<!--轨迹单元设定-->
+		<unit id="demo">
+			<!--受击类型：
+				back				击退（无轨迹，调用硬直动作）
+					parame1	击退距离
+					parame2	击退速度
+				pause			僵直（无轨迹，停在当前帧）
+					parame1	僵直时间	
+				diaup				击飞（抛物线，调用击飞动作组）
+					parame1	击飞距离
+					parame2	击飞速度
+					parame3	击飞高度
+				actionpause		硬直（无轨迹，调用硬直动作）
+					parame1	僵直时间
+				up				浮空（垂直起降，调用浮空动作组）
+					parame1	浮空高度
+					parame2	上升速度
+					parame3	下降速度
+				grasp				抓取（调用硬直动作，跟随核心体位置）
+					parame1	跟随时间（如果为-1则为完整跟随到核心体消失）
+				down				倒地（无轨迹，调用倒地动作组）
+					parame1	none
+				T_backRoleAround	击退到攻击者圆周上(方向为攻击者与受创者方向).
+					parame0	半径
+					parame1	击退速度
+				-->
+			<BeHurtType></BeHurtType>
+			<parame>text_field</parame>
+			<!--结尾停滞时间-->
+			<PauseTime>text_field</PauseTime>
+			<!--动作开始融合,单位毫秒,如果为0则没有融合-->
+			<merge>text_field</merge>
+			<!--动作结束融合,单位毫秒,如果为0则没有融合-->
+			<over_merge>text_field</over_merge>
+			<!--动作重置标志-->
+			<reset>check_box</reset>
+			<Lib_Qnode>
+				<U>
+					<!--相对上一个U等待时间，如果是第一个则为开启时间-->
+					<startTime>text_field</startTime>
+					<!--特效索引core_qnode.sklib模块-->
+					<CoreQnodeID>text_field</CoreQnodeID>
+					<!--特效绑定索引lib_qnode.sklib模块-->
+					<libQnodeID>text_field</libQnodeID>
+				</U>
+			</Lib_Qnode>
+			<Lib_Sound>
+				<U>
+					<!--相对上一个U等待时间，如果是第一个则为开启时间-->
+					<startTime>text_field</startTime>
+					<unit>
+						<!--音效索引 lib_sound.sklib模块-->
+						<libSoundID>text_field</libSoundID>
+						<!--音效索引 sound_contral.sklib模块-->
+						<libSoundContralID>text_field</libSoundContralID>
+						<!--附带参数: [0]代表音量放大百分比;-->
+						<libSoundParam>0</libSoundParam>
+					</unit>
+				</U>
+			</Lib_Sound>
+		</unit>
+	</Lib_HurtTrace>

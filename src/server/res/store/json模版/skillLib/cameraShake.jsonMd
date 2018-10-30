@@ -1,0 +1,21 @@
+<root>
+	<unit id="id_demo">			
+		<!--轴向 可以相互叠加，每类互相排斥.
+			T_y					: y轴
+			T_forward				: 相机当前朝向
+			T_xz					: 水平方向（随机）.
+		-->
+		<axisType>drop_list</axisType>		
+		<!--持续时间 : 毫秒数 : 参考值150-250.-->
+		<duration>text_field</duration>
+		<!--振幅 : 浮点数(单位厘米) : 参考值30-120-->
+		<range>text_field</range>		
+		<!--震动次数-->
+		<num>text_field</num>
+		<!--衰减
+			T_none - 无衰减
+			T_cos - cos衰减
+		-->
+		<fade>drop_list</fade>
+	</unit>
+</root>

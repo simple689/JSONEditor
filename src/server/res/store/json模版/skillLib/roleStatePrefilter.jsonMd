@@ -1,0 +1,58 @@
+<root>
+	<!--弹出框，多项增加枚举所有可以释放技能的状态-->
+	<!--目前设定的精灵的一些状态.
+		行为状态
+		<client_behavior_state>
+			<behavior0>不能移动</behavior0>
+			<behavior1>不能转向</behavior1>
+			<behavior2>不能受创</behavior2>
+			<behavior3>不能击退</behavior3>
+			<behavior4>不能浮空</behavior4>
+			<behavior5>不能倒地</behavior5>
+			<behavior6>和平动作</behavior6>
+			<behavior7>战斗动作</behavior7>
+			<behavior8>死亡动作</behavior8>
+			<behavior9>动作帧定格</behavior9>
+			<behavior10>致盲，视野模糊</behavior10>
+			<behavior11>混乱，按键错乱</behavior11>
+			<behavior12>眩晕，对应眩晕动作</behavior12>
+			<behavior13>播放1次腐蚀死亡特效</behavior13>
+			<behavior14>播放1次血腥死亡特效</behavior14>
+			<behavior15>播放1次碎冰死亡特效</behavior15>
+			<behavior16>播放1次燃烧死亡特效</behavior16>
+		</client_behavior_state>
+		战斗状态
+		<client_battle_state>		
+			<normal>正常状态</normal>
+			<float>浮空状态</float>
+			<fell>倒地状态</fell>
+			<superArmor>霸体状态（特指霸体值>0的情况)</superArmor>
+			<grounded>禁足状态</grounded>
+		</client_battle_state>
+	-->
+	<!--释放这个技能要求技能的释放者（如果有，处于什么状态）,不配置的话默认处于正常状态.
+			[该模块可以不存在]
+
+			[例子]:有些技能需要在倒地状态释放.
+
+			clientState类型设定.			
+			T_none			: 无(代表不去检测状态)
+			T_common		: 正常状态.				
+				没有 主动硬直.
+				没有 被动硬直.
+				没有 沉默状态.
+			T_hit			: 击退过程.
+			T_float			: 浮空过程.
+			T_fell			: 倒地状态.
+	-->
+	<unit id = "id_common">
+		<roleState>
+			<!--若处于以下任意状态 则可以触发该技能
+				[该模块可以不存在]
+			-->
+			<!--编辑器中编辑时剔除不属于某种状态的模块-->
+			<!--多项参数，用逗号隔开-->
+				<clientState>drop_list_multi</clientState>
+		</roleState>
+	</unit>
+</root>

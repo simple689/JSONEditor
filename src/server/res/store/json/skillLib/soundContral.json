@@ -1,0 +1,42 @@
+<root>
+	<unit id="id_demo">
+			<!--声音优先级-->
+			<soundLevel>text_field</soundLevel>	
+			<!--音量随机大小区间,百分数（100 = 1）-->
+			<rndVolume>max,min</rndVolume>
+			<!--延迟播放时间(毫秒)-->
+			<baseDelay>text_field</baseDelay>
+			<!--单独距离衰减-->
+			<baseFadeEnable>check_box</baseFadeEnable>
+			<!--单独距离衰减 : 声音根据距离衰减百分比值(取值范围通常为(0,100]).-->
+			<baseFadeValue>text_field</baseFadeValue>
+			<!--声音源位置，
+				T_none						：无操作,使用默认的位置设定.
+				T_standard					：技能标准体.
+				T_core					：技能核心体
+				T_Hit						:受击点
+				T_standard_dyn				：技能动态的标准体位置.
+				T_core_dyn					：技能核心体动态位置
+			-->
+			<soundPosType>drop_list</soundPosType>
+			<!--播放限制.
+				T_none		: 无条件播放.
+				T_role		: 只有role是当前玩家才可以播放.
+			-->
+			<baseLimit>drop_list</baseLimit>
+		
+			<!--音效死亡类型
+				T_none				: 不用管理.
+				T_skillDead			: 技能死掉则停止声音.
+						[需求]旋风斩被打断后，旋风斩的音效应该消失才对.
+				T_bindCore_coreDead	: 绑定到第一个核心体身上,核心体死亡则停止播放.
+						[需求]飞出的核心体，死亡则音效消失.
+				T_bindCore_none		: 绑定到第一个核心体身上,不用管理声音的停止.
+						[需求]飞出的核心体，核心体死亡不会影响声音播放.
+				T_bindStandard_skillDead: 绑定到标准体上; 技能死掉则停止声音.
+						[需求]旋风斩声音需要跟着走;被打断还要消失;（绑定核心体，需要时间配置，麻烦些）.
+			-->
+			<deadType>drop_list</deadType>
+			<deadParam>text_field</deadParam>
+	</unit>
+</root>

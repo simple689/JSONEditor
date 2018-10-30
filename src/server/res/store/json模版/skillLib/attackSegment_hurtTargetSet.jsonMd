@@ -1,0 +1,22 @@
+<root>
+	<unit id="hurt_demo">			
+		<!--受击精灵移动方向设定
+				T_creator_to_target			：角色向目标
+				T_target_to_creator			：目标向角色
+				T_target_forward			：目标当前方向
+				T_target_backward			：目标反向
+				T_creator_forward			：角色方向
+				T_creator_backward			：角色反向
+				T_creator_to_target_when_init：角色技能初始化时向目标方向
+				T_core_to_target				：作用核心体 朝向目标
+				T_target_to_core				：目标 朝向 作用核心体 
+		-->
+		<moveDirectionType>drop_list</moveDirectionType>
+		<!--受击精灵朝向设定
+				T_none						: 不变
+				T_face_to_creator			：朝向主角
+				T_back_on_creator			：背向主角
+		-->
+		<faceDirectionType>drop_list</faceDirectionType>
+	</unit>
+</root>

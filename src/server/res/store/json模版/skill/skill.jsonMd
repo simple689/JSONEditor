@@ -1,0 +1,1278 @@
+<!--控件名称
+	text_field			文本框
+	drop_list			下拉列表
+	drop_list_multi		可多项选择下拉列表框
+	check_box			复选框
+	radio_box			单选框-->
+<!--当出现外部索引的时候，需要提供按钮，点击按钮弹出弹窗对外部内容进行修改-->
+<!--<Lib_xxxxx>模块类型需要在技能文件中重新写成lib块-->
+<skillEditor>
+	<onTable>
+		<skillBase>
+			<!--这个技能属于哪个武器(只为记录存在).[该模块可以不存在].
+				none						：无
+				double					：匕首
+				sword				    	：大剑
+				pole			    			：棍子
+				uzi						：步枪
+				galting					：加特林
+				snipe						：狙击		
+			-->
+			<!--编辑器这里需要用下拉列表进行复选，怪物大部分属于无所属武器-->
+			<weaponType>drop_list</weaponType>
+			<!--用来筛选锁定具体的动作文件，不需要存储到技能脚本中，如果没有填写则时间轴上显示的长度为默认长度-->
+			<perfab>text_field</perfab>
+			<!--过滤器配置 : 若条件不符合则不触发技能.[该模块必须存在]-->
+			<Prefilter>
+				<!--释放这个技能要求技能的释放者（如果有，处于什么状态）,不配置的话默认处于正常状态.[该模块必须存在]						
+					将状态转换成库:为了编辑器做准备,同时减少数据内存占有量.
+					预过滤状态库文件为：skill_lib/prefileter_rolestate.sklib中存储.
+				-->
+				<libRolestateID>text_field</libRolestateID>
+						<!--是否接收服务器发送过来的预存目标.
+			默认为false,不接收-->
+		<receiveServerPreTarget>false</receiveServerPreTarget>
+			</Prefilter>
+			<!--根据情况跳转不同的技能脚本执行.[该模块可以不存在]-->
+			<Branch>
+				<!--[需求]当前技能取消正在执行的技能,需要调用不同的技能执行.[该模块可以不存在]-->
+				<cancle>
+					<!--无取消事件 调用的 技能脚本名(不需要加后缀)-->
+					<noCancel>text_field</noCancel>
+					<!--取消成功 调用的 技能脚本名(不需要加后缀)-->
+					<yesCancel>text_field</yesCancel>
+				</cancle>
+			</Branch>			
+			<!--技能CD开启的控制-->
+			<!--基础设定：
+				当技能死亡/被打断则立即开启CD
+				有多段技能时，等待其他段技能是否有正常死亡的，如果有则立即进入CD
+				编辑器使用下拉列表框
+				SkillCreated 	技能创建成功
+				SkillDead		技能死亡
+				CoreTriggered	触发成功
+				CoreTested		检测成功
+				-->
+			<cdControlType>drop_list</cdControlType>
+			<!--额外控制类型: 与之前的控制类型为或者关系
+				对一些新的需求使用:比如 连击技能 二段为控制子弹爆炸,但是子弹自动死亡就捕获不到.
+				T_none			: 啥也不做
+				T_coreAllDead		: 当前技能的所有核心体死亡,认为cd可以开始了.
+					[过程]
+				若有参数,则参数为其他技能脚本, 先检测该技能的核心体情况;
+				若不存在该技能,则检测根技能的核心体情况.
+			-->
+			<extType>T_none</extType>
+			<extParam></extParam>
+			<effectLimit>
+				<!--技能对同一个精灵的最大作用次数，该值 > 0 有效.-->
+				<eachSpriteEffectNum>text_field</eachSpriteEffectNum>
+				<!--技能对同一个精灵作用的时间间隔(毫秒)，该值 > 0 有效.-->
+				<eachSpriteEffectInterval>text_field</eachSpriteEffectInterval>
+			</effectLimit>
+			<!--技能换弹处理，该模块可以不存在-->
+			<BulletChange>	
+				<!--触发类型
+					T_none						:不触发.
+					T_skillDead					:技能死亡时候调用.
+						skillkey		技能死亡时调用的技能ID
+				-->
+				<type>drop_list</type>
+				<!--技能死亡时候调用的 技能key-->
+				<param>text_field</param>			
+			</BulletChange>
+			<!--选择型技能参数
+				只给一个文本框，内部数据自己填充，方便之后扩展
+		    param[0]  -  最大选取范围.
+				param[1]  -  接收该选择信息的技能脚本名.
+				param[2]  -  选择信息的类型.
+						0 - 无选择信息.
+						1 - 选择方向信息.
+						2 - 选择位置信息.
+			-->
+			<selectTypeSkillParam>text_field</selectTypeSkillParam>			
+			<State>
+				<!--状态处理库：skill_lib/base_state_deal.sklib-->
+				<!--创建者role死亡处理方式:[该模块必须存在]-->
+				<libBaseDealID_roleDead>text_field</libBaseDealID_roleDead>
+				<!--创建者被服务器状态打断处理方式(冰冻，电击):[该模块必须存在]-->
+				<libBaseDealID_serverStateInterrupt>text_field</libBaseDealID_serverStateInterrupt>
+				<!--当前技能被其他技能打断处理方式(是被打断不是被取消):[该模块必须存在]-->
+				<libBaseDealID_serverBehaviorInterrupt>text_field</libBaseDealID_serverBehaviorInterrupt>
+				<!--服务器AI切换技能(是被打断不是被取消):[该模块必须存在]-->
+				<libBaseDealID_skillInterrupt>text_field</libBaseDealID_skillInterrupt>
+				<!--创建者Role无效处理方式(role不存在了):[该模块必须存在]-->
+				<libBaseDealID_roleValid>text_field</libBaseDealID_roleValid>
+				<!--换弹处理:[该模块必须存在]-->
+				<libBaseDealID_tryReload>text_field</libBaseDealID_tryReload>
+				<!--核心体第一次发生作用:[该模块必须存在]-->
+				<libBaseDealID_coreEffectFirst>id_common</libBaseDealID_coreEffectFirst>
+			</State>
+			<Dead>
+				<!--时间控制死亡(毫秒)(>0有效)-->
+				<time>text_field</time>
+				<!--核心体作用次数 (>0有效)-->
+				<coreEffectNum>text_field</coreEffectNum>
+				<!--所有核心体死亡后死亡-->
+				<coreAllDead>check_box</coreAllDead>
+				<!--检测包扎状态 结束则死亡:血量到达100% 或者 有移动动作了 或者 受创了
+						param[0] 子技能库索引值，当包扎结束后，调用一个子技能.
+						param[1] 包扎结束后调用的Lib_Server索引值.
+						-->
+				<monitorState_baozha>check_box</monitorState_baozha>
+				<!--monitorState_baozha为true时显示-->
+				<monitorState_baozha_param>0,0</monitorState_baozha_param>
+			</Dead>
+		</skillBase>
+		<skillCorrelation>
+			<Child>
+				<!--子技能单元，可以有多个-->
+				<unit>
+					<!--开始检测时间-->
+					<startTime>text_field</startTime>
+					<!--技能名称-->
+					<skillKey>text_field</skillKey>
+					<!--子技能类型，索引 lib_child.sklib-->
+					<libChildID>text_field</libChildID>
+					<!--开启条件类型.				
+						T_none					: 永不开启.
+						T_moment				: 开启时刻，
+							openParam[0]为对应时刻.
+						T_timer					: 定时开启.
+							openParam[0]次数
+							openParam[0]间隔时间.
+						T_coreEmit				: 核心体发射时机(每发射一次，触发一次).
+						T_coreCreate			: 核心体生成时候.				
+						T_coreEffect			: 核心体作用时刻开启.
+						T_coreDead				: 核心体死亡触发(每个核心体死亡都触发).
+						T_hurted				: 被打到的时候(别人赋予我受创类型).
+							openParam[0]检测持续时间.
+							[需求]如果pose阶段受到攻击则可以提前出招发射刀光	
+						T_moveFinish				移动结束
+							//当移动模块完全结束后触发子技能
+						T_roleDead				:	技能释放者死亡.
+						T_skillDead			:	技能被通知死亡的时候调用
+						T_coreInitSearchSpriteFail	:	技能搜索目标失败调用.				
+					-->
+					<openType>drop_list</openType>
+					<openParam>text_field</openParam>
+					<!--二次触发检测			
+						T_none					: 不触发.
+						T_ok					: 无条件触发.
+						T_windowTime			: 时间窗口内触发(技能生命期内).
+							param[0] 开始时间(技能时间轴)
+							param[1] 结束时间(技能时间轴)			
+					-->
+					<triggerType>drop_list</triggerType>
+					<triggerParam>text_field</triggerParam>
+				</unit>
+			</Child>
+			<!--兄弟技能，连击触发调用的技能，严格按照顺序调用-->
+			<Brother>
+				<!--兄弟技能就是连续被激活的技能，注意，兄弟技能在大哥技能里列出所有弟弟，但是每个弟弟不需要自己再设定一遍了，并且不能允许任何弟弟成为其他技能的大哥技能-->
+				<unit>
+					<inputOpen>
+						<enable>check_box</enable>
+						<!--开启允许时间，相对于上一个unit时间-->
+						<windowOpen>text_field</windowOpen>
+						<!--开启关闭时间，相对于上一个unit时间-->
+						<windowClose>text_field</windowClose>
+					</inputOpen>
+					<!--自动开启-->
+					<autoOpen>
+						<enable>check_box</enable>
+						<!--自动启动改段技能，相对于上一个unit时间-->
+						<openTime>text_field</openTime>
+					</autoOpen>
+					<!--开启的附加条件：正常的时间逻辑继续执行，只是需要再次满足该条件才能真实触发
+							需求：定时炸弹只有粘到目标身上之后才能 触发连击.
+					-->
+					<condition>
+						<!--
+							T_none			: 无条件触发.
+							T_coreEffect		: 当前技能有作用触发了.
+									param[0]作用次数,第几次作用的时候方可触发(从1开始计数,0无效).
+							T_buff			: 四周目标中有人存在该buff.
+									param存储buf列表.
+						-->				
+						<type>T_none</type>
+						<param></param>
+					</condition>
+					<!--行为类型-->
+					<behavior>
+						<!--
+							T_brother			:直接触发兄弟技能.
+								param[0] 技能脚本名.	
+								param[1] 功能:使上一段连击技能作用失效. 取值：true 或 false.默认为false.
+							T_notifyAllCoreDead	:通知所有核心体死亡.
+								[需求]下次连击需要子弹爆炸.
+								param[i]需要搜索的技能脚本key(可以是多个).
+							T_notifyAffectTriggerOK:通知自己的技能树中所有指定标签的技能核心体,触发成功.
+								[需求]下次连击,引爆之前衍生技能的定时炸弹.
+								param[i]需要搜索的技能脚本key(可以是多个).
+							T_coreCallChild : 找寻指定技能 所有存活的核心体，用来触发子技能.
+								[需求]枪手弹跳技能 手雷飞出来 和 弹跳是两个技能，只有按下按键才能爆炸
+								[需求]手雷飞出碰到目标 触发弹跳技能,所以需要检测多个技能.
+								param[0] 核心体触发子技能最大数量(<=0代表没有限制).
+								param[1] Lib_Child索引值
+								param[2]	lib_Child的skillKey
+								param[3] 是否让触发子技能的核心体死掉(true / false);
+								param[4...] 搜索的技能脚本名字列表(可以是多个).
+								T_callChild_sendAllCoresPretargets: 触发一个子技能,需要把当前所有核心体的预存目标传下去.
+								param[0] Lib_Child索引值(字符串)
+								param[1]	lib_Child的skillKey
+								param[2] 是否让涉及到的的核心体死掉(true / false);
+								param[3...] 搜索的技能脚本名字列表(可以是多个,若不填写就是当前技能)(字符串)
+						-->
+						<type>text_field</type>
+						<!--多个用逗号分开-->
+						<param>text_field</param>
+						<!--指定技能所有核心体死亡.参数：[0]技能key.-->
+						<ext_skillcoreDead>abc</ext_skillcoreDead>
+						<!--指定技能预存目标信息.
+							T_none - 无.
+							T_roledir_as_partakeTarget - 朝向目标向下传递(目前只针对T_Brother类型)
+						-->
+						<ext_skillPreTarget>drop_list</ext_skillPreTarget>
+						<!--映射模块:对行为类型中使用的触发技能脚本选取进行重定向.
+								T_none		: 无操作(默认).
+								T_xuli		: 蓄力映射(根据连击触发时间百分比进行映射)
+										param[0 + 2*n] : 技能脚本名
+										param[1 + 2*n] : 时间百分比(该时间期内,会触发).	
+										[说明]T_brother,	T_coreCallChild,T_callChild_sendAllCoresPretargets目前这三种类型的索引都会被重定向检测.						
+						-->
+						<mapType>T_none</mapType>
+						<mapParam></mapParam>
+					</behavior>
+				</unit>
+			</Brother>
+		</skillCorrelation>
+	</onTable>
+	<onTimeline>
+		<Cancel>
+			<!--可以多组，-->
+			<unit>
+				<!--窗口期，技能只有在窗口期才能被取消(毫秒,技能时间轴)-->
+				<windowOpen>text_field</windowOpen>
+				<windowClose>text_field</windowClose>
+				<!--取消之后的处理方式-->
+				<deal>
+					<!--白名单处理，可以有多个unit-->
+					<unit>
+						<!--keys为技能脚本key，多个技能脚本使用逗号分隔-->
+						<keys>test_skill0,test_skill1</keys>
+						<!--引用处理库：skill_lib/cancel_deal.sklib-->
+						<libCancelDealID>text_field</libCancelDealID>
+					</unit>
+				</deal>
+			</unit>
+		</Cancel>
+		<!--打断抗性等级-->
+		<resistanceInterrupt>
+			<unit>
+				<!--抗性值-->
+				<level>text_field(int)</level>
+				<!--窗口期:开始时间(技能时间轴上的毫秒值)-->
+				<windowOpen>text_field(int)</windowOpen>
+				<!--窗口期:开始时间(技能时间轴上的毫秒值)-->
+				<windowClose>text_field(int)</windowClose>
+			</unit>
+		</resistanceInterrupt>
+		<!--受创抗性等级(判定是否进行受创轨迹).[该模块可以不存在]-->
+		<resistanceHurt>
+			<unit>
+				<!--抗性值-->
+				<level>text_field(int)</level>
+				<!--窗口期:开始时间(技能时间轴上的毫秒值)-->
+				<windowOpen>text_field(int)</windowOpen>
+				<!--窗口期:开始时间(技能时间轴上的毫秒值)-->
+				<windowClose>text_field(int)</windowClose>
+			</unit>
+		</resistanceHurt>
+		<Uncontrol>
+			<!--硬直结束方式
+				queue_over	：顺序执行每个unit
+				core_emitted	：核心体发射完毕则终止
+			-->
+			<deadType>drop_list</deadType>
+			<!--unit配置，可以有多个unit-->
+			<unit>
+				<!--硬直开始时间(技能时间轴)（毫秒）-->
+				<windowOpen>text_field(int)</windowOpen>
+				<!--硬直结束时间(技能时间轴)（毫秒）-->
+				<windowClose>text_field(int)</windowClose>
+				<!--屏蔽按键模式
+					all：								：屏蔽所有精灵主动事件.
+					changeAction						：屏蔽改变精灵模型动作操作(可以移动，可以转向，不改变精灵模型动作,比如战魂2持盾).
+						actionType有效.					
+					changeAction_move					：不可移动，可以转向，不改变精灵模型动作，比如战魂1喷火
+						actionType有效.
+					changeAction_changeDirection		：可以移动，不可转向，不改变精灵模型动作，比如战魂1和2的旋风斩
+						actionType有效.
+				-->
+				<type>drop_list</type>
+				<!--对动作屏蔽的具体情况(因为存在上下半身分离的概念).
+					all				:屏蔽全身动作.
+					up				:屏蔽上半身动作.
+					dowm			:屏蔽下半身动作.
+				-->
+				<actionType>drop_list</actionType>
+			</unit>
+		</Uncontrol>
+		<!--直接服务器效果调用.[该模块可以不存在]-->
+		<Server>
+			<unit>
+			<!--触发方式
+				none：不触发.
+				moment：触发一次: 
+				参数[0] : 触发时刻(毫秒)
+				T_timer（编辑器不采用）：定时触发: 延时，时间间隔，触发次数
+					参数[0] : 触发时刻(毫秒)
+					参数[1] : 触发次数
+					参数[2] : 触发时间间隔(毫秒)
+			-->
+				<triggerType>drop_list</triggerType>
+				<triggerParam>text_field</triggerParam>
+				<Lib_Sever>
+					<!--发送内容索引，skill_lib/lib_sever.sklib中-->
+					<libServerID>text_field</libServerID>
+				</Lib_Sever>
+			</unit>
+		</Server>
+		<core>
+			<CoreManager>
+				<!--核心体触发方式 ：每次触发是一批核心体, 触发多次会是多批核心体
+					[例子]弓手可以放出多波散射箭.
+				-->
+				<trigger>
+					<!--针对编辑器的修改：
+						删除分类，统一按照时间发射-->
+					<!--可以多个unit-->
+					<unit>
+						<!--触发时刻,用时间轴上的时刻-->
+						<TriggerTime>text_field(int)</TriggerTime>
+						<!--死亡时刻，用时间轴上的时刻-->
+						<EndTime>text_field(int)</EndTime>
+						<!--攻击段单元索引lib_attacksegment.sklib,可以多个,写入时需要写成一个，用“,”分隔-->
+						<U>
+							<LibAttackSegmentID>text_field</LibAttackSegmentID>
+						</U>
+					</unit>
+				</trigger>
+				<!--针对每一批核心体的发射方式-->
+				<emitter>
+					<!--
+						all 			：所有核心体同时发射.
+							[无参数]
+						queue_interval  ：相继发射(有间隔时间).
+							param[0] 间隔时间(毫秒)
+						queue_moments 	：相继发射，给出具体时间，参数不定长度.
+							param[n] 具体时刻(毫秒)
+					-->
+					<type>drop_list</type>
+					<!--参数列表:逗号分隔-->
+					<param>text_field</param>
+					<!--发射数量的控制，假设既定数量为N.
+						T_none		: 不控制，使用既定数量.
+						T_random		: 随机获取发射数量,发射的核心体信息也随机.(每个批次会计算一次).
+										param[0]：min_num, 存储最小数量.
+										param[1]：max_num, 存储最大数量(不能超过核心体最大值).	
+										随机数量为min_num,max_num随机值.
+										随机内容为预设内容的随机.
+					-->
+					<ext_type>T_none</ext_type>
+					<ext_param></ext_param>
+				</emitter>
+				<!--核心体数量,每一批核心体的数量,如果min,max则为随机-->
+				<coreNum>text_field</coreNum>
+				<!--核心体进行搜索的搜索数量-->
+				<coreSearchNum>text_field(int)</coreSearchNum>
+				<!--核心体数量分配策略-->
+				<coreNumPolicy>
+					<!--当搜索数量小于核心体的数量时，选择是否使用搜索目标数量-->
+					<useSearchResultNum>check_box</useSearchResultNum>
+					<!--当上一个选择为否的时候，显示下方内容-->
+					<!--核心体分配策略，
+						T_none：	每份 搜索信息 平均 分配给核心体.-->
+					<coreAssignType>drop_list</coreAssignType>
+				</coreNumPolicy>
+			</CoreManager>
+			<CoreInit>
+				<Lib_Search>
+					<!--搜索目标：引用skill_lib/lib_search.sklib-->
+					<libSearchID>text_field</libSearchID>
+				</Lib_Search>
+				<!--设定核心体的类型
+					none			:无操作（当前模块中下方不再出现任何控件）
+					set			:放置(pos,follow)有效
+					fly			:飞行(dir, pos, follow)有效			
+					link			:链接(follow)有效
+					eare			:区域.
+				-->
+				<classType>drop_list</classType>
+				<!--终点类型
+					dir				:方向
+					pos				:坐标
+					follow			:跟随:附着物.classTargetBindType定义的目标
+				-->
+				<classTargetType>drop_list</classTargetType>
+				<!--当classType为set、fly时，存在选择终点附着目标的选项
+					classType为area默认为none选项
+					classType为link默认为others选项
+
+					none			:无附着目标
+					standard		:标准体
+					others		:搜索的精灵
+					role			:角色精灵
+				-->
+				<classTargetBindType>drop_list</classTargetBindType>
+				<!--当classTargetBindType类型不为none时，则需要检测是否每次重新选取位置
+					如果为否则只使用第一次搜索的位置信息-->
+				<classDynType>checkbox</classDynType>
+				<!--当classTargetBindType类型为others时，若精灵不存在，处理定义.
+					
+					T_killself				：技能死亡.
+					T_standard_info			：使用标准体信息.
+					T_research				：重新搜索.
+					使用Lib_ReSearch再搜一遍,
+					并且放置类型必须指向位置
+					飞行类型必须指向方向.
+				-->
+				<searchSpriteFail>drop_list</searchSpriteFail>
+				<!--重新搜索目标：引用skill_lib/lib_search.sklib-->
+				<Lib_ReSearch>
+					<libSearchID_SearchSpriteFail>text_field</libSearchID_SearchSpriteFail>
+				</Lib_ReSearch>
+				<adjust>
+					<!--放置类型调整,前面放置的是类型标签，根据类型不同出现的控件也不同-->
+					<set>
+						<!--调整类型
+							T_none				:不处理
+							
+							T_pos_offset		:对位置：直接对位置进行最后偏移(据对的偏移值).
+									param[0][1][2] X轴偏移值;Y轴偏移值;Z轴偏移值.
+							T_pos_roleHeight	:对位置：位置高度偏移,role身高百分比.
+									param[0] 百分比值.
+		
+		
+		
+							T_sprite_height				:对精灵：位置高度偏移,所选精灵身高百分比
+									param[0] 百分比值.
+							T_sprite_bone				:对精灵：所选精灵骨骼位置
+									param[0] 骨骼名称.
+									param[1] X偏移
+									param[2] Y偏移
+									param[3] Z偏移
+							T_sprite_leftequip_bone		:对精灵：所选精灵的左手武器的骨骼位置
+									param[0] 左手武器骨骼名称.
+									param[1] X偏移
+									param[2] Y偏移
+									param[3] Z偏移
+							T_sprite_rightequip_bone	:对精灵：所选精灵的右手武器的骨骼位置
+									param[0] 右手武器骨骼名称.
+									param[1] X偏移
+									param[2] Y偏移
+									param[3] Z偏移
+							T_spritepos_offset			:对精灵位置：精灵所在位置+偏移(绝对偏移).
+									param[0][1][2] X轴偏移值;Y轴偏移值;Z轴偏移值.
+							T_spritepos_boneOffset		:对精灵位置：精灵骨骼所在位置+偏移.
+									param[0][1][2] X轴偏移值;Y轴偏移值;Z轴偏移值.
+									param[3]骨骼位置.
+							T_spritepos_height			:对精灵位置：精灵身高百分比.
+									param[0] : 百分比值.					
+						-->
+						<type>drop_list</type>
+						<!--这里的参数需要显示具体的名称,例如当type=T_spritepos_height时
+							param显示的为百分比值-->
+						<param>text_field</param>
+						<!--核心体初始方向设定类型
+							T_none				:不处理，使用默认的设定.
+													位置类型：都使用标准体方向.
+													精灵类型：使用精灵的朝向.
+													精灵位置：使用精灵的朝向.
+													
+							T_point				:指定方向.
+								param[0][1][2]方向向量值(百分值)
+						-->
+						<dirType>T_none</dirType>
+						<dirParam></dirParam>
+						<!--是否全绑定，默认false-->
+						<allBindForSetSprite>check_box</allBindForSetSprite>
+					</set>
+					<!--飞行类型的初始位置选取类型-->
+					<flySrc>
+						<!--飞行开始位置
+							T_standard_pos					:标准位置					(dyn).
+							T_roleBone_pos					:Role骨骼位置				(dyn).
+									param[0] 骨骼名称
+							T_roleBone_offset_pos			:Role骨骼位置+偏移			(dyn).
+									param[0][1][2]xyz偏移.
+									param[3] 骨骼位置.
+							T_roleHeight_pos				:Role位置+Role身高百分比Y偏移(dyn).
+									param[0]百分比值.
+							T_roleBone_searchOffset			:Role骨骼位置+搜索方向的偏移(dyn).
+									param[0][1][2]xyz偏移.
+									param[3]骨骼名称.
+							T_rolePos_offset				:Role当前位置+偏移			(dyn).
+									param[0][1][2]xyz偏移.
+									param[3]y方向偏移类型：0代表使用role身高百分比值;1代表绝对值;
+							
+							T_roleLeftEquipBone_offset		:Role左手武器+骨骼+偏移		(dyn).
+									param[0][1][2]xyz偏移.
+									param[3]骨骼名称
+							T_roleRightEquipBone_offset		:Role右手武器+骨骼+偏移		(dyn).
+									param[0][1][2]xyz偏移.
+									param[3]骨骼名称.
+				
+		
+							T_standardPos_abreast			:标准位置并排释放(静态).
+									[说明]根据最后生成的core的总数量 对所有core统一安排位置.
+									[说明]根据每个core的index生成其对应的位置.
+									param[0] 前方距离.
+									param[1] 两侧核心体之间的距离(放置核心体的总长度).
+									param[2] y方向偏移(绝对值)（参数3有效时参数2无校）.
+									param[3] y方向偏移(role身高百分比)(非零有效)
+									param[4] 取点顺序.
+											0 - 从右向左方向.
+											1 - 从左向右方向.
+							T_standardPos_circle			:标准位置为圆心 在给定半径的 圆周上 平均取点(静态).
+									[需求]:核心体从四周出现，向中心移动.
+									[说明]根据最后生成的core的总数量 对所有core统一安排位置.
+									[说明]根据每个core的index生成其对应的位置.
+									param[0] 前方开始点距离.
+									param[1] 半径.
+									param[2] 高度偏移(绝对值)
+							T_standardPos_randamRing			:在环形范围内随机取点.
+									param[0]	内环半径(厘米)
+									param[1]	外环半径(厘米)
+									param[2] 	取点间隔(厘米)
+									param[3]     高度偏移(绝对值)(厘米).	
+									[说明]	核心体生成的时候再次使用初始偏移结果重新计算位置.
+												dynType 为true - 重新计算:使用当前标准位置计算(+初始偏移).
+												dynType 为false- 使用原始标准位置计算.														
+						-->
+						<type>drop_list</type>
+						<!--这里的参数需要显示具体的名称,例如当type=T_spritepos_height时
+							param显示的为百分比值-->
+						<param>text_field</param>
+						<!--是否使用静态还是动态信息-->
+						<dynType>text_field</dynType>
+					</flySrc>
+					<!--飞行类型的目标位置的偏移-->
+					<flyDes>
+						<!--
+							T_none						:不做偏移处理
+		
+							T_pos_offset				:位置：直接对位置进行最后偏移
+									param[0][1][2] X轴偏移值;Y轴偏移值;Z轴偏移值.
+							T_pos_roleHeight			:位置：位置高度偏移,ROLE身高百分比
+									param[0]百分比值.
+							T_sprite_height				:精灵：精灵位置+身高百分比偏移值
+									Param[0]百分比值.
+							T_sprite_bone				:精灵：精灵骨骼位置.
+						-->
+						<type>drop_list</type>
+						<!--这里的参数需要显示具体的名称,例如当type=T_spritepos_height时
+							param显示的为百分比值-->
+						<param>text_field</param>
+					</flyDes>
+					<!--连接类型处理-->
+					<linkSrc>
+						<!--
+							T_standardSprite_height		:标准精灵+身高偏移
+									param[0]为身高百分比(动态).
+							T_standardSprite_bonePos	:跟随 标准精灵骨骼位置(动态).
+									param[0]骨骼名称.
+						-->
+						<type>drop_list</type>
+						<!--这里的参数需要显示具体的名称,例如当type=T_spritepos_height时
+							param显示的为百分比值-->
+						<param>text_field</param>
+					</linkSrc>
+					<!--连接类型目标偏移-->
+					<linkDes>
+						<!--
+							T_none						:不做偏移处理.
+							T_sprite_height				:跟随 目标精灵+身高偏移D_desParam[0]为身高百分比(动态).
+							T_standardSprite_bone		:跟随 标准精灵骨骼位置(动态).
+						-->
+						<type>drop_list</type>
+						<!--这里的参数需要显示具体的名称,例如当type=T_spritepos_height时
+							param显示的为百分比值-->
+						<param>text_field</param>
+					</linkDes>
+				</adjust>
+			</CoreInit>
+			<CoreQnode>
+				<!--核心体特效的配置:skill_lib/core_qnode.sklib-->
+				<CoreQnodeID>t_node</CoreQnodeID>
+			</CoreQnode>
+			<CoreCollider>
+				<effectBody>
+					<!--
+						T_none				: 不触发.
+						T_moment			: 某时刻触发.
+								param[0] : 触发时刻.
+					-->
+					<triggerType>drop_list</triggerType>
+					<triggerParam>text_field</triggerParam>
+					<!--碰撞体类型
+						T_none				:	没有.
+						T_aabbs				:	aabb盒子.
+								param[0][1][2]长高宽.
+								[说明]可以是多个.
+						T_cylinders			:	圆柱
+								param[0]半径.
+								param[1]高度.
+								[说明]可以是多个.
+						T_cylinder_center		:	圆柱 (中心在中心)
+								param[0]半径.											(标准单位:厘米:浮点).
+								param[1]高度.	
+						T_tracePath			:	核心体经过的轨迹.
+								param[0]	轨迹的宽度.
+								param[1][2] 监控核心体位置的开始时间,结束时间(毫秒).
+						T_cylinder_any			:	圆柱(任意方向,任意基点)(默认方向为y轴,默认基点为中心点)		
+								param[0]    半径(厘米).
+								param[1]    长度(厘米).
+								param[2]    基点在中轴上分布的百分比值(可以是负数).
+						T_fan					:	扇形体.几何中心自定义.
+         					param[0]    半径(厘米).
+   					      param[1]    高度(厘米).
+					        param[2]    角度范围(度).
+            			param[3]    基点在中轴上分布的百分比值(可以是负数)
+										0    代表所取点在柱体的底部.
+										100代表所取点在柱体的顶部.
+						T_box_any				: 	盒子(任意方向,任意基点)
+								param[0] [1][2] x,y,z方向的长度.
+								param[3]   基点在中轴上分布的百分比值(可以是负数,50代表中间).			
+					-->
+					<bodyType>drop_list</bodyType>
+					<bodyParam>text_field</bodyParam>
+					<!--碰撞体类型
+						T_none				:不死.
+						T_moment			:时间死亡.
+								[0] 生存时间长度(毫秒).
+					-->
+					<deadType>drop_list</deadType>
+					<deadParam>text_filed</deadParam>
+				</effectBody>
+				<!--死亡检测体-->
+				<deadBody>
+					<trigger_type>T_none</trigger_type>
+					<trigger_param>0</trigger_param>
+					<body_type>T_none</body_type>
+					<body_param>0</body_param>
+					<dead_type>T_none</dead_type>
+					<dead_param>0</dead_param>
+				</deadBody>
+				<!--盒子比例变化-->
+				<contralScale>
+					<!--是否影响特效-->
+					<ChangeQnode>check_box</ChangeQnode>
+					<!--类型
+						T_none			:无操作.
+						T_change		:	变化
+							param[0]开始时间											(毫秒)
+							param[1]缩放时间											(毫秒)
+							param[2]目标百分比例
+							param[3]缩放方式,1,底面缩放。2,高度缩放。3,中心缩放。
+							param[4]还原时间											(毫秒)
+					-->
+					<type>drop_list</type>
+					<param>text_field</param>
+				</contralScale>
+			</CoreCollider>
+			<CoreAffector>
+				<trigger>
+					<!--触发检测体类型 : 触发后会进行生效检测过程. 
+						T_none							: 不触发.
+		
+						T_always						: 总触发.
+							param[0] 触发时刻(毫秒).
+						T_moments						: 多个时刻触发(核心体生命期为轴).
+							param[i] 触发时刻(毫秒).
+						T_timer							: 定时触发.
+							param[0] 触发时刻(毫秒).
+							param[1] 触发次数.
+							param[2] 触发间隔(毫秒).
+					-->
+					<type>drop_list</type>
+					<param>text_field</param>
+				</trigger>
+				<tester>
+					<!--触发检测体类型 : 触发后会进行生效检测过程. 
+							T_ok						: 总ok.
+							T_fail						: 总失败.
+							T_getPreSprites				: 直接使用所有搜索精灵.
+							T_colliderWorldSprites		: 碰撞检测（与世界中的精灵检测）.
+							T_colliderPreSprites		: 碰撞检测（与预存储的精灵检测）.
+							T_ground					: 地面.
+							T_obstacle					: 障碍.
+							T_ground_obstacle			: 地面+障碍.
+							T_ground_obstacle_collierWorldSprite:地面+障碍+碰撞检测(为炮弹准备).
+					-->
+					<type>drop_list</type>
+					<param>text_field</param>
+				</tester>
+				<!--控制器-->
+				<contral>
+					<!--作用对象最大数量的限制：对结果进行统一处理
+						T_none							: 不做对应处理(默认).
+						T_limit							: 限制数量：选择离role最近的精灵(不包括role自己).
+					-->
+					<limitMaxNumType>drop_list</limitMaxNumType>
+					<limitMaxNumValue>text_field</limitMaxNumValue>
+					<!--作用的冷却时间(毫秒),大于0有效
+						每次作用，控制一下冷却，下一次什么时候作用(trigger.type == T_always时候 来用).
+					-->
+					<effectColdTime>text_field</effectColdTime>
+				</contral>
+			</CoreAffector>
+			<CoreBehavior>
+				<Set>
+					<!--
+						T_none								: 无操作.
+						T_monitorTargetInRange_addTab				: 监视目标是否在范围内,超出范围再找个目标,并增加自定义标签.
+								[说明] 核心体将跟随范围内的目标,
+										出了范围,核心体会再找个目标,若没有找到则核心体不可见失效.
+									这个逻辑需要核心体管理模块进行统一规划处理.
+								param[0]	:搜索原型区域的半径(当前技能的标准体为基点).											
+								param[1]	:自定义标签名(目前可不填写).								
+					-->
+					<type>drop_list</type>
+					<param>text_field</param>
+				</Set>
+				<Fly>
+					<!--
+						T_none								:无轨迹.
+		
+						T_Dir_line							:指定方向 直线飞行(默认属性).
+								param[0] 飞行速度.
+								param[1] 飞行加速度.	
+						T_Dir_hook							:指定方向 屠夫钩子.	
+								param[0] 飞行速度.
+								param[1] 飞行加速度.								
+								param[2] 回来的飞行速度.
+								param[3] 回来的飞行加速度.	
+								param[4] 回收的最长时间.	
+						
+						T_Pos_line							:指定位置 直线飞行,到位置停止.
+								param[0] 飞行速度.
+								param[1] 飞行加速度.
+						T_Pos_paowuxian						:指定位置, 抛物线飞行,到位置停止(固定水平速度类型抛物线).
+								param[0] 水平移动速度.
+								param[1] 重力加速度.
+						T_Pos_extTrace						:指定位置, 使用外部轨迹.
+								param[0] 自定义轨迹库ID（skill/sklib/trace.sklib.）	
+						T_Sprite_follow						: 追踪精灵.
+								[原理]若没有目标则在当前方向飞行.
+								[原理]有目标则直线飞向目标，到达目标后一直追随.
+								param[0] 飞行速度.
+								param[1] 飞行加速度.	
+						T_Sprite_skip						: 目标之间弹跳.
+								param[0] 弹跳时间.
+								param[1] 弹跳最长距离,超过距离则寻找下一个.
+								param[2] 弹跳偏移高度.
+								param[3] 死亡调用的信息.引用Lib_CoreDead库
+						T_Sprite_extTrace						:跟踪精灵, 使用外部轨迹.
+								param[0] 自定义轨迹库ID（skill/sklib/trace.sklib.）
+						T_Sprite_ToTarget_Back				:直线追到目标，再回到标准精灵,然后死掉.
+								param[0] 飞行速度.
+								param[1]  返回到标准精灵身高百分比值.
+						T_Common_toRole						:飞向技能释放者.	
+						param[0] 等待时间.
+						param[1] 飞行速度.
+						param[2]  返回到标准精灵身高百分比值.
+						param[3]  核心体是否死掉(0-死掉;1-不管).
+					-->
+					<type>drop_list</type>
+					<param>text_field</param>
+				</Fly>
+				<Link>
+					<!--连接型的
+						T_none								:无行为.
+						T_serial_atonce						:串行链接（马上全部连接）
+						T_serial							:串行链接（一个连一个的顺序链接）
+								param[0] 连接速度.
+								param[1] 连接最远距离.
+						T_parallel							:并行链接（一个链接多个目标）
+					-->
+					<type>drop_list</type>
+					<param>text_field</param>
+				</Link>
+			</CoreBehavior>
+
+			<CoreDead>
+				<unit>
+					<!--死亡类型
+						T_none				:不进行检测.
+						T_distance			:距离
+								param[0]距离(浮点数).
+						T_ground			:碰到地面.
+						T_obstacle			:碰到障碍.
+						T_ground_obstacle	:地面+障碍.
+						T_effectNum			:核心体作用指定数量后.
+								param[0] 作用次数.
+					-->
+					<type>drop_list</type>
+					<param>text_field</param>
+					<Lib_CoreDead>
+						<Lib_Qnode>
+							<!--特效索引core_qnode.sklib模块-->
+							<CoreQnodeID>text_field</CoreQnodeID>
+							<!--特效绑定索引lib_qnode.sklib模块-->
+							<libQnodeID>text_field</libQnodeID>
+						</Lib_Qnode>
+						<Lib_Sound>
+							<unit>
+								<!--音效索引 lib_sound.sklib模块-->
+								<libSoundID>text_field</libSoundID>
+								<!--音效索引 sound_contral.sklib模块-->
+								<libSoundContralID>text_field</libSoundContralID>
+								<!--附带参数: [0]代表音量放大百分比;-->
+								<libSoundParam>0</libSoundParam>
+							</unit>
+						</Lib_Sound>
+					</Lib_CoreDead>
+				</unit>
+			</CoreDead>	
+		</core>
+		<RoleAction>
+			<Action>
+				<!--结束调用的动作库:lib_action.sklib-->
+				<libActionID_Over>text_field</libActionID_Over>
+				<!--动作序列-->
+				<unit>
+					<!--开始时间-->
+					<startTime>0</startTime>
+					<!--动作库ID-->
+					<libActionID>id_common</libActionID>
+					<!--其他控制-->
+					<txContral>
+						<!--控制类型	编辑器中需要根据type的不同，给出不同的参数数量
+							T_none					:无操作.
+							T_moveshot				:移动射击（可判断转身）.
+								[说明]若允许转身：检测移动方向与面朝方向(相对方向来决定).这里设置下身动作的变化映射.				
+								param[0]下身动作：【站立动作】.(无移动,情况下调用).		(lib_action.sklib索引).
+								param[1]下身动作：【前移动作】.(移动方向与面朝方向一致).(lib_action.sklib索引).
+								param[2]下身动作：【后退动作】.(移动方向与面朝方向相反).(lib_action.sklib索引).
+								param[3]下身动作：【左移动作】.(移动方向在面朝方向左侧).(lib_action.sklib索引).
+								param[4]下身动作：【右移动作】.(移动方向在面朝方向右侧).(lib_action.sklib索引).
+								
+								[说明]若不允许转身：检测移动与否.
+								param[0]下身动作：【站立动作】.	(无移动,情况下调用).		(lib_action.sklib索引).
+								param[1]下身动作：【跑步动作】.	(有移动,情况下调用).		(lib_action.sklib索引).
+						-->
+						<type>drop_list</type>
+						<param>text_field</param>
+					</txContral>
+				</unit>
+			</Action>
+			<!--简单位移-->
+			<Move>
+				<unit>
+					<!--
+						T_none						: 无操作.
+						T_face						: 按照当前方向移动.
+								[说明]可以接受服务器指定的位置,按照开始时间,持续时间移动.
+								param[0] 开始时间.
+								param[1] 持续时间(毫秒).
+								param[2] 移动速度(大于0有效).
+						T_back						: 按照当前反方向移动,人物方向不改变.
+								param[0] - 开始时间.
+								param[1] - 持续时间(毫秒).
+								param[2] - 移动速度(大于0有效).
+						T_backInitPos				:返回都初始位置,人物方向不改变,直接置到初始位置.
+								param[0] - 开始时间.
+						T_targetBack				: 放置到目标身后位置,人物朝向目标.
+								[需求]忍者的刺杀技能，需要闪烁到目标身后.
+								[说明]若没有搜索到目标，则在当前方向移动一个距离.
+								param[0] - 开始时间.
+								param[1] - 有目标情况下：与目标距离.
+								param[2] - 无目标情况下：前方距离.
+								param[3] 	随机到身前的百分比（100=1）
+								param[4] - 获取目标精灵的方式.
+									0 - 从CoreInit搜索的结果中获取.
+									1 - 从RoleDir模块搜索的skillInit_type目标.		
+								param[5] - 是否转向目标.
+									0 - 不转向.
+									1 - 转向.	
+						T_traceLib			:使用轨迹库.trace.sklib
+								param[0]轨迹库索引.
+								param[1]   开始时间
+						T_corePos			移动到某个技能某个核心体的位置上
+								param[0] - 开始时间(毫秒).
+								param[1]	技能脚本名称
+								param[2]	核心体序列
+								param[3]	移动速度
+								param[4]	移动加速度
+								param[5]	最大持续时间.	
+						T_followTarget	追击目标
+								[说明]目标是 CoreInit搜索到的第一个精灵.或服务器指定的技能目标
+								[说明]若没有搜索到目标，则在当前方向移动一个距离.
+								[说明]追击到目标则追击立即终止
+								param[0] - 开始时间.
+								param[1] - 追击速度
+								param[2] - 最长追击时间（如果该时间内没追击到目标追击也终止，-1则不限制时间）
+						T_posTarget	追击目标位置
+								[说明]目标是 CoreInit搜索到的第一个精灵.或服务器指定的技能目标
+								[说明]若没有搜索到目标，则在当前方向移动一个距离.
+								[说明]移动到目标静态位置则停止移动
+								param[0] - 开始时间.
+								param[1] - 移动速度
+								param[2] - 最长移动时间（如果该时间内没到位置也停止，-1则不限制时间）		
+					-->
+					<type>drop_list</type>
+					<param>text_field</param>
+				</unit>
+			</Move>
+			<!--转向操作-->
+			<Dir>
+				<!--是否在按键期间只使用按键的朝向-->
+				<UseInputDir>check_box</UseInputDir>
+				<!--相关参数
+					param[0] 类型 
+							0 : 代表使用按键朝向.
+							1 : 代表按键反方向.
+				-->
+				<UseInputDir_param>text_field</UseInputDir_param>
+				<unit>
+					<!--朝向改变的时间节点,第一个放置的是
+						skillPreCreate				创建前处理
+							T_inputDir			获取按键方向(sonselect_droplist)
+							T_inputDir_negative		: 获取按键反方向
+
+						skillCreate					技能创建调用
+							T_OverTurning		立刻结束转身（如果没选则等待转身完毕才创建技能）(sonselect_droplist)
+
+						skillInit					技能初始时调用
+							T_searchSprite		转向搜索的精灵.(sonselect_droplist)
+								param[1]			半径(grandson_param)
+								param[2]			角度.(grandson_param)
+								changeImmediately	是否立即转向(grandson_checkbox)
+
+						corecreate					核心体创建时调用
+							T_coreDir			: 根据core预存方向 转向.(sonselect_droplist)
+							T_corePos			: 根据core预存位置 转向.(sonselect_droplist)
+								changeImmediately	是否立即转向(grandson_checkbox)
+
+						corerun					核心体运行过程中调用
+							T_target			: 始终朝向预存的作用目标(若存在作用目标)(sonselect_droplist)
+								param[1]触发时刻(毫秒)(核心体生命期内).
+								param[2]结束时刻(毫秒)(核心体生命期内).
+								changeImmediately	是否立即转向(grandson_checkbox)
+
+						skillrun					技能运行过程中调用
+							T_target			: 指定时刻触发,转向搜索到的第一个目标.(sonselect_droplist)
+								param[1]触发时刻(毫秒)(核心体生命期内).
+								param[2]结束时刻(毫秒)(核心体生命期内).
+								changeImmediately	是否立即转向(grandson_checkbox)
+
+						skillPreCreate_trunPreTarget		创建前转向预存的目标
+							none		如果增加这个选项那么技能脚本skillPreCreate_trunPreTarget为true
+-->
+					<CreateTickType>drop_list</CreateTickType>
+					<!--标注为sonselect_droplist的是其中的选项-->
+					<SonSelect>drop_list</SonSelect>
+					<param>text_field</param>
+				</unit>
+			</Dir>
+			<Attri>
+				<!--只影响普通移动速度，不影响轨道移动速度-->
+				<MoveSpeed>
+					<unit>
+						<!--开始时间-->
+						<startTime>text_field</startTime>
+						<!--对人物速度的改变
+							T_none				: 无操作.
+							T_value				: 使用为最终速度.
+								param[0] 最终速度.
+							T_percent			: 使用作为速度的百分比.
+								param[0] 百分比值.
+						-->
+						<type>drop_list</type>
+						<param>text_field</param>
+						<!--结束方式
+							T_none				:不死亡.
+							T_duration			:默认时间死亡
+								param[0]持续时间.
+							T_uncontralOver		:硬直消失则死亡.
+						-->
+						<deadType>drop_list</deadType>
+						<deadParam>text_field</deadParam>
+					</unit>
+				</MoveSpeed>
+				<!--比例设定-->
+				<ModelScale>
+					<unit>
+						<!--开始时间-->
+						<startTime>text_field</startTime>
+						<!--对人物速度的改变
+							T_none				: 无操作.
+							T_common			: 正常控制.					
+								param[0] - 变化时间长度.
+								param[1] - 保持时间长度(小于等于0为永久生存).
+								param[2] - 比例值(增加的)(浮点数).
+						-->
+						<type>drop_list</type>
+						<param>text_field</param>
+					</unit>
+				</ModelScale>
+				<!--模型变色-->
+				<ModelColor>
+					<unit>
+						<!--开始时间-->
+						<startTime>text_field</startTime>
+						<!--持续时间 <=0代表一直持续-->
+						<duration>text_field</duration>
+						<!--颜色值rgba-->
+						<color>text_field</color>
+						<!--对人物速度的改变
+							T_none				: 无操作.
+							T_color_alph		: 改变颜色(包括透明度)						
+							T_alph				: 改变透明，持续N秒，之后在M秒内回复.
+								color[0-2] 颜色值无效.
+								param[0] 开始的透明度值(0为全透).
+								param[1] 淡出持续时间.
+						-->
+						<type>drop_list</type>
+						<param>text_field</param>
+					</unit>
+				</ModelColor>
+				<!--模型材质-->
+				<ModelMaterial>
+					<unit>
+						<!--开始时间-->
+						<startTime>0</startTime>
+						<!--持续时间 <=0代表一直持续-->
+						<duration>0</duration>				
+						<!--对人物速度的改变
+							T_none				: 无操作.
+							T_material				: 指定材质信息.
+									param[0] 材质字符串.					
+						-->
+						<type>T_none</type>
+						<param>0</param>
+					</unit>
+				</ModelMaterial>
+				<!--不可见控制-->
+				<Dispear>
+					<!--隐藏类型
+						T_none				:无操作.
+						T_all				:模型，影子，名字
+							param[0] 模型中某一部分的名称,若存在的话只隐藏该部分.
+						T_weapon			:武器
+					-->
+					<type>drop_list</type>
+					<param>text_field</param>
+					<unit>
+						<!--开始时间-->
+						<startTime>text_field</startTime>
+						<!--持续时间，<=0表示一直持续到技能结束-->
+						<duration>text_field</duration>
+					</unit>
+				</Dispear>
+			</Attri>
+			<State>
+				<unit>
+					<!--开启时间-->
+					<startTime>text_field</startTime>
+					<!--持续时间，<=0表示一直持续到当前技能结束-->
+					<duration>text_field</duration>
+					<!--能否被选中-->
+					<Chosen>check_box</Chosen>
+					<!--是否收到伤害（包含服务器效果）-->
+					<BeHurt>check_box</BeHurt>
+					<!--是否有受创轨迹-->
+					<HurtTrace>check_box</HurtTrace>
+					<!--是否有摄像机效果-->
+					<HurtCamera>check_box</HurtCamera>
+					<!--是否有受击特效（包含音效、模型震动、模型其他效果）-->
+					<HurtQnode>check_box</HurtQnode>
+					<!--技能沉默(停止接收主动技能释放):选中为true,没选中为false-->
+					<SkillSilence>check_box</SkillSilence>
+				</unit>
+			</State>
+		</RoleAction>
+		<Animation>
+			<unit>
+				<Lib_Qnode>
+					<!--特效索引core_qnode.sklib模块-->
+					<CoreQnodeID>text_field</CoreQnodeID>
+					<!--特效绑定索引lib_qnode.sklib模块-->
+					<libQnodeID>text_field</libQnodeID>
+				</Lib_Qnode>
+				<!--开始时间：过了这个时间后才进行一下逻辑(毫秒)-->
+				<startTime>text_field</startTime>
+				<!--触发方式				
+					T_none							: 不触发(默认).
+					T_moment							:时间触发.
+						<TriggerTime>text_field</TriggerTime>（编辑时应用的是startTime）
+					T_coreCreate					: 核心体产生时候产生.
+					T_roleDead						: role死亡时候触发(触发一次).
+						[需求]障碍物精灵死亡的时候需要使用.					
+				-->
+				<triggerType>drop_list</triggerType>
+				<param>text_field</param>
+				<!--绑定对象情况
+					T_common						: 使用输入信息：
+							[说明]若triggerType==T_coreCreate则使用核心体位置.
+							[说明]若triggerType==T_roleDead则使用role的位置.
+							[说明]其他类型 则使用标准体位置.
+					T_standardPos					: 标准位置.
+					T_standardSprite				: 标准体中精灵(若不存在失败).
+					T_role							: 技能释放者（默认,若id为0则使用当前位置释放特效）.
+					T_role_pos						: 技能释放者位置.
+					
+					T_searchFirstSprites			: 技能第一次搜索的精灵(CoreInit模块搜索的必须是精灵或精灵位置).
+					T_searchFirstSpritePos			: 技能第一次搜索的精灵的位置(CoreInit模块搜索的必须是精灵或精灵位置).
+					T_searchPos						: 第一次搜索到的位置(CoreInit模块搜索的必须是位置).				
+				-->
+				<targetType>drop_list</targetType>
+				<!--selectSkillType针对 提前选择型技能.selectTypeSkillParam
+					按下按键的时候触发选择技能,该技能会提供真实技能使用的方向或者位置.
+					默认为false，如果勾选之后则开启selectSkillParam_dir、selectSkillParam_pos
+					false					: 默认空类型.
+					true					: 该特效可以根据选择信息,进行更新设置.
+	      -->
+				<selectSkillType>check_box</selectSkillType>
+				<!--方向选取 所使用的参数::代码中会根据设定自行选取.
+					param[0] : 特效放置到身前的偏移.
+					param[1] : 特效放置位置的高度偏移.
+					param[2] : 特效转向的角度偏移（逆时针）.	
+				-->
+				<selectSkillParam_dir>text_field</selectSkillParam_dir>
+				<!--位置选取 所使用的参数::代码中会根据设定自行选取.
+					param[0] : 特效放置位置的高度偏移.
+					param[1] : 特效转向的角度偏移（逆时针）.	
+				-->
+				<selectSkillParam_pos>text_field</selectSkillParam_pos>
+			</unit>
+		</Animation>
+		<!--音效-->
+		<Sound>
+			<unit>
+				<Lib_Sound>
+					<unit>
+						<!--音效索引 lib_sound.sklib模块-->
+						<libSoundID>text_field</libSoundID>
+						<!--音效索引 sound_contral.sklib模块-->
+						<libSoundContralID>text_field</libSoundContralID>
+						<!--附带参数: [0]代表音量放大百分比;-->
+						<libSoundParam>0</libSoundParam>
+					</unit>
+				</Lib_Sound>
+				<!--开始时间(毫秒)-->
+				<startTime>text_field</startTime>
+				<!--调用方式
+					T_none						: 不触发.
+					T_moment					：时间触发,触发一次.
+					T_coreEmit					：核心体发射时触发
+					T_coreEffect				：作用开始触发
+					T_coreDead					: 核心体消亡时触发
+	
+					T_skillNotifyDead			: 技能被通知死亡时候触发，参数开始时间。需求是移除buff的时候特效
+					T_timer						: 定时触发.
+							param[0]间隔时间
+							param[1]触发次数
+					T_moments					: 多个时间点
+							param[0...]每个时间点.
+					T_foot						: 脚步触发
+							param[0]第n帧
+				-->
+				<triggerType>drop_list</triggerType>
+				<!--调用参数表-->
+				<triggerParam>text_field</triggerParam>
+			</unit>
+		</Sound>
+		<Camera>
+			<unit>
+				<!--触发类型
+					T_none			:无操作.
+					T_moment		:时刻触发(技能时间轴上的时间点).
+						param[0]开始时刻.
+				-->
+				<triggerType>drop_list</triggerType>
+				<triggerParam>text_field</triggerParam>
+				<Lib_Camera>
+				<!--unit里内容可增加，用增加按钮-->
+					<unit>
+						<!--相机效果作用的对象：
+							role		自己
+							behit		受击方
+							others	其他人-->
+						<CameraObj>drop_list</CameraObj>
+						<cameraMoveFocusType>
+						<!--焦点位置
+							T_default			当前焦点：即采用当前客户端的摄像机的焦点位置
+								param0		相对偏移X
+								param1		相对偏移Y
+								param2		相对偏移Z
+							T_effectSprite		技能目标：距离当前客户端摄像机焦点夹角最小的目标
+								param0		相对偏移X
+								param1		相对偏移Y
+								param2		相对偏移Z
+							T_core			核心体：技能发射的核心体:核心体目标id.						
+								param0		相对偏移X
+								param1		相对偏移Y
+								param2		相对偏移Z
+								param3		核心体生成的顺序值.
+							T_role			当前角色：当前释放技能的角色
+								param0		相对偏移X
+								param1		相对偏移Y
+								param2		相对偏移Z
+						-->
+						<focusType>T_Default</focusType>
+						<param>0,0,0</param>
+					</cameraMoveFocusType>
+					<cameraMove>
+						<!--说明
+							初始化的时候 将相机调整 与 目标方向一致.
+							targetSelf 技能释放者 为目标.
+							targetHurter 受创精灵 为目标.
+							targetOther 其他人    为目标.
+						-->
+						<!--目前相机移动只存在绝对控制，配置成相对控制，将无效.
+							摄像机控制权：绝对控制权、相对控制权（基于玩家对摄像机操作基础上的相对变化）
+							T_absolute					:绝对控制权.
+							T_relative					:相对控制权（基于玩家对摄像机操作基础上的相对变化）.
+						-->				
+						<contralType>T_absolute</contralType>				
+						<!--依次执行-->
+						<U>
+							<!--startTime无效：move会依次执行-->
+							<startTime>0</startTime>
+							<!--位移轨迹:skill/sklib/camera_move.sklib-->
+							<libCameraID>id_none</libCameraID>
+						</U>
+					</cameraMove>
+					<cameraEffect>
+						<contralType>T_absolute</contralType>
+						<!--相机效果:skill/sklib/camera_effect.sklib-->
+						<libCameraID>id_none,id_1,id_2</libCameraID>
+						<!--按时序执行-->
+						<U>
+							<!--该值有效-->
+							<startTime>0</startTime>
+							<!--相机效果:skill/sklib/camera_effect.sklib-->
+							<libCameraID>id_none</libCameraID>
+							
+						</U>
+					</cameraEffect>
+					<cameraShake>
+						<contralType>T_absolute</contralType>
+						<!--按时序执行-->
+						<U>
+							<!--该值有效-->
+							<startTime>0</startTime>
+							<!--相机震动库索引.skill/sklib/camera_shake.sklib-->
+							<libCameraID>id_none</libCameraID>					
+						</U>
+					</cameraShake>
+					</unit>
+				</Lib_Camera>
+			</unit>
+		</Camera>
+
+	</onTimeline>
+</skillEditor>

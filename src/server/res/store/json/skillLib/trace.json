@@ -1,0 +1,40 @@
+{
+	"jsonMould": "trace.jsonMd",
+	"unitList": [
+		{
+			"id": "",
+			"rotZ": "",
+			"traceType": {
+				"enumType": "none",
+				"enumParamList": {}
+			}
+		}, {
+			"id": "",
+			"rotZ": "",
+			"traceType": {
+				"enumType": "diy",
+				"enumParamList": {
+					"traceDiyId": ""
+				}
+			}
+		}, {
+			"id": "",
+			"rotZ": "",
+			"traceType": {
+				"enumType": "diy",
+				"enumParamList": {
+					"traceDiyId": ""
+				}
+			}
+		}, {
+			"id": "",
+			"rotZ": "",
+			"traceType": {
+				"enumType": "diy",
+				"enumParamList": {
+					"traceDiyId": ""
+				}
+			}
+		}
+	]
+}

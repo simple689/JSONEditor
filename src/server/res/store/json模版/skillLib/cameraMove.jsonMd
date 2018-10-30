@@ -1,0 +1,31 @@
+<root>
+	<!--镜头位移：锁定焦点、轨迹、旋转（跟随旋转、自定义旋转）-->
+	<unit id="id_none">					
+		<!--轨迹库索引:skill/sklib/trace.sklib-->		
+		<libTraceID>text_field</libTraceID>
+		<!--持续时间(毫秒):时间到了则死亡-->
+		<duration>text_field</duration>
+		<!--锁定焦点(优先级高于旋转),按照时间来设定
+			相对控制：该模块无效
+		-->
+		<lockFocus>
+			<!--是否锁定焦点.(true的时候rotate无效)-->
+			<focus>check_box</focus>	
+		</lockFocus>
+		<!--旋转（跟随旋转、自定义旋转）(只有这个时间段内lockFocus为false才生效)
+			相对控制：该模块无效
+		-->
+		<rotate>		
+			<!--旋转类型
+				T_followTrace		:跟随旋转.
+					无参数，与轨迹的方向一致.
+				T_diy				:自定义旋转.
+					diyAngleX,diyAngleY,diyAngleZ来定义相机的朝向.
+			-->
+			<type>drop_list</type>
+			<diyAngleX>text_field</diyAngleX>
+			<diyAngleY>text_field</diyAngleY>
+			<diyAngleZ>text_field</diyAngleZ>
+		</rotate>		
+	</unit>
+</root>

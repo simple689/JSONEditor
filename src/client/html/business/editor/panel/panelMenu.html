@@ -1,0 +1,90 @@
+<div id="panelMenu" class="widgetMenuNav" style="height: 30px;">
+    <ul>
+        <li class='widgetMenuNavHasSub'>文件
+            <ul>
+                <li class='widgetMenuNavHasSub'>新建
+                    <ul>
+                        <li onclick="PanelMenu.onClickCreateFile(APIData._extendJson)">Json文件</li>
+                        <li onclick="PanelMenu.onClickCreateFile(APIData._extendJsonMd)">Json模版文件</li>
+                        <span>------------------------------------------</span>
+                    </ul>
+                </li>
+                <li class='widgetMenuNavHasSub'>打开
+                    <ul>
+                        <li onclick="PanelMenu.onClickOpenFile(APIData._extendJson)">Json文件</li>
+                        <li onclick="PanelMenu.onClickOpenFile(APIData._extendJsonMd)">Json模版文件</li>
+                        <span>------------------------------------------</span>
+                    </ul>
+                </li>
+                <li class='widgetMenuNavHasSub'>保存当前
+                    <ul>
+                        <li onclick="PanelMenu.onClickSaveFileNow(APIData._extendJson)">Json文件</li>
+                        <li onclick="PanelMenu.onClickSaveFileNow(APIData._extendJsonMd)">Json模版文件</li>
+                        <span>------------------------------------------</span>
+                    </ul>
+                </li>
+                <li onclick="PanelMenu.onClickSaveFileNowAll()">保存当前所有</li>
+                <li onclick="PanelMenu.onClickSaveFileAll()">保存所有</li>
+                <li class='widgetMenuNavHasSub'>下载当前
+                    <ul>
+                        <li onclick="PanelMenu.onClickDownloadFileNow(APIData._extendJson)">Json文件</li>
+                        <li onclick="PanelMenu.onClickDownloadFileNow(APIData._extendJsonMd)">Json模版文件</li>
+                        <span>------------------------------------------</span>
+                    </ul>
+                </li>
+                <span>------------------------------------------</span>
+                <li onclick="PanelMenu.onClickSetting()">设置</li>
+                <span id='panelMenuExitSpan' class='widgetMenuHide'>------------------------------------------</span>
+                <li id='panelMenuExit' class='widgetMenuHide' onclick="PanelMenu.onClickExit()">退出</li>
+            </ul>
+        </li>
+        <li class='widgetMenuNavHasSub'>编辑
+            <ul>
+                <li onclick="PanelMenu.onClickUndo()">撤销</li>
+                <li onclick="PanelMenu.onClickRedo()">重做</li>
+                <span>------------------------------------------</span>
+                <li onclick="PanelMenu.onClickCut()">剪切</li>
+                <li onclick="PanelMenu.onClickCopy()">复制</li>
+                <li onclick="PanelMenu.onClickPaste()">粘贴</li>
+                <span>------------------------------------------</span>
+                <li onclick="PanelMenu.onClickFind()">查找</li>
+            </ul>
+        </li>
+        <li class='widgetMenuNavHasSub'>窗口
+            <ul>
+                <li onclick="PanelMenu.onClickVisiblePanel(confPanelFileBrowser)">
+                    <input id='panelMenuPanelFileBrowserCheckbox' type="checkbox"/>文件浏览器
+                </li>
+                <li onclick="PanelMenu.onClickVisiblePanel(confPanelFileMould)">
+                    <input id='panelMenuPanelFileMouldCheckbox' type="checkbox"/>文件模版编辑
+                </li>
+                <li onclick="PanelMenu.onClickVisiblePanel(confPanelFileLink)">
+                    <input id='panelMenuPanelFileLinkCheckbox' type="checkbox"/>文件链接编辑
+                </li>
+                <span>------------------------------------------</span>
+            </ul>
+        </li>
+        <li class='widgetMenuNavHasSub'>历史
+            <ul>
+                <li class='widgetMenuNavHasSub'>清空历史记录
+                    <ul>
+                        <li onclick="PanelMenu.onClickHistoryClearAll()">所有</li>
+                        <span>------------------------------------------</span>
+                        <li onclick="PanelMenu.onClickHistoryClear(confPanelFileEditor)">文件编辑</li>
+                        <li onclick="PanelMenu.onClickHistoryClear(confPanelFileMould)">文件模版编辑</li>
+                        <li onclick="PanelMenu.onClickHistoryClear(confPanelFileLink)">文件链接编辑</li>
+                        <li onclick="PanelMenu.onClickHistoryClear(confPanelFileBrowser)">文件浏览器</li>
+                    </ul>
+                </li>
+                <span>------------------------------------------</span>
+            </ul>
+        </li>
+        <li class='widgetMenuNavHasSub'>帮助
+            <ul>
+                <li onclick="PanelMenu.onClickHelp()">帮助</li>
+                <span>------------------------------------------</span>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div id="panelToolBar" style="height: 30px;"></div>

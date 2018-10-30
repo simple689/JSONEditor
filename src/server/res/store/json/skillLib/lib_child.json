@@ -1,0 +1,43 @@
+	<Lib_Child>
+		<!--子技能单元，可以有多个-->
+		<unit id="id_a">
+			<!--子技能类型
+					T_heavy：重子技能。生命周期自己管理，不受根技能影响
+					T_light：轻子技能。跟随根技能的生命周期，根技能死，则死
+			-->
+			<weightType>drop_list</weightType>
+			<!--创建该子技能时候需要同时处理的事情.
+				T_none		:啥也不做.
+				T_killme	:杀死当前技能.				
+			-->
+			<capacityType>drop_list</capacityType>
+			<!--标准体信息-->
+			<!--标准体类型
+				T_standard					: 使用当前的标准信息(生成一个子技能,作用精灵不向下传递).
+				T_role						: 使用 技能创建者.
+				T_coreEffectSprite			: 使用 作用精灵(根据作用精灵数量，产生n个技能).
+
+				T_rolePos_roleDir			: 创建者位置 + 创建者方向.
+				T_coreEffectSprite_Pos_Dir	: 作用精灵位置 + 作用精灵方向(根据作用精灵数量，产生n个技能).
+				T_corePos_RoleDir			: 核心体位置 + 创建者方向.
+						[前提]openType为核心体本身触发的子技能.
+						param[0] 将核心体放到地面上(0-无操作;1-放置到地面上).
+				T_corePos_coreDir			: 核心体位置 + 核心体飞行方向.
+						[说明]核心体本身触发的 子技能.
+							Child::openType == T_coreEmit
+							Child::openType == T_coreCreate
+							Child::openType == T_coreEffect
+							Child::openType == T_coreDead						
+							无参数
+						[说明]非核心体触发的，则使用指定次序的核心体.
+						param[0] 核心体次序值.（逗号分隔可输入多个核心体编号，如果为空或者为-1则代表所有核心体）
+				T_coreEffectSpritePos_coreDir:位置(目标精灵水平位置+核心体高度) + 核心体飞行方向(根据作用精灵数量，产生n个技能).
+
+				T_rolePos_hurtDir			:若是因为受创引发的子技能，将受创方向作为核心体的（role朝向敌人的方向）.
+						[前提]Child中openType==T_hurted.
+						[需求]我在释放技能时候，被打了，需要马上朝向目标方向攻击.:实现原理：受创了，删除当前技能，开启新技能，把目标方向给出来.
+			-->
+			<standardType>drop_list</standardType>
+			<standardParam>text_field</standardParam>
+		</unit>
+	</Lib_Child>

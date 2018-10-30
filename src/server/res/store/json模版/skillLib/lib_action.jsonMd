@@ -1,0 +1,32 @@
+	<Lib_Action>
+		<!--动作库单元-->
+		<unit id="id_run">
+			<!--动作id-->
+			<action>text_field</action>
+			<!--开始动作帧-->
+			<frame>
+				<enable>check_box</enable>
+				<startFrame>text_field(int)</startFrame>
+				<endFrame>text_field(int)</endFrame>
+			</frame>
+			<!--控制身体的哪个部分
+				T_all			:所有身体
+				T_up			:上半身
+				T_down			:下半身.
+			-->
+			<partType>drop_list</partType>
+			<!--循环次数，<=0无限循环，编辑器不支持无限循环-->
+			<loop>4</loop>
+			<!--速度比例，百分比.100原始速度-->
+			<speed>text_field(int)</speed>
+			<!--动作过渡融合时间:毫秒-->
+			<blend>text_field(int)</blend>
+			<!--此动作播放完毕的控制方式
+				T_none				:无操作.
+				T_playOver			:播放完毕.
+				T_time				:时间控制.
+					dead_param[0]总长度.-->
+			<deadType>drop_list</deadType>
+			<dead_param>0</dead_param>
+		</unit>
+	</Lib_Action>
