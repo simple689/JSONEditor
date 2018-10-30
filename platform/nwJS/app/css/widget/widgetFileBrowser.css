@@ -1,0 +1,35 @@
+.widgetFileBrowserMain {
+    flex: 1;
+    display: flex;
+    display: -webkit-flex;
+    overflow: auto;
+}
+
+.widgetFileBrowserLeft {
+    width: 150px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    border-right: 0px;
+}
+
+.widgetFileBrowserMiddle {
+    width: 3px;
+    background: #ccc;
+}
+
+.widgetFileBrowserMiddle:hover {
+    cursor: w-resize;
+}
+
+.widgetFileBrowserRight {
+    flex: 1;
+    overflow: auto;
+    border: 1px solid #ccc;
+    border-left: 0px;
+}
+
+.widgetFileBrowserRightContent {
+    width: 100px;
+    height: 100px;
+    background: #666;
+}

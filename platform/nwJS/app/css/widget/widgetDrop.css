@@ -1,0 +1,6 @@
+.widgetDrop {
+    height: 100%;
+    width: 100%;
+    background: #666666;
+    border: 3px dashed rgba(102, 102, 102, 0);
+}

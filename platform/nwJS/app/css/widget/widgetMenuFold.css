@@ -1,0 +1,39 @@
+.widgetMenuFold {
+}
+
+/*一级菜单加下边线*/
+.widgetMenuFold > dl > dt {
+    /*display: none;*/
+}
+
+/*所有菜单项设置统一样式*/
+.widgetMenuFold dt {
+    /*background: dimgray;*/
+}
+
+.widgetMenuFold dt:hover, dt:focus {
+    /*background-color: #a7a7a7;*/
+    color: #fff;
+}
+
+.widgetMenuFoldLabelCheck {
+    cursor: pointer;
+    /*white-space: nowrap;*/
+    /*text-overflow: ellipsis;*/
+    padding-left: 30px;
+    background: url(../../img/widget/widgetMenuFold/menuFold_arrowBottom.jpg) no-repeat left center;
+    line-height: 27px;
+}
+
+.widgetMenuFoldLabelTitle {
+    cursor: pointer;
+}
+
+.widgetMenuFold dd {
+    margin-left: 15px;
+}
+
+.widgetMenuFold dd:hover dd:focus {
+    /*background-color: #a7a7a7;*/
+    color: #fff;
+}

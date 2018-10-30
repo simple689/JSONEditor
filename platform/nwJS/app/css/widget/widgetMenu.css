@@ -1,0 +1,58 @@
+.widgetMenu {
+    z-index: 100;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: lightgray;
+}
+
+.widgetMenu ul {
+    display: none;
+    position: absolute;
+    font-size: 16px;
+    padding: 2px 0;
+    text-align: left;
+    list-style: none;
+    border: 1px solid #979797;
+    border-radius: 2px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .2);
+    margin: 0;
+    min-width: 150px;
+    background: gray;
+    background-image: url(../../img/widget/widgetMenu/menu_line.png);
+    background-repeat: repeat-y;
+    background-position: 24px 0;
+}
+
+.widgetMenu ul ul {
+    display: none;
+}
+
+.widgetMenu ul ul ul {
+    display: none;
+}
+
+.widgetMenu ul li {
+    cursor: pointer;
+    padding: 0 30px;
+    white-space: nowrap;
+}
+
+.widgetMenu ul li.sub {
+    background-image: url(../../img/widget/widgetMenu/menu_arrow.png);
+    background-repeat: no-repeat;
+    background-position: right 9px;
+}
+
+.widgetMenu ul li.checked {
+    background-image: url(../../img/widget/widgetMenu/menu_arrow.png);
+    background-repeat: no-repeat;
+    background-position: left 9px;
+}
+
+.widgetMenu ul li.active {
+    border: 1px solid #5588cc;
+    border-radius: 3px;
+    background: #5588cc;
+}
+

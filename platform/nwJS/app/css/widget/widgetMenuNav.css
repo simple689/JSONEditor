@@ -1,0 +1,47 @@
+/*导航栏*/
+.widgetMenuNav,
+.widgetMenuNav ul,
+.widgetMenuNav ul li {
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    background: #666666;
+}
+.widgetMenuNav span {
+    white-space: nowrap;
+}
+.widgetMenuNav ul ul {
+    position: absolute;
+    display: none;
+    margin-top: 5px;
+}
+.widgetMenuNav ul ul ul {
+    top: -5px;
+    left: 100%;
+}
+.widgetMenuNav ul li {
+    padding: 5px 10px;
+    float: left;
+}
+.widgetMenuNav ul ul li {
+    width: 100%;
+}
+.widgetMenuNav ul li .widgetMenuNavHasSub:after {
+    position: absolute;
+    text-align: center;
+    right: 10px;
+    content: ">";
+}
+.widgetMenuNav ul li:hover {
+    background: #999999;
+}
+.widgetMenuNav li:hover > ul {
+    display: block;
+}
+.widgetMenuNav .widgetMenuHide {
+    display:none;
+}

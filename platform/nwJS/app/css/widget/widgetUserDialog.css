@@ -1,0 +1,35 @@
+.widgetUserDialogMain {
+    flex: 1;
+    display: flex;
+    display: -webkit-flex;
+    overflow: auto;
+}
+
+.widgetUserDialogLeft {
+    overflow: auto;
+}
+
+.widgetUserDialogRight {
+}
+
+.widgetUserDialogRightContent {
+}
+
+.widgetUserLabelMsg {
+}
+
+.widgetUserLabelUserName, .widgetUserLabelUserPWD {
+    display: inline-block;
+    width: 50px;
+}
+
+.widgetUserDialogMain input {
+    width: 200px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.widgetUserDialogVerify {
+    width: 300px;
+    position: relative;
+}

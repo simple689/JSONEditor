@@ -1,0 +1,58 @@
+.widgetDialogRoot {
+    z-index: 8000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.widgetDialogMask {
+    width: 100%;
+    height: 100%;
+    background: #666666;
+    opacity: 0.4;
+}
+
+.widgetDialog {
+    position: absolute;
+    background: #333333;
+    border: 2px solid #333333;
+}
+
+.widgetDialogHead {
+    height: 30px;
+    background: #666666;
+    padding-left: 10px;
+    /*cursor: move;*/
+}
+
+.widgetDialogContent {
+    padding: 10px;
+}
+
+.widgetDialogHeadButton {
+    width: 30px;
+    height: 100%;
+    float: right;
+    /*cursor: default;*/
+    text-align: center;
+    line-height: 30px;
+}
+
+.widgetDialogHeadButton:hover {
+    background: #888888;
+}
+
+.widgetDialogButton {
+    width: 60px;
+    height: 30px;
+    border-radius: 6px;
+    text-align: center;
+    background: #393939;
+    color: #6eabc8;
+}
+
+.widgetDialogButton:hover {
+    background: #666666;
+}
