@@ -2,9 +2,335 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0946a6bd-e6d4-4490-b5d5-a83f443211c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/JSONEditor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JSONEditor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nodeJS/project/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/business/editor/panel/panelFileBrowser.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/business/editor/panel/panelFileBrowser.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/common/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/common/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetDialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetDialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetDock/widgetDock.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetDock/widgetDock.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetDock/widgetDockStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetDock/widgetDockStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetDock/widgetDockStyleA.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetDock/widgetDockStyleA.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetDrop.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetDrop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetFile.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetFile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetFileBrowser.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetFileBrowser.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetFlex.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetFlex.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetHtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetHtml.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetMarkedDoc.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetMarkedDoc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetMenuFold.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetMenuFold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetMenuNav.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetMenuNav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetSearch.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetSearch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetTab.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetTab.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetTableHtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetTableHtml.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetUser.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetUser.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetUserDialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetUserDialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetVerify.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/css/widget/widgetVerify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/doc/API.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/doc/API.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/doc/AUTHORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/doc/AUTHORS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/doc/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/doc/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/doc/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/doc/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/doc/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/doc/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/doc/PUBLISHING.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/doc/PUBLISHING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/doc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/doc/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/doc/USING_ADVANCED.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/doc/USING_ADVANCED.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/doc/USING_PRO.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/doc/USING_PRO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/base64.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/base64.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/base64_old.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/base64_old.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/colorPicker/colorPicker.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/colorPicker/colorPicker.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/colorPicker/colorPicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/colorPicker/colorPicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/colorPicker/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/colorPicker/colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/colorPicker/jqColor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/colorPicker/jqColor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/jsmind/features/jsmind.shell.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/jsmind/features/jsmind.shell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/jsmind/js/jsmind.draggable.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/jsmind/js/jsmind.draggable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/jsmind/js/jsmind.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/jsmind/js/jsmind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/jsmind/js/jsmind.screenshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/jsmind/js/jsmind.screenshot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/jsmind/style/jsmind.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/jsmind/style/jsmind.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/marked/es6-promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/marked/es6-promise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/marked/github-markdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/marked/github-markdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/marked/marked.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/marked/marked.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/marked/unfetch.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/marked/unfetch.umd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/md5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/md5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/external/sha1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/external/sha1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/html/business/editor/dock/dock.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/html/business/editor/dock/dock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/html/business/editor/home/homeFileEditor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/html/business/editor/home/homeFileEditor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/html/business/editor/home/homeFileLink.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/html/business/editor/home/homeFileLink.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/html/business/editor/home/homeFileMould.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/html/business/editor/home/homeFileMould.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/html/business/editor/menu/menuFileBrowserCreate.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/html/business/editor/menu/menuFileBrowserCreate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/html/business/editor/menu/menuFileEditorTitle.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/html/business/editor/menu/menuFileEditorTitle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/html/business/editor/menu/menuFileLinkTitle.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/html/business/editor/menu/menuFileLinkTitle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/html/business/editor/menu/menuFileMouldTitle.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/html/business/editor/menu/menuFileMouldTitle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/html/business/editor/menu/menuHelp.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/html/business/editor/menu/menuHelp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/html/business/editor/panel/panelMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/html/business/editor/panel/panelMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/html/business/editor/panel/panelState.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/html/business/editor/panel/panelState.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetDock/dock_close.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetDock/dock_close.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetDock/dock_pinned.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetDock/dock_pinned.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetDock/dock_unpinned.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetDock/dock_unpinned.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetMenu/menu_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetMenu/menu_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetMenu/menu_line.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetMenu/menu_line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetMenuFold/menuFold_arrowBottom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetMenuFold/menuFold_arrowBottom.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetMenuFold/menuFold_arrowTop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetMenuFold/menuFold_arrowTop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_100.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_100.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_101.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_101.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_102.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_102.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_103.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_103.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_104.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_104.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_105.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_105.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_106.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_106.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_107.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_107.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_108.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_108.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_109.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_109.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_110.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_110.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_111.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_111.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_112.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_113.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_113.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_114.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_114.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_115.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_115.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_116.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_116.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_117.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_117.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_118.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_118.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_119.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_119.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_120.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_120.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_121.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_121.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_122.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_122.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_123.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_123.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_124.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_124.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_125.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_125.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_126.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_126.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_127.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_127.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_128.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_129.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_129.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_130.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_130.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_131.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_131.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_132.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_132.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_133.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_133.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_134.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_134.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_135.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_135.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_136.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_136.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_137.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_137.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_138.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_138.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_139.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_139.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_140.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_140.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_141.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_141.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_142.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_142.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_143.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_143.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_144.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_144.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_145.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_145.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_146.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_146.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_147.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_147.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_148.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_148.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_149.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_149.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_151.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_151.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_152.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_152.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_153.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_153.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_154.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_154.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_155.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_155.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_156.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_156.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_157.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_157.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_158.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_158.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_159.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_159.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_160.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_160.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_161.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_161.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_162.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_162.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_163.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_163.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_164.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_164.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_165.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_165.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_166.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_166.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_167.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_167.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_168.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_168.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_169.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_169.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_170.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_170.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_171.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_171.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_172.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_172.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_173.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_173.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_174.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_174.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_175.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_175.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_176.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_176.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_177.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_177.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_178.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_178.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_179.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_179.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_180.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_180.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_181.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_181.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_182.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_182.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_183.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_183.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_184.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_184.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_185.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_185.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_186.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_186.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_187.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_187.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_188.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_188.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_189.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_189.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_190.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_190.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_191.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_191.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_192.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_192.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_193.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_193.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_194.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_194.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_195.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_195.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_196.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_196.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_197.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_197.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_198.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_198.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_199.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_199.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_201.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_201.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_202.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_202.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_203.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_203.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_31.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_32.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_33.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_34.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_36.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_37.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_38.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_39.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_40.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_41.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_41.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_42.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_42.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_43.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_44.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_45.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_45.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_46.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_47.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_47.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_49.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_49.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_50.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_51.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_52.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_52.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_53.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_53.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_54.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_54.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_55.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_55.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_56.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_56.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_57.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_57.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_58.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_58.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_59.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_59.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_60.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_60.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_61.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_61.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_62.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_62.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_63.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_63.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_64.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_64.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_65.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_65.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_66.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_66.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_67.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_67.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_68.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_68.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_69.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_69.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_70.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_70.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_71.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_71.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_72.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_72.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_73.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_73.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_74.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_74.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_75.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_75.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_76.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_76.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_77.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_77.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_78.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_78.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_79.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_79.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_80.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_80.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_81.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_81.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_82.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_82.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_83.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_83.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_84.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_84.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_85.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_85.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_86.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_86.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_87.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_87.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_88.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_88.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_89.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_89.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_90.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_90.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_91.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_91.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_92.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_92.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_93.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_93.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_94.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_94.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_95.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_95.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_96.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_96.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_97.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_97.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_98.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_98.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/img/widget/widgetVerify/imgVerify/imgVerify_99.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/img/widget/widgetVerify/imgVerify/imgVerify_99.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/API/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/API/API.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/API/APIData.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/API/APIData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/API/APIUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/API/APIUtil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/dock/conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/business/editor/dock/conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/dock/dock.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/business/editor/dock/dock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/dock/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/business/editor/dock/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/menu/menuFileBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/business/editor/menu/menuFileBrowser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/menu/menuFileTitleOnClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/business/editor/menu/menuFileTitleOnClick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/panel/panelFileBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/business/editor/panel/panelFileBrowser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/panel/panelFileEditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/business/editor/panel/panelFileEditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/panel/panelFileLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/business/editor/panel/panelFileLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/panel/panelFileMould.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/business/editor/panel/panelFileMould.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/panel/panelMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/business/editor/panel/panelMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/panel/panelState.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/business/editor/panel/panelState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/panel/panelToolBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/business/editor/panel/panelToolBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/base/widgetElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/base/widgetElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/base/widgetJsonCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/base/widgetJsonCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/base/widgetKey.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/base/widgetKey.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/base/widgetLog.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/base/widgetLog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/base/widgetMenuCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/base/widgetMenuCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/base/widgetUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/base/widgetUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/base/widgetUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/base/widgetUtil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetDialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetDock.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetDock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetDrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetDrop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/base/widgetFileBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFile/base/widgetFileBase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/base/widgetFileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFile/base/widgetFileMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/base/widgetFileOnChange.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFile/base/widgetFileOnChange.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/base/widgetFileOnClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFile/base/widgetFileOnClick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/base/widgetFileUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFile/base/widgetFileUtil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/json/widgetFileJson.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFile/json/widgetFileJson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/json/widgetFileJsonMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFile/json/widgetFileJsonMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/json/widgetFileJsonOnChange.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFile/json/widgetFileJsonOnChange.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/json/widgetFileJsonOnClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFile/json/widgetFileJsonOnClick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/jsonMould/widgetFileJsonMould.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFile/jsonMould/widgetFileJsonMould.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldOnChange.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldOnChange.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldOnClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldOnClick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/widgetFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFile/widgetFile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFileBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFileBrowser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFlex.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetFlex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetHistory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetHtml.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetHtml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetHttpAJAX.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetHttpAJAX.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetHttpXHR.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetHttpXHR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetMarkedDoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetMarkedDoc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetMenuFold.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetMenuFold.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetPanelBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetPanelBase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetPanelFileBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetPanelFileBase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetTab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetTable/widgetTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetTable/widgetTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetTable/widgetTableHtml.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetTable/widgetTableHtml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetTable/widgetTableRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetTable/widgetTableRow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetUserDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetUserDialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetVerify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetVerify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/app/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,7 +355,7 @@
     <session id="-662890093">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -39,13 +365,15 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="2" />
-          <entry key="js" value="2" />
+          <entry key="js" value="3" />
+          <entry key="json" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -62,20 +390,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetMenuFold.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../platform/nodeJS/project/index.js">
+        <entry file="file://$PROJECT_DIR$/../../platform/nwJS/app/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -85,7 +404,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>html5</find>
+      <find>res</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/../../platform/nwJS</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -95,6 +418,7 @@
       <list>
         <option value="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetMenuFold.js" />
         <option value="$PROJECT_DIR$/../../platform/nodeJS/project/index.js" />
+        <option value="$PROJECT_DIR$/../../platform/nwJS/app/package.json" />
       </list>
     </option>
   </component>
@@ -107,7 +431,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/../../platform/nodeJS/package.json" />
-      <path value="$PROJECT_DIR$/../../platform/nwJS/project/package.json" />
+      <path value="$PROJECT_DIR$/../../platform/nwJS/app/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
@@ -121,7 +445,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,32 +455,41 @@
             <path>
               <item name="JSONEditor" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSONEditor" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="javaScript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSONEditor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSONEditor" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="javaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="nwJS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JSONEditor" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSONEditor" type="47feb1d3:ProjectViewModuleNode" />
               <item name="nwJS" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONEditor" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="nwJS" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../platform/nwJS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../platform/nwJS/app" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -175,7 +507,7 @@
     <configuration name="javaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/JSONEditor/project/html/business/editor/dock/dock.html">
       <method v="2" />
     </configuration>
-    <configuration name="nwJS" type="NodeWebKit" factoryName="NW.js" exePath="$PROJECT_DIR$/../../platform/nwJS/nwjs.app" inputPath="$PROJECT_DIR$/../../platform/nwJS/project" workingDirectory="$PROJECT_DIR$/../../platform/nwJS/project">
+    <configuration name="nwJS" type="NodeWebKit" factoryName="NW.js" exePath="$PROJECT_DIR$/../../jdk/nwJS/mac_v0.33.4/nwjs.app" inputPath="$PROJECT_DIR$/../../platform/nwJS" workingDirectory="$PROJECT_DIR$/../../platform/nwJS">
       <method v="2" />
     </configuration>
     <list>
@@ -197,12 +529,12 @@
       <workItem from="1540900272060" duration="434000" />
       <workItem from="1540902587400" duration="318000" />
       <workItem from="1540902953940" duration="938000" />
-      <workItem from="1540945684308" duration="228000" />
+      <workItem from="1540945684308" duration="1680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2133000" />
+    <option name="totallyTimeSpent" value="3585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="0" />
@@ -214,7 +546,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -258,7 +590,7 @@
       <provider editor-type-id="images" />
       <provider selected="true" editor-type-id="httpFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetMenuFold.js">
+    <entry file="file://$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetMenuFold.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
@@ -272,5 +604,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetMarkedDoc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="126" column="29" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../platform/nwJS/app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
