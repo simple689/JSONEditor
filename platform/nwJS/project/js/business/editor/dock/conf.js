@@ -15,7 +15,7 @@ var confPanelFileMould = "panelFileMould";
 var confPanelFileLink = "panelFileLink";
 
 // project
-var confProjectRoot = "/JSONEditor/project/";
+var confProjectRoot = "/project/";
 
 // http
 var confHttpRoot = "http://127.0.0.1:6989/";

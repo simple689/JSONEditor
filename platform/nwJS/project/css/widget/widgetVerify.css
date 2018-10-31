@@ -11,7 +11,7 @@
     width: 34px;
     height: 34px;
     cursor: pointer;
-    background: url("/JSONEditor/project/img/widget/widgetVerify/icon.png") 0 -437px;
+    background: url("/project/img/widget/widgetVerify/icon.png") 0 -437px;
     background-size: 34px 471px;
 }
 
@@ -52,7 +52,7 @@
     top: 14px;
     width: 14px;
     height: 10px;
-    background: url("/JSONEditor/project/img/widget/widgetVerify/icon.png") 0 -26px;
+    background: url("/project/img/widget/widgetVerify/icon.png") 0 -26px;
     background-size: 34px 471px;
 }
 

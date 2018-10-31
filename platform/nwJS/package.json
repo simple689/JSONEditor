@@ -1,4 +1,4 @@
 {
-  "name": "editor_json",
+  "name": "JSONEditor",
   "main": "project/html/business/editor/dock/dock.html"
 }
