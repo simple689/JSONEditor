@@ -165,7 +165,7 @@
     <configuration name="javaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/JSONEditor/project/html/business/editor/dock/dock.html">
       <method v="2" />
     </configuration>
-    <configuration name="nwJS" type="NodeWebKit" factoryName="NW.js" exePath="$PROJECT_DIR$/../../jdk/nwJS/mac_v0.33.4/nwjs.app" inputPath="$PROJECT_DIR$/../../platform/nwJS" workingDirectory="$PROJECT_DIR$/../../platform/nwJS">
+    <configuration name="nwJS" type="NodeWebKit" factoryName="NW.js" exePath="$PROJECT_DIR$/../../jdk/nwJS/mac_sdk_v0.33.4/nwjs.app" inputPath="$PROJECT_DIR$/../../platform/nwJS" workingDirectory="$PROJECT_DIR$/../../platform/nwJS">
       <method v="2" />
     </configuration>
     <list>
