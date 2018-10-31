@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            // "program": "${workspaceFolder}/project/test/index.js",
+            // "program": "${workspaceFolder}/test/index.js",
             "program": "${workspaceFolder}/project/js/business/editor/index.js",
             // "outFiles": [
             //     "${workspaceFolder}/project/*.js"

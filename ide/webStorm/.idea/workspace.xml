@@ -62,7 +62,11 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../platform/nwJS/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -120,13 +124,12 @@
             <path>
               <item name="JSONEditor" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSONEditor" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="nwJS" type="462c0819:PsiDirectoryNode" />
+              <item name="javaScript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JSONEditor" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSONEditor" type="47feb1d3:ProjectViewModuleNode" />
               <item name="nwJS" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,12 +191,12 @@
       <workItem from="1540902587400" duration="318000" />
       <workItem from="1540902953940" duration="938000" />
       <workItem from="1540945684308" duration="1680000" />
-      <workItem from="1540948316973" duration="330000" />
+      <workItem from="1540948316973" duration="597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3915000" />
+    <option name="totallyTimeSpent" value="4182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="0" />
@@ -277,7 +280,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../platform/nwJS/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
