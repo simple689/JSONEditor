@@ -1,0 +1,83 @@
+simple689@gmail.com
+
+# ssh
+ssh -p 26 teddy@192.168.1.6
+
+# mysql
+
+
+# http 80
+http://192.168.1.6:86/
+
+# http 8080
+http://192.168.1.6:8086/
+
+# git
+http://ZhaoHuan@192.168.1.6:86/git/gitTeddy_Work
+http://ZhaoHuan@192.168.1.6:86/git/gitShane_Work
+http://ZhaoHuan@192.168.1.6:86/git/gitProject_Work_201809
+
+http://WangShuai@192.168.1.6:86/git/gitTeddy_Work
+http://WangShuai@192.168.1.6:86/git/gitShane_Work
+http://WangShuai@192.168.1.6:86/git/gitProject_Work_201809
+
+http://LiZhiYi@192.168.1.6:86/git/gitTeddy_Work
+http://LiZhiYi@192.168.1.6:86/git/gitShane_Work
+http://LiZhiYi@192.168.1.6:86/git/gitProject_Work_201809
+
+# svn
+http://ZhaoHuan@192.168.1.6:86/svn/svnTeddy_Work
+http://ZhaoHuan@192.168.1.6:86/svn/svnShane_Work
+http://ZhaoHuan@192.168.1.6:86/svn/svnProject_Work_201809
+
+http://WangShuai@192.168.1.6:86/svn/svnTeddy_Work
+http://WangShuai@192.168.1.6:86/svn/svnShane_Work
+http://WangShuai@192.168.1.6:86/svn/svnProject_Work_201809
+
+http://LiZhiYi@192.168.1.6:86/svn/svnTeddy_Work
+http://LiZhiYi@192.168.1.6:86/svn/svnShane_Work
+http://LiZhiYi@192.168.1.6:86/svn/svnProject_Work_201809
+
+http://LiZhiYi@114.241.111.233:86/svn/svnProject_Work_201809
+
+# git 创建项目仓库
+sudo mkdir gitProject_Work_201809/
+sudo chown www-data:www-data gitProject_Work_201809/
+sudo chmod 755 gitProject_Work_201809/
+cd gitProject_Work_201809/
+sudo git init --bare 
+sudo chown -R www-data:www-data gitProject_Work_201809/
+sudo /etc/init.d/ssh restart
+
+/home/teddy/TeddyServer_Work/svn
+/var/www/html/git
+/etc/apache2/dav_svn.passwd
+/etc/apache2/dav_git.passwd
+/home/teddy/TeddyServer_Work/git
+/etc/apache2/sites-available/000-default.conf
+sudo htpasswd dav_git.passwd LiZhiYi
+service httpd restart
+
+cd workTeddy/
+cd gitosis-admin/
+
+# svn 创建项目仓库
+
+# ubuntu重启、关机命令
+
+    重启命令 ： 
+    1、reboot 
+    2、shutdown -r now 立刻重启
+    3、shutdown -r 10 过10分钟自动重启
+    4、shutdown -r 20:35 在时间为20:35时候重启
+
+    如果是通过shutdown命令设置重启的话，可以用shutdown -c命令取消重启 
+
+    关机命令 ： 
+    1、halt   立刻关机（一般加-p 关闭电源）
+    2、poweroff 立刻关机 
+    3、shutdown -h now 立刻关机
+    4、shutdown -h 10 10分钟后自动关机 
+
+    如果是通过shutdown命令设置关机的话，可以用shutdown -c命令取消关机
+

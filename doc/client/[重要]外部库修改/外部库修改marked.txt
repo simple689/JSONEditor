@@ -1,0 +1,52 @@
+marked.js
+标记：// Add by Teddy
+
+Renderer.prototype.link = function(href, title, text) {
+  if (this.options.sanitize) {
+    try {
+      var prot = decodeURIComponent(unescape(href))
+        .replace(/[^\w:]/g, '')
+        .toLowerCase();
+    } catch (e) {
+      return text;
+    }
+    if (prot.indexOf('javascript:') === 0 || prot.indexOf('vbscript:') === 0 || prot.indexOf('data:') === 0) {
+      return text;
+    }
+  }
+  if (this.options.baseUrl && !originIndependentUrl.test(href)) {
+    href = resolveUrl(this.options.baseUrl, href);
+  }
+  try {
+    href = encodeURI(href).replace(/%25/g, '%');
+  } catch (e) {
+    return text;
+  }
+  var hrefStr = decodeURI(href); // Add by Teddy
+  var out = '<a href="' + escape(hrefStr) + '"';
+  if (title) {
+    out += ' title="' + title + '"';
+  }
+  out += '>' + text + '</a>';
+  return out;
+};
+
+Renderer.prototype.heading = function(text, level, raw) {
+  if (this.options.headerIds) {
+      var id = raw.toLowerCase().replace(/[^\w]+/g, '-'); // Add by Teddy
+      if (id === '-') {
+          id = raw;
+      }
+    return '<h'
+      + level
+      + ' id="'
+      + id
+      + '">'
+      + text
+      + '</h'
+      + level
+      + '>\n';
+  }
+  // ignore IDs
+  return '<h' + level + '>' + text + '</h' + level + '>\n';
+};
