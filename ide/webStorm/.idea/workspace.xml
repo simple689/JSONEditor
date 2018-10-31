@@ -171,11 +171,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.nodeJS">
+  <component name="RunManager" selected="NW.js.nwJS">
     <configuration name="javaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/JSONEditor/project/html/business/editor/dock/dock.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="nodeJS" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="project/index.js" working-dir="$PROJECT_DIR$/../../platform/nodeJS">
       <method v="2" />
     </configuration>
     <configuration name="nwJS" type="NodeWebKit" factoryName="NW.js" exePath="$PROJECT_DIR$/../../platform/nwJS/nwjs.app" inputPath="$PROJECT_DIR$/../../platform/nwJS/project" workingDirectory="$PROJECT_DIR$/../../platform/nwJS/project">
@@ -183,7 +180,6 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.javaScript" />
-      <item itemvalue="Node.js.nodeJS" />
       <item itemvalue="NW.js.nwJS" />
     </list>
   </component>
