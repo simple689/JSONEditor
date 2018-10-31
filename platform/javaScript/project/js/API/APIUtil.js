@@ -3,17 +3,7 @@
     var js_node = typeof process === 'object' && process.versions && process.versions.node;
     if (js_node) {
         root = global;
-    }
-
-    var js_require = typeof require === 'function';
-    if (js_require) {
-        var jsPath = "";
-        if (global.document) {
-            jsPath = document.scripts;
-            jsPath = jsPath[jsPath.length - 1].src.substring(7, jsPath[jsPath.length - 1].src.lastIndexOf("/") + 1);
-        }
-        console.log(jsPath);        
-        root.APIData = require(jsPath + './APIData.js');
+        root.APIUtil = APIUtil;
     }
 
     var js_module = typeof module === 'object' && module.exports;

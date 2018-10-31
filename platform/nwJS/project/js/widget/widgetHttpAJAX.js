@@ -38,7 +38,7 @@ WidgetHttpAJAX.createPost = function (url, jsonObj, exec, callback) {
         url = confHttpRoot;
     }
     var jsonStr = JSON.stringify(jsonObj);
-    var jsonStrNew = global.base64.encode(jsonStr);
+    var jsonStrNew = base64.encode(jsonStr);
     $.ajax({
         _exec : exec,
         _callback : callback,
@@ -48,7 +48,7 @@ WidgetHttpAJAX.createPost = function (url, jsonObj, exec, callback) {
         cache: false,
         success : function(data) {
             //WidgetLog.log("[ajax success]", data);
-            var jsonStr = global.base64.decode(data);
+            var jsonStr = base64.decode(data);
             var jsonObj = JSON.parse(jsonStr);
             WidgetLog.log(JSON.stringify(jsonObj, null, 2));
             if (callback) callback(this._exec, null, jsonObj);

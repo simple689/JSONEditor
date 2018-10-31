@@ -1,3 +1,6 @@
+// 兼容 external
+var base64 = typeof base64 === 'object' ? base64 : global.base64;
+
 // dock
 var confDockLayoutKey = "dockLayout";
 

@@ -53,12 +53,12 @@ WidgetMenuFold.setDdDisplay = function (dd, labelCheck, isCheck) {
     if (isCheck) {
         dd.style.display = WidgetKey._block;
         $(labelCheck).css(
-            "background-image", "url(/JSONEditor/project/img/widget/widgetMenuFold/menuFold_arrowBottom.jpg)"
+            "background-image", "url(" + confProjectRoot + "/img/widget/widgetMenuFold/menuFold_arrowBottom.jpg)"
         );
     } else {
         dd.style.display = WidgetKey._none;
         $(labelCheck).css(
-            "background-image", "url(/JSONEditor/project/img/widget/widgetMenuFold/menuFold_arrowTop.jpg)"
+            "background-image", "url(" + confProjectRoot + "/img/widget/widgetMenuFold/menuFold_arrowTop.jpg)"
         );
     }
 }

@@ -1,4 +1,11 @@
 (function () {
+    var root = typeof window === 'object' ? window : {};
+    var js_node = typeof process === 'object' && process.versions && process.versions.node;
+    if (js_node) {
+        root = global;
+        root.APIData = APIData;
+    }
+
     var js_module = typeof module === 'object' && module.exports;
     if (js_module) {
         module.exports = APIData;

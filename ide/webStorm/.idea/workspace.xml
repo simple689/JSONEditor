@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0946a6bd-e6d4-4490-b5d5-a83f443211c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetVerify.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/project/css/widget/widgetVerify.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetMenuFold.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetMenuFold.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetVerify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetVerify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetVerify.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetVerify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/base64.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/javaScript/project/external/base64.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/API/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/javaScript/project/js/API/API.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/API/APIData.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/javaScript/project/js/API/APIData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/API/APIUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/javaScript/project/js/API/APIUtil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetHttpAJAX.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetHttpAJAX.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetMenuFold.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetMenuFold.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetVerify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetVerify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/API/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nodeJS/project/js/API/API.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/API/APIData.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nodeJS/project/js/API/APIData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/API/APIUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nodeJS/project/js/API/APIUtil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/dock/conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/dock/conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetHttpAJAX.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetHttpAJAX.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,18 +40,19 @@
     <session id="-662890093">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="2" />
-          <entry key="js" value="20" />
+          <entry key="js" value="24" />
           <entry key="json" value="3" />
           <entry key="ts" value="1" />
         </counts>
@@ -49,14 +61,14 @@
         <counts>
           <entry key="Image" value="2" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="20" />
+          <entry key="JavaScript" value="24" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="6" />
-          <entry key="js" value="255" />
+          <entry key="js" value="341" />
           <entry key="json" value="12" />
         </counts>
       </usages-collector>
@@ -64,7 +76,7 @@
         <counts>
           <entry key="CSS" value="6" />
           <entry key="JSON" value="12" />
-          <entry key="JavaScript" value="255" />
+          <entry key="JavaScript" value="341" />
         </counts>
       </usages-collector>
     </session>
@@ -74,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/dock/dock.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="913">
               <caret line="146" column="4" selection-start-line="146" selection-start-column="4" selection-end-line="146" selection-end-column="4" />
             </state>
           </provider>
@@ -83,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/external/base64.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
+            <state relative-caret-position="5760">
               <caret line="391" selection-start-line="391" selection-end-line="391" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -95,17 +107,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetHttpAJAX.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+            <state relative-caret-position="112">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/base/widgetFileUtil.js">
+        <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/API/APIUtil.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="15">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -113,8 +125,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/dock/conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetHttpAJAX.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../platform/javaScript/project/external/jquery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="29689" selection-start-line="1" selection-start-column="29689" selection-end-line="1" selection-end-column="29689" />
             </state>
           </provider>
         </entry>
@@ -140,9 +170,10 @@
       <find>root</find>
       <find>COMMON_JS</find>
       <find>exports</find>
-      <find>base64</find>
       <find>JSONEditor</find>
       <find>project</find>
+      <find>confProjectRoot</find>
+      <find>base64</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/../../platform/nwJS</dir>
@@ -163,7 +194,9 @@
         <option value="$PROJECT_DIR$/../../platform/nwJS/project/js/API/APIData.js" />
         <option value="$PROJECT_DIR$/../../platform/nwJS/project/js/API/API.js" />
         <option value="$PROJECT_DIR$/../../platform/nwJS/project/external/base64.js" />
+        <option value="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetHttpAJAX.js" />
         <option value="$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetHttpAJAX.js" />
+        <option value="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/dock/conf.js" />
       </list>
     </option>
   </component>
@@ -189,6 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,7 +302,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,7 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="NW.js.nwJS">
+  <component name="RunManager" selected="JavaScript Debug.javaScript">
     <configuration name="javaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/JSONEditor/project/html/business/editor/dock/dock.html">
       <method v="2" />
     </configuration>
@@ -327,14 +360,16 @@
       <workItem from="1540945684308" duration="1680000" />
       <workItem from="1540948316973" duration="3355000" />
       <workItem from="1540951831805" duration="1482000" />
+      <workItem from="1540953378131" duration="93000" />
+      <workItem from="1540954104779" duration="667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8422000" />
+    <option name="totallyTimeSpent" value="9182000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="717" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="717" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3367752" />
@@ -343,7 +378,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3296" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5008" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5008" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -363,29 +398,37 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../../platform/nodeJS/project/index.js</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../../platform/nodeJS/project/index.js</url>
-          <line>10</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JavascriptDebugType">
+        <watch expression="global" language="JavaScript" />
+      </configuration>
+      <configuration name="NodeWebKit">
+        <watch expression="base64" language="JavaScript" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>global</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>base64</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="http://localhost:63342/html5/img/widget/widgetMenuFold/menuFold_arrowBottom.jpg">
-      <provider editor-type-id="images" />
       <provider selected="true" editor-type-id="httpFileEditor" />
+      <provider editor-type-id="images" />
     </entry>
     <entry file="http://localhost:63342/html5/img/widget/widgetMenuFold/menuFold_arrowTop.jpg">
-      <provider editor-type-id="images" />
       <provider selected="true" editor-type-id="httpFileEditor" />
+      <provider editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../../platform/nwJS/app/project/js/widget/widgetMenuFold.js" />
     <entry file="file://$PROJECT_DIR$/../../platform/nodeJS/project/index.js">
@@ -425,20 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/API/APIUtil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/dock/dock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="146" column="4" selection-start-line="146" selection-start-column="4" selection-end-line="146" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -448,7 +477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/external/base64.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="5760">
           <caret line="391" selection-start-line="391" selection-end-line="391" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -456,16 +485,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetHttpAJAX.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetFile/base/widgetFileUtil.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
+        <state relative-caret-position="705">
           <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
         </state>
       </provider>
@@ -473,10 +495,52 @@
     <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetMenuFold.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/external/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29689" selection-start-line="1" selection-start-column="29689" selection-end-line="1" selection-end-column="29689" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../platform/javaScript/project/external/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29689" selection-start-line="1" selection-start-column="29689" selection-end-line="1" selection-end-column="29689" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetHttpAJAX.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/API/APIUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/widget/widgetHttpAJAX.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/dock/dock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="913">
+          <caret line="146" column="4" selection-start-line="146" selection-start-column="4" selection-end-line="146" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/dock/conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
