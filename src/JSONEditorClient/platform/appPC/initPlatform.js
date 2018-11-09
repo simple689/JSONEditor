@@ -7,12 +7,13 @@
 function init() {
     var nw = require('nw.gui');
     var win = nw.Window.get();
-
+    win.maximize();
+    win.show();
+    // win.reload();
     // var ismaxmize = true;
 
     console.log('App start');
     // win.showDevTools();
-    // win.maximize();
 
     // win.on('close', function() {
     //     console.log("We're closing...");

@@ -1,4 +1,4 @@
 {
   "name": "JSONEditor",
-  "main": "project/html/business/editor/dock/dock.html"
+  "main": "project_JSONEditor/html/dock/dock.html"
 }

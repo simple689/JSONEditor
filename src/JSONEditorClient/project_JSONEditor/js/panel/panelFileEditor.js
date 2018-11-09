@@ -10,10 +10,10 @@ PanelFileEditor.prototype.init = function (elementParentID) {
 
     this._historyItem = confPanelFileEditor;
     this._widgetTab.init(this._elementDrop, this,
-                         "../../editor/home/homeFileEditor.html", PanelFileEditor.loadedHome,
+                         "../home/homeFileEditor.html", PanelFileEditor.loadedHome,
                          this._historyItem);
 
-    this._menuRightTitle.createMenuWithHtml(document.body, "../../editor/menu/menuFileEditorTitle.html");
+    this._menuRightTitle.createMenuWithHtml(document.body, "../menu/menuFileEditorTitle.html");
     this._menuRightContent.createMenuWithHtml(document.body, null);
 }
 

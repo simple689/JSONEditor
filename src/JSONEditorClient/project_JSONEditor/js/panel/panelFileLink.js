@@ -10,10 +10,10 @@ PanelFileLink.prototype.init = function (elementParentID) {
 
     this._historyItem = confPanelFileLink;
     this._widgetTab.init(this._elementDrop, this,
-                         "../../editor/home/homeFileLink.html", PanelFileLink.loadedHome,
+                         "../home/homeFileLink.html", PanelFileLink.loadedHome,
                          this._historyItem);
 
-    this._menuRightTitle.createMenuWithHtml(document.body, "../../editor/menu/menuFileLinkTitle.html");
+    this._menuRightTitle.createMenuWithHtml(document.body, "../menu/menuFileLinkTitle.html");
     this._menuRightContent.createMenuWithHtml(document.body, null);
 }
 

@@ -10,10 +10,10 @@ PanelFileMould.prototype.init = function (elementParentID) {
 
     this._historyItem = confPanelFileMould;
     this._widgetTab.init(this._elementDrop, this,
-                         "../../editor/home/homeFileMould.html", PanelFileMould.loadedHome,
+                         "../home/homeFileMould.html", PanelFileMould.loadedHome,
                          this._historyItem);
 
-    this._menuRightTitle.createMenuWithHtml(document.body, "../../editor/menu/menuFileMouldTitle.html");
+    this._menuRightTitle.createMenuWithHtml(document.body, "../menu/menuFileMouldTitle.html");
     this._menuRightContent.createMenuWithHtml(document.body, null);
 }
 

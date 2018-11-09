@@ -7,7 +7,8 @@
 })();
 
 function confWebPC() {
-    confProjectRoot = "/JSONEditorClient/project/";
+    confProjectRoot = "/JSONEditorClient/project_JSONEditor/";
+    confCommonRoot = "/JSONEditorClient/common/";
 }
 function confWebMobile() {
 }
