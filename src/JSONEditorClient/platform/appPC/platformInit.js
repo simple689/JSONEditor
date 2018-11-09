@@ -50,6 +50,7 @@ function init() {
 
     // 获取本地历史记录文件
     // 获取文件中的文件夹配置
+    PlatformUtil.fileBrowser.a();
     PlatformUtil.fileBrowser.addFolder();
 }
 // win.setBadgeLabel(label)

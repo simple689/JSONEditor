@@ -21,6 +21,9 @@ PlatformUtil.fileBrowser = {};
 // 读取文件
 // 保存文件
 PlatformUtil.fileBrowser.a = function () {
+    var path = require("path");
+    var dataPath = require('nw.gui').App.dataPath; // 数据存储地址
+    console.log(dataPath);
     console.log("a");
 }
 PlatformUtil.fileBrowser.addFolder = function () {
