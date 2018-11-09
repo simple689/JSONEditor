@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16f93488-bb15-4ebf-9b9a-383b8a54c75f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../ide/webStorm/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ide/webStorm/.idea/JSONEditor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ide/webStorm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ide/webStorm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ide/webStorm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ide/webStorm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/business/editor/panel/panelFileBrowser.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/common/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetDialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetDock/widgetDock.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetDock/widgetDockStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetDock/widgetDockStyleA.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetDrop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetFile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetFileBrowser.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetFlex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetHtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetMarkedDoc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetMenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetMenuFold.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetMenuNav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetSearch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetTab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetTableHtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetUser.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetUserDialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/css/widget/widgetVerify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/doc/API.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/doc/AUTHORS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/doc/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/doc/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/doc/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/doc/PUBLISHING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/doc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/doc/USING_ADVANCED.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/doc/USING_PRO.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/base64_old.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/colorPicker/colorPicker.data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/colorPicker/colorPicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/colorPicker/colors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/colorPicker/jqColor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/jsmind/features/jsmind.shell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/jsmind/js/jsmind.draggable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/jsmind/js/jsmind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/jsmind/js/jsmind.screenshot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/jsmind/style/jsmind.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/marked/es6-promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/marked/github-markdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/marked/marked.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/marked/unfetch.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/md5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/external/sha1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/html/business/editor/dock/dock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/html/business/editor/home/homeFileEditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/html/business/editor/home/homeFileLink.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/html/business/editor/home/homeFileMould.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/html/business/editor/menu/menuFileBrowserCreate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/html/business/editor/menu/menuFileEditorTitle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/html/business/editor/menu/menuFileLinkTitle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/html/business/editor/menu/menuFileMouldTitle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/html/business/editor/menu/menuHelp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/html/business/editor/panel/panelMenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/html/business/editor/panel/panelState.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetDock/dock_close.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetDock/dock_pinned.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetDock/dock_unpinned.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetMenu/menu_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetMenu/menu_line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetMenuFold/menuFold_arrowBottom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetMenuFold/menuFold_arrowTop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_107.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_108.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_117.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_120.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_131.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_133.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_135.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_136.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_137.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_138.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_140.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_141.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_142.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_143.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_144.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_145.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_146.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_147.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_148.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_149.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_151.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_152.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_153.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_154.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_155.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_156.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_157.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_158.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_159.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_161.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_162.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_163.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_164.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_165.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_166.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_167.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_168.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_169.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_170.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_171.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_172.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_173.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_174.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_175.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_176.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_177.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_178.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_179.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_181.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_182.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_183.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_184.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_185.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_186.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_187.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_188.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_189.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_190.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_191.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_192.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_193.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_194.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_195.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_196.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_197.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_198.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_199.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_201.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_202.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_203.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_97.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_98.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/img/widget/widgetVerify/imgVerify/imgVerify_99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/API/API.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/API/APIData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/API/APIUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/business/editor/dock/conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/business/editor/dock/dock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/business/editor/dock/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/business/editor/menu/menuFileBrowser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/business/editor/menu/menuFileTitleOnClick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/business/editor/panel/panelFileBrowser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/business/editor/panel/panelFileEditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/business/editor/panel/panelFileLink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/business/editor/panel/panelFileMould.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/business/editor/panel/panelMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/business/editor/panel/panelState.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/business/editor/panel/panelToolBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/base/widgetElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/base/widgetJsonCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/base/widgetKey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/base/widgetLog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/base/widgetMenuCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/base/widgetUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/base/widgetUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetDock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetDrop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFile/base/widgetFileBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFile/base/widgetFileMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFile/base/widgetFileOnChange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFile/base/widgetFileOnClick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFile/base/widgetFileUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFile/json/widgetFileJson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFile/json/widgetFileJsonMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFile/json/widgetFileJsonOnChange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFile/json/widgetFileJsonOnClick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFile/jsonMould/widgetFileJsonMould.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldOnChange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldOnClick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFile/widgetFile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFileBrowser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetFlex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetHistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetHtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetHttpAJAX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetHttpXHR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetMarkedDoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetMenuFold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetPanelBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetPanelFileBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetSearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetTab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetTable/widgetTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetTable/widgetTableHtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetTable/widgetTableRow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetUserDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/JSONEditorClient/project/js/widget/widgetVerify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/business/editor/panel/panelFileBrowser.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/common/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetDialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetDock/widgetDock.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetDock/widgetDockStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetDock/widgetDockStyleA.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetDrop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetFile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetFileBrowser.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetFlex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetHtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetMarkedDoc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetMenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetMenuFold.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetMenuNav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetSearch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetTab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetTableHtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetUser.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetUserDialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/css/widget/widgetVerify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/doc/API.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/doc/AUTHORS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/doc/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/doc/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/doc/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/doc/PUBLISHING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/doc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/doc/USING_ADVANCED.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/doc/USING_PRO.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/base64_old.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/colorPicker/colorPicker.data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/colorPicker/colorPicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/colorPicker/colors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/colorPicker/jqColor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/jsmind/features/jsmind.shell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/jsmind/js/jsmind.draggable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/jsmind/js/jsmind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/jsmind/js/jsmind.screenshot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/jsmind/style/jsmind.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/marked/es6-promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/marked/github-markdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/marked/marked.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/marked/unfetch.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/md5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/external/sha1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/html/business/editor/dock/dock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/html/business/editor/home/homeFileEditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/html/business/editor/home/homeFileLink.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/html/business/editor/home/homeFileMould.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/html/business/editor/menu/menuFileBrowserCreate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/html/business/editor/menu/menuFileEditorTitle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/html/business/editor/menu/menuFileLinkTitle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/html/business/editor/menu/menuFileMouldTitle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/html/business/editor/menu/menuHelp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/html/business/editor/panel/panelMenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/html/business/editor/panel/panelState.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetDock/dock_close.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetDock/dock_pinned.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetDock/dock_unpinned.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetMenu/menu_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetMenu/menu_line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetMenuFold/menuFold_arrowBottom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetMenuFold/menuFold_arrowTop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_107.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_108.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_117.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_120.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_131.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_133.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_135.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_136.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_137.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_138.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_140.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_141.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_142.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_143.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_144.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_145.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_146.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_147.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_148.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_149.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_151.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_152.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_153.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_154.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_155.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_156.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_157.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_158.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_159.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_161.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_162.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_163.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_164.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_165.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_166.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_167.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_168.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_169.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_170.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_171.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_172.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_173.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_174.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_175.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_176.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_177.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_178.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_179.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_181.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_182.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_183.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_184.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_185.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_186.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_187.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_188.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_189.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_190.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_191.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_192.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_193.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_194.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_195.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_196.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_197.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_198.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_199.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_201.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_202.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_203.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_97.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_98.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/img/widget/widgetVerify/imgVerify/imgVerify_99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/API/API.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/API/APIData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/API/APIUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/business/editor/dock/conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/business/editor/dock/confPlatform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/business/editor/dock/dock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/business/editor/dock/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/business/editor/menu/menuFileBrowser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/business/editor/menu/menuFileTitleOnClick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/business/editor/panel/panelFileBrowser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/business/editor/panel/panelFileEditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/business/editor/panel/panelFileLink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/business/editor/panel/panelFileMould.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/business/editor/panel/panelMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/business/editor/panel/panelState.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/business/editor/panel/panelToolBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/base/widgetElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/base/widgetJsonCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/base/widgetKey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/base/widgetLog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/base/widgetMenuCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/base/widgetUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/base/widgetUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetDock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetDrop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFile/base/widgetFileBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFile/base/widgetFileMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFile/base/widgetFileOnChange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFile/base/widgetFileOnClick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFile/base/widgetFileUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFile/json/widgetFileJson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFile/json/widgetFileJsonMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFile/json/widgetFileJsonOnChange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFile/json/widgetFileJsonOnClick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFile/jsonMould/widgetFileJsonMould.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldOnChange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldOnClick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFile/widgetFile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFileBrowser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetFlex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetHistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetHtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetHttpAJAX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetHttpXHR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetMarkedDoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetMenuFold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetPanelBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetPanelFileBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetSearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetTab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetTable/widgetTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetTable/widgetTableHtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetTable/widgetTableRow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetUserDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/javaScript/project/js/widget/widgetVerify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/.bin/mime" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/accepts/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/accepts/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/accepts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/accepts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/accepts/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/array-flatten/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/array-flatten/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/array-flatten/array-flatten.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/array-flatten/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bignumber.js/LICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bignumber.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bignumber.js/bignumber.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bignumber.js/bignumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bignumber.js/bignumber.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bignumber.js/bignumber.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bignumber.js/bignumber.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bignumber.js/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bignumber.js/doc/API.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bignumber.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/body-parser/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/body-parser/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/body-parser/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/body-parser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/body-parser/lib/read.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/body-parser/lib/types/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/body-parser/lib/types/raw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/body-parser/lib/types/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/body-parser/lib/types/urlencoded.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/body-parser/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bytes/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bytes/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bytes/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bytes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/bytes/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/content-disposition/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/content-disposition/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/content-disposition/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/content-disposition/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/content-disposition/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/content-type/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/content-type/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/content-type/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/content-type/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/content-type/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/cookie-signature/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/cookie-signature/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/cookie-signature/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/cookie-signature/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/cookie-signature/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/cookie/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/cookie/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/cookie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/cookie/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/cookie/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/core-util-is/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/core-util-is/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/core-util-is/float.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/core-util-is/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/core-util-is/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/core-util-is/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/src/inspector-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/depd/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/depd/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/depd/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/depd/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/depd/lib/browser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/depd/lib/compat/callsite-tostring.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/depd/lib/compat/event-listener-count.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/depd/lib/compat/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/depd/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/destroy/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/destroy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/destroy/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/destroy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/ee-first/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/ee-first/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/ee-first/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/ee-first/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/encodeurl/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/encodeurl/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/encodeurl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/encodeurl/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/encodeurl/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/escape-html/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/escape-html/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/escape-html/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/escape-html/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/etag/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/etag/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/etag/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/etag/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/etag/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/lib/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/lib/express.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/lib/middleware/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/lib/middleware/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/lib/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/lib/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/lib/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/lib/router/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/lib/router/route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/lib/view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/node_modules/safe-buffer/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/node_modules/safe-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/node_modules/safe-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/node_modules/safe-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/node_modules/safe-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/node_modules/safe-buffer/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/express/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/fd-slicer/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/fd-slicer/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/fd-slicer/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/fd-slicer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/fd-slicer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/fd-slicer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/fd-slicer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/fd-slicer/test/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/finalhandler/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/finalhandler/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/finalhandler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/finalhandler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/finalhandler/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/forwarded/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/forwarded/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/forwarded/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/forwarded/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/forwarded/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/fresh/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/fresh/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/fresh/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/fresh/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/fresh/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/github-markdown-css/github-markdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/github-markdown-css/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/github-markdown-css/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/github-markdown-css/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/hi-base64/.covignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/hi-base64/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/hi-base64/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/hi-base64/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/hi-base64/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/hi-base64/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/hi-base64/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/hi-base64/build/base64.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/hi-base64/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/hi-base64/src/base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/hi-base64/tests/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/hi-base64/tests/node-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/hi-base64/tests/requirejs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/hi-base64/tests/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/http-errors/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/http-errors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/http-errors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/http-errors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/http-errors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/Changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/dbcs-codec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/dbcs-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/internal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/sbcs-data-generated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/tables/big5-added.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/tables/cp936.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/tables/cp949.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/tables/cp950.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/tables/eucjp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/tables/gbk-added.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/tables/shiftjis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/utf16.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/encodings/utf7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/lib/bom-handling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/lib/extend-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/lib/streams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/iconv-lite/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/inherits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/inherits/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/inherits/inherits_browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/ipaddr.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/ipaddr.js/ipaddr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/ipaddr.js/lib/ipaddr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/ipaddr.js/lib/ipaddr.js.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/ipaddr.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/isarray/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/isarray/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/isarray/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/isarray/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/isarray/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/isarray/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/isarray/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/isarray/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/js-md5/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/js-md5/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/js-md5/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/js-md5/build/md5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/js-md5/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/js-md5/src/md5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/js-sha1/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/js-sha1/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/js-sha1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/js-sha1/build/sha1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/js-sha1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/js-sha1/src/sha1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/media-typer/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/media-typer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/media-typer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/media-typer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/media-typer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/merge-descriptors/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/merge-descriptors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/merge-descriptors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/merge-descriptors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/merge-descriptors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/methods/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/methods/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/methods/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/methods/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/methods/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime-db/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime-db/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime-db/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime-db/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime-db/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime-db/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime-types/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime-types/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime/build/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime/mime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mime/types.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/node_modules/http-errors/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/node_modules/http-errors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/node_modules/http-errors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/node_modules/http-errors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/node_modules/http-errors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/node_modules/statuses/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/node_modules/statuses/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/node_modules/statuses/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/node_modules/statuses/codes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/node_modules/statuses/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/node_modules/statuses/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/multiparty/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/Changes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/Connection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/ConnectionConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/Pool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/PoolCluster.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/PoolConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/PoolConnection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/PoolNamespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/PoolSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/Auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/BufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/PacketHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/PacketWriter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/Parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/Protocol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/ResultSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/SqlString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/Timer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/constants/charsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/constants/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/constants/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/constants/field_flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/constants/server_status.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/constants/ssl_profiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/constants/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/AuthSwitchRequestPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/AuthSwitchResponsePacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/ComPingPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/EmptyPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/EofPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/ErrorPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/Field.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/FieldPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/OkPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/packets/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/sequences/Handshake.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/sequences/Ping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/sequences/Query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/sequences/Quit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/sequences/Sequence.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/sequences/Statistics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/lib/protocol/sequences/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/mysql/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/negotiator/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/negotiator/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/negotiator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/negotiator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/negotiator/lib/charset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/negotiator/lib/encoding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/negotiator/lib/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/negotiator/lib/mediaType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/negotiator/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/on-finished/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/on-finished/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/on-finished/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/on-finished/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/on-finished/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/parseurl/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/parseurl/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/parseurl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/parseurl/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/parseurl/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/path-to-regexp/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/path-to-regexp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/path-to-regexp/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/path-to-regexp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/path-to-regexp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/pend/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/pend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/pend/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/pend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/pend/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/process-nextick-args/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/process-nextick-args/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/process-nextick-args/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/process-nextick-args/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/proxy-addr/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/proxy-addr/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/proxy-addr/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/proxy-addr/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/proxy-addr/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/dist/qs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/lib/formats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/lib/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/test/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/test/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/test/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/qs/test/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/random-bytes/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/random-bytes/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/random-bytes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/random-bytes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/random-bytes/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/range-parser/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/range-parser/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/range-parser/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/range-parser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/range-parser/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/depd/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/depd/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/depd/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/depd/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/depd/lib/browser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/depd/lib/compat/callsite-tostring.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/depd/lib/compat/event-listener-count.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/depd/lib/compat/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/depd/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/http-errors/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/http-errors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/http-errors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/http-errors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/http-errors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/setprototypeof/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/setprototypeof/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/setprototypeof/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/node_modules/setprototypeof/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/raw-body/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/duplex-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/lib/_stream_duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/lib/_stream_passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/lib/_stream_readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/lib/_stream_transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/lib/_stream_writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/lib/internal/streams/BufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/lib/internal/streams/destroy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/lib/internal/streams/stream-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/lib/internal/streams/stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/readable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/writable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/readable-stream/writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/safe-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/safe-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/safe-buffer/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/safe-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/safe-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/send/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/send/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/send/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/send/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/send/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/serve-static/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/serve-static/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/serve-static/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/serve-static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/serve-static/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/setprototypeof/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/setprototypeof/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/setprototypeof/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/setprototypeof/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/setprototypeof/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/sqlstring/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/sqlstring/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/sqlstring/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/sqlstring/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/sqlstring/lib/SqlString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/sqlstring/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/statuses/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/statuses/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/statuses/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/statuses/codes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/statuses/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/statuses/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/string_decoder/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/string_decoder/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/string_decoder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/string_decoder/lib/string_decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/string_decoder/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/toidentifier/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/toidentifier/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/toidentifier/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/toidentifier/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/type-is/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/type-is/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/type-is/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/type-is/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/type-is/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/uid-safe/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/uid-safe/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/uid-safe/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/uid-safe/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/uid-safe/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/unpipe/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/unpipe/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/unpipe/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/unpipe/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/unpipe/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/util-deprecate/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/util-deprecate/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/util-deprecate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/util-deprecate/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/util-deprecate/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/util-deprecate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/utils-merge/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/utils-merge/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/utils-merge/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/utils-merge/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/utils-merge/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/vary/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/vary/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/vary/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/vary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/node_modules/vary/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/doc/API.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/doc/Demo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/doc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/API/API.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/API/APIData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/API/APIUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/base/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/business/editor/conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/business/editor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/module/moduleFileBrowser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/module/moduleFileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/module/moduleFormData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/module/moduleMysql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/module/moduleRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/module/moduleServer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/module/moduleUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/js/module/moduleUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skill/skill.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/attackSegment_hurtShake.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/attackSegment_hurtTargetSet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/attackSegment_tx.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/baseStateDeal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/cameraEffect.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/cameraMove.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/cameraShake.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/cancelDeal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/coreQnode.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/lib_action.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/lib_attacksegment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/lib_child.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/lib_hurttrace.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/lib_qnode.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/lib_search.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/lib_sever.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/lib_sound.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/roleStatePrefilter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/searchSpritePriority.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/soundContral.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/spriteTarget.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/trace.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json/skillLib/traceDiy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skill/skill.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/attackSegment_hurtShake.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/attackSegment_hurtTargetSet.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/attackSegment_tx.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/baseStateDeal.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/cameraEffect.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/cameraMove.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/cameraShake.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/cancelDeal.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/coreQnode.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/lib_action.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/lib_attacksegment.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/lib_child.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/lib_hurttrace.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/lib_qnode.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/lib_search.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/lib_sever.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/lib_sound.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/roleStatePrefilter.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/searchSpritePriority.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/soundContral.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/spriteTarget.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/trace.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/project/res/store/json模版/skillLib/traceDiy.jsonMd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/sh/kill.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/test/testBase64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/test/testMd5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nodeJS/test/testSha1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/project/js/business/editor/dock/confPlatform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../platform/nwJS/test/test.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1399185296">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="5" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="1" />
+          <entry key="JavaScript" value="5" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="112" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="112" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platform/appPC/initPlatform.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/html/business/editor/dock/dock.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/platform/confPlatform.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/js/business/editor/dock/conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>appPc</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>appPC</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Documents/confPlatform的副本.js" />
+        <option value="$PROJECT_DIR$/project/js/business/editor/dock/conf.js" />
+        <option value="$PROJECT_DIR$/project/js/business/editor/dock/confPlatform.js" />
+        <option value="$PROJECT_DIR$/platform/appPC/mainPlatform.js" />
+        <option value="$PROJECT_DIR$/platform/appPC/initPlatform.js" />
+        <option value="$PROJECT_DIR$/platform/confPlatform.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="20" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="717" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JSONEditorClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONEditorClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONEditorClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONEditorClient" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONEditorClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONEditorClient" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="appPC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONEditorClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONEditorClient" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONEditorClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONEditorClient" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONEditorClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONEditorClient" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONEditorClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONEditorClient" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+              <item name="editor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONEditorClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONEditorClient" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+              <item name="editor" type="462c0819:PsiDirectoryNode" />
+              <item name="dock" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/platform" />
+      <recent name="$PROJECT_DIR$/platform/appPC" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="NW.js.nwJS">
+    <configuration name="javaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/JSONEditorClient/project/html/business/editor/dock/dock.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="nwJS" type="NodeWebKit" factoryName="NW.js" exePath="$PROJECT_DIR$/../../jdk/nwJS/mac_sdk_v0.33.4/nwjs.app/Contents/MacOS/nwjs" inputPath="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.javaScript" />
+      <item itemvalue="NW.js.nwJS" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16f93488-bb15-4ebf-9b9a-383b8a54c75f" name="Default Changelist" comment="" />
+      <created>1541745722940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541745722940</updated>
+      <workItem from="1541745724625" duration="1251000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1251000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="717" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/project/doc/USING_PRO.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/confPlatform的副本.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/img/widget/widgetMenuFold/menuFold_arrowBottom.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/external/colorPicker/colorPicker.data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/js/business/editor/dock/conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/html/business/editor/dock/dock.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/appPC/initPlatform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/confPlatform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

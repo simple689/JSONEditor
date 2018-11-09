@@ -1,2 +1,0 @@
-// project
-var confProjectRoot = "/project/";
