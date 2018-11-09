@@ -2,337 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16f93488-bb15-4ebf-9b9a-383b8a54c75f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/platform/appPC/platformInit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/appPC/platformUtil.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/appPC/initPlatform.js" beforeDir="false" afterPath="$PROJECT_DIR$/platform/appPC/initPlatform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/confPlatform.js" beforeDir="false" afterPath="$PROJECT_DIR$/platform/confPlatform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/business/editor/panel/panelFileBrowser.css" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/css/panelFileBrowser.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/common/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetDialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetDialog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetDock/widgetDock.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetDock/widgetDock.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetDock/widgetDockStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetDock/widgetDockStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetDock/widgetDockStyleA.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetDock/widgetDockStyleA.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetDrop.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetDrop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetFile.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetFile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetFileBrowser.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetFileBrowser.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetFlex.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetFlex.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetHtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetHtml.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetMarkedDoc.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetMarkedDoc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetMenu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetMenuFold.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetMenuFold.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetMenuNav.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetMenuNav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetSearch.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetSearch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetTab.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetTab.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetTableHtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetTableHtml.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetUser.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetUser.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetUserDialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetUserDialog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/css/widget/widgetVerify.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/widget/widgetVerify.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/doc/API.md" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/doc/API.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/doc/AUTHORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/doc/AUTHORS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/doc/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/doc/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/doc/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/doc/CONTRIBUTING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/doc/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/doc/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/doc/PUBLISHING.md" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/doc/PUBLISHING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/doc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/doc/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/doc/USING_ADVANCED.md" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/doc/USING_ADVANCED.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/doc/USING_PRO.md" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/doc/USING_PRO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/base64.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/base64.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/base64_old.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/base64_old.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/colorPicker/colorPicker.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/colorPicker/colorPicker.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/colorPicker/colorPicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/colorPicker/colorPicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/colorPicker/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/colorPicker/colors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/colorPicker/jqColor.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/colorPicker/jqColor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/jsmind/features/jsmind.shell.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/jsmind/features/jsmind.shell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/jsmind/js/jsmind.draggable.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/jsmind/js/jsmind.draggable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/jsmind/js/jsmind.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/jsmind/js/jsmind.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/jsmind/js/jsmind.screenshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/jsmind/js/jsmind.screenshot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/jsmind/style/jsmind.css" beforeDir="false" afterPath="$PROJECT_DIR$/external/jsmind/style/jsmind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/marked/es6-promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/marked/es6-promise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/marked/github-markdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/external/marked/github-markdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/marked/marked.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/marked/marked.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/marked/unfetch.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/marked/unfetch.umd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/md5.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/md5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/external/sha1.js" beforeDir="false" afterPath="$PROJECT_DIR$/external/sha1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/html/business/editor/dock/dock.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/html/dock/dock.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/html/business/editor/home/homeFileEditor.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/html/home/homeFileEditor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/html/business/editor/home/homeFileLink.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/html/home/homeFileLink.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/html/business/editor/home/homeFileMould.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/html/home/homeFileMould.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/html/business/editor/menu/menuFileBrowserCreate.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/html/menu/menuFileBrowserCreate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/html/business/editor/menu/menuFileEditorTitle.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/html/menu/menuFileEditorTitle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/html/business/editor/menu/menuFileLinkTitle.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/html/menu/menuFileLinkTitle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/html/business/editor/menu/menuFileMouldTitle.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/html/menu/menuFileMouldTitle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/html/business/editor/menu/menuHelp.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/html/menu/menuHelp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/html/business/editor/panel/panelMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/html/panel/panelMenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/html/business/editor/panel/panelState.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/html/panel/panelState.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetDock/dock_close.gif" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetDock/dock_close.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetDock/dock_pinned.gif" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetDock/dock_pinned.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetDock/dock_unpinned.gif" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetDock/dock_unpinned.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetMenu/menu_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetMenu/menu_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetMenu/menu_line.png" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetMenu/menu_line.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetMenuFold/menuFold_arrowBottom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetMenuFold/menuFold_arrowBottom.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetMenuFold/menuFold_arrowTop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetMenuFold/menuFold_arrowTop.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_100.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_100.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_101.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_101.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_102.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_102.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_103.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_103.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_104.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_104.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_105.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_105.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_106.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_106.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_107.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_107.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_108.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_108.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_109.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_109.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_110.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_110.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_111.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_111.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_113.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_113.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_114.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_114.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_115.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_115.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_116.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_116.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_117.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_117.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_118.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_118.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_119.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_119.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_120.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_120.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_121.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_121.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_122.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_122.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_123.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_123.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_124.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_124.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_125.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_125.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_126.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_126.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_127.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_127.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_128.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_129.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_129.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_130.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_130.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_131.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_131.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_132.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_132.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_133.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_133.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_134.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_134.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_135.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_135.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_136.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_136.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_137.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_137.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_138.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_138.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_139.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_139.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_140.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_140.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_141.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_141.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_142.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_142.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_143.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_143.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_144.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_144.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_145.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_145.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_146.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_146.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_147.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_147.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_148.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_148.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_149.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_149.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_151.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_151.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_152.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_152.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_153.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_153.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_154.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_154.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_155.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_155.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_156.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_156.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_157.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_157.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_158.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_158.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_159.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_159.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_160.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_160.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_161.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_161.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_162.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_162.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_163.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_163.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_164.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_164.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_165.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_165.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_166.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_166.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_167.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_167.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_168.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_168.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_169.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_169.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_170.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_170.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_171.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_171.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_172.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_172.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_173.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_173.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_174.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_174.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_175.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_175.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_176.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_176.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_177.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_177.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_178.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_178.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_179.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_179.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_180.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_180.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_181.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_181.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_182.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_182.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_183.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_183.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_184.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_184.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_185.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_185.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_186.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_186.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_187.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_187.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_188.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_188.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_189.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_189.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_190.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_190.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_191.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_191.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_192.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_192.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_193.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_193.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_194.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_194.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_195.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_195.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_196.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_196.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_197.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_197.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_198.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_198.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_199.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_199.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_20.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_201.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_201.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_202.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_202.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_203.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_203.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_21.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_22.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_23.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_24.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_25.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_26.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_27.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_28.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_29.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_30.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_31.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_32.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_33.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_34.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_35.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_36.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_37.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_38.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_39.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_40.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_41.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_41.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_42.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_42.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_43.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_44.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_45.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_45.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_46.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_47.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_47.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_48.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_49.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_49.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_50.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_51.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_52.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_52.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_53.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_53.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_54.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_54.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_55.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_55.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_56.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_56.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_57.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_57.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_58.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_58.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_59.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_59.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_60.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_60.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_61.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_61.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_62.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_62.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_63.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_63.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_64.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_64.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_65.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_65.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_66.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_66.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_67.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_67.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_68.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_68.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_69.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_69.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_70.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_70.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_71.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_71.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_72.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_72.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_73.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_73.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_74.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_74.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_75.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_75.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_76.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_76.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_77.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_77.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_78.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_78.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_79.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_79.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_80.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_80.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_81.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_81.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_82.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_82.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_83.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_83.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_84.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_84.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_85.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_85.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_86.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_86.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_87.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_87.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_88.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_88.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_89.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_89.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_90.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_90.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_91.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_91.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_92.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_92.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_93.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_93.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_94.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_94.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_95.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_95.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_96.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_96.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_97.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_97.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_98.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_98.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/img/widget/widgetVerify/imgVerify/imgVerify_99.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/widget/widgetVerify/imgVerify/imgVerify_99.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/API/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/API/API.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/API/APIData.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/API/APIData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/API/APIUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/API/APIUtil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/business/editor/dock/conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/dock/conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/business/editor/dock/dock.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/dock/dock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/business/editor/dock/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/dock/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/business/editor/menu/menuFileBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/menu/menuFileBrowser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/business/editor/menu/menuFileTitleOnClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/menu/menuFileTitleOnClick.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/business/editor/panel/panelFileBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelFileBrowser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/business/editor/panel/panelFileEditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelFileEditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/business/editor/panel/panelFileLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelFileLink.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/business/editor/panel/panelFileMould.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelFileMould.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/business/editor/panel/panelMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/business/editor/panel/panelState.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/business/editor/panel/panelToolBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelToolBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/base/widgetElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/base/widgetElement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/base/widgetJsonCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/base/widgetJsonCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/base/widgetKey.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/base/widgetKey.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/base/widgetLog.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/base/widgetLog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/base/widgetMenuCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/base/widgetMenuCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/base/widgetUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/base/widgetUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/base/widgetUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/base/widgetUtil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetDialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetDock.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetDock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetDrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetDrop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFile/base/widgetFileBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFile/base/widgetFileBase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFile/base/widgetFileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFile/base/widgetFileMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFile/base/widgetFileOnChange.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFile/base/widgetFileOnChange.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFile/base/widgetFileOnClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFile/base/widgetFileOnClick.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFile/base/widgetFileUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFile/base/widgetFileUtil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFile/json/widgetFileJson.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFile/json/widgetFileJson.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFile/json/widgetFileJsonMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFile/json/widgetFileJsonMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFile/json/widgetFileJsonOnChange.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFile/json/widgetFileJsonOnChange.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFile/json/widgetFileJsonOnClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFile/json/widgetFileJsonOnClick.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFile/jsonMould/widgetFileJsonMould.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFile/jsonMould/widgetFileJsonMould.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFile/jsonMould/widgetFileJsonMouldMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldOnChange.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFile/jsonMould/widgetFileJsonMouldOnChange.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFile/jsonMould/widgetFileJsonMouldOnClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFile/jsonMould/widgetFileJsonMouldOnClick.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFile/widgetFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFile/widgetFile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFileBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFileBrowser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetFlex.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetFlex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetHistory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetHtml.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetHtml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetHttpAJAX.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetHttpAJAX.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetHttpXHR.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetHttpXHR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetMarkedDoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetMarkedDoc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetMenuFold.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetMenuFold.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetPanelBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetPanelBase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetPanelFileBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetPanelFileBase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetSearch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetTab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetTable/widgetTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetTable/widgetTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetTable/widgetTableHtml.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetTable/widgetTableHtml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetTable/widgetTableRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetTable/widgetTableRow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetUserDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetUserDialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/widget/widgetVerify.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetVerify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/appPC/initPlatform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/confPlatform.js" beforeDir="false" afterPath="$PROJECT_DIR$/platform/platformConf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_JSONEditor/html/dock/dock.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/html/dock/dock.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -354,9 +29,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="14" />
+          <entry key="js" value="15" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
         </counts>
@@ -364,32 +39,52 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="14" />
+          <entry key="JavaScript" value="15" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="163" />
+          <entry key="html" value="6" />
+          <entry key="js" value="544" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="163" />
+          <entry key="HTML" value="6" />
+          <entry key="JavaScript" value="544" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/platform/appPC/initPlatform.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platform/appPC/platformInit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_JSONEditor/html/dock/dock.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <caret line="10" column="80" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/platform/appPC/platformUtil.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -413,10 +108,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/confPlatform.js">
+        <entry file="file://$PROJECT_DIR$/platform/platformConf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="55" />
+            <state relative-caret-position="268">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -426,15 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="134" selection-start-line="134" selection-end-line="134" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/panel/panelFileEditor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -458,14 +144,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/API/APIData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-292" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/API/APIUtil.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-142" />
+            <state relative-caret-position="-531" />
           </provider>
         </entry>
       </file>
@@ -500,6 +179,10 @@
         <option value="$PROJECT_DIR$/project_JSONEditor/js/dock/conf.js" />
         <option value="$PROJECT_DIR$/platform/confPlatform.js" />
         <option value="$PROJECT_DIR$/platform/appPC/initPlatform.js" />
+        <option value="$PROJECT_DIR$/platform/platformConf.js" />
+        <option value="$PROJECT_DIR$/platform/appPC/platformInit.js" />
+        <option value="$PROJECT_DIR$/project_JSONEditor/html/dock/dock.html" />
+        <option value="$PROJECT_DIR$/platform/appPC/platformUtil.js" />
       </list>
     </option>
   </component>
@@ -537,17 +220,31 @@
             <path>
               <item name="JSONEditorClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSONEditorClient" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSONEditorClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSONEditorClient" type="462c0819:PsiDirectoryNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JSONEditorClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSONEditorClient" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="appPC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONEditorClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONEditorClient" type="462c0819:PsiDirectoryNode" />
               <item name="project_JSONEditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONEditorClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONEditorClient" type="462c0819:PsiDirectoryNode" />
+              <item name="project_JSONEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONEditorClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONEditorClient" type="462c0819:PsiDirectoryNode" />
+              <item name="project_JSONEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="dock" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -562,12 +259,15 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project_JSONEditor/js/API" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/platform/appPC" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/project_JSONEditor" />
       <recent name="$PROJECT_DIR$/common/js" />
       <recent name="$PROJECT_DIR$/project_JSONEditor/js" />
-      <recent name="$PROJECT_DIR$/common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -604,19 +304,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541745722940</updated>
-      <workItem from="1541745724625" duration="3157000" />
+      <workItem from="1541745724625" duration="6282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3157000" />
+    <option name="totallyTimeSpent" value="6282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -625,7 +325,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -657,21 +357,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_JSONEditor/html/dock/dock.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/css/base.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/API/API.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-502" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/API/APIData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/API/APIUtil.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -685,24 +372,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/js/widget/widgetMenuFold.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="60" column="109" lean-forward="true" selection-start-line="60" selection-start-column="109" selection-end-line="60" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/js/widget/widgetTab.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="134" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/confPlatform.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -720,10 +393,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform/appPC/initPlatform.js">
+    <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/API/APIData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-531" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/js/widget/widgetMenuFold.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="60" column="109" lean-forward="true" selection-start-line="60" selection-start-column="109" selection-end-line="60" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/API/API.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-502" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/platformConf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_JSONEditor/html/dock/dock.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <caret line="10" column="80" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/appPC/platformInit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/appPC/platformUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>

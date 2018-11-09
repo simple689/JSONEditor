@@ -11,9 +11,11 @@ function confWebPC() {
     confCommonRoot = "/JSONEditorClient/common/";
 }
 function confWebMobile() {
+    confClientType = enumConfClientType.webMobile;
 }
 function confAppPC() {
     confClientType = enumConfClientType.appPC;
 }
 function confAppMobile() {
+    confClientType = enumConfClientType.appMobile;
 }

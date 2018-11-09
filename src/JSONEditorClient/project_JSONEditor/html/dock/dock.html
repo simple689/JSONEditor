@@ -8,7 +8,8 @@
     <script src="../../../external/jquery.js"></script>
     <script>if (window.module) module = window.module;</script>
 
-    <script src="../../../platform/appPC/initPlatform.js"></script>
+    <script src="../../../platform/appPC/platformUtil.js"></script><!--必须放在前面-->
+    <script src="../../../platform/appPC/platformInit.js"></script>
 
     <script src="../../../external/base64.js"></script>
     <script src="../../../external/md5.js"></script>
@@ -105,7 +106,7 @@
     <script src="../../../common/js/widget/widgetVerify.js"></script>
     <!-- [js] business -->
     <script src="../../js/dock/conf.js"></script>
-    <script src="../../../platform/confPlatform.js"></script>
+    <script src="../../../platform/platformConf.js"></script>
     <script src="../../js/dock/dock.js"></script>
     <script src="../../js/dock/util.js"></script>
     <script src="../../js/menu/menuFileBrowser.js"></script>
