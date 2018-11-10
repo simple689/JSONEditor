@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d72590f-6611-42fb-a889-c2be312ef6af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project_Demo/js/conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_Demo/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_JSONEditor/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package_Demo.json" beforeDir="false" afterPath="$PROJECT_DIR$/package_Demo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package_JSONEditor.json" beforeDir="false" afterPath="$PROJECT_DIR$/package_JSONEditor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/base/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/business/editor/conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/business/editor/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/module/moduleFileBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/module/moduleFileBrowser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/module/moduleFileSystem.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/module/moduleFileSystem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/module/moduleFormData.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/module/moduleFormData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/module/moduleMysql.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/module/moduleMysql.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/module/moduleRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/module/moduleRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/module/moduleServer.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/module/moduleServer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/module/moduleUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/module/moduleUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/module/moduleUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/module/moduleUtil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_Demo/js/test/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testBase64.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_Demo/js/test/testBase64.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testMd5.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_Demo/js/test/testMd5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testSha1.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_Demo/js/test/testSha1.js" afterDir="false" />
-    </list>
+    <list default="true" id="3d72590f-6611-42fb-a889-c2be312ef6af" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -38,7 +15,7 @@
     <session id="-1621440943">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
@@ -72,86 +49,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/API/API.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/API/APIData.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package_Demo.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_Demo/js/conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_Demo/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sh/kill.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package_JSONEditor.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="27" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -254,18 +152,17 @@
       <option name="presentableId" value="Default" />
       <updated>1541849002333</updated>
       <workItem from="1541849003686" duration="6000" />
-      <workItem from="1541856384566" duration="801000" />
+      <workItem from="1541856384566" duration="830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="807000" />
+    <option name="totallyTimeSpent" value="836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -273,7 +170,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -340,9 +237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project_Demo/js/API/API.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -360,13 +254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_Demo/js/conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project_Demo/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -379,8 +266,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package_Demo.json">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_Demo/js/conf.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" lean-forward="true" selection-end-line="4" />
         </state>
       </provider>
     </entry>
