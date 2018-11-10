@@ -32,3 +32,5 @@ var enumConfClientType = {
     appMobile: 3
 }
 var confClientType = enumConfClientType.webPC;
+
+var platformUtil = null;

@@ -24,7 +24,7 @@ function init() {
         win.reload();
     });
     if (win.x) {
-        win.maximize();
+        // win.maximize();
         // win.moveTo(0, 100);
         // win.resizeTo(600, 600);
         // win.enterFullscreen()
@@ -50,8 +50,12 @@ function init() {
 
     // 获取本地历史记录文件
     // 获取文件中的文件夹配置
-    PlatformUtil.fileBrowser.a();
-    PlatformUtil.fileBrowser.addFolder();
+    // PlatformUtilAppPC.fileBrowser.a();
+    // PlatformUtilAppPC.fileBrowser.addFolder();
+    platformUtil.a();
+    platformUtil.b();
+    platformUtil.c();
+
 }
 // win.setBadgeLabel(label)
 

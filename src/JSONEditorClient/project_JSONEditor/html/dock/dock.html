@@ -3,14 +3,12 @@
 <head>
     <meta charset="utf-8">
     <title>编辑器</title>
-    <!-- [external] -->
+    <!-- [jquery] -->
     <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
     <script src="../../../external/jquery.js"></script>
     <script>if (window.module) module = window.module;</script>
 
-    <script src="../../../platform/appPC/platformUtil.js"></script><!--必须放在前面-->
-    <script src="../../../platform/appPC/platformInit.js"></script>
-
+    <!-- [external] -->
     <script src="../../../external/base64.js"></script>
     <script src="../../../external/md5.js"></script>
     <script src="../../../external/sha1.js"></script>
@@ -24,6 +22,20 @@
     <script src="../../../external/marked/es6-promise.js"></script>
     <script src="../../../external/marked/unfetch.umd.js"></script>
     <link rel="stylesheet" href="../../../external/marked/github-markdown.css">
+
+    <!-- [conf] -->
+    <script src="../../js/dock/conf.js"></script>
+
+    <!-- [platformUitl] -->
+    <script src="../../../platform/platformUtilBase.js"></script>
+    <!-- [platformUitlAppPC] -->
+    <script src="../../../platform/appPC/platformUtilAppPC.js"></script>
+
+    <!-- [platformConf] -->
+    <script src="../../../platform/platformConf.js"></script>
+
+    <!-- [platformInit] -->
+    <script src="../../../platform/appPC/platformInit.js"></script>
 
     <!-- [css] base -->
     <link rel="stylesheet" href="../../../common/css/base.css">
@@ -105,8 +117,6 @@
     <script src="../../../common/js/widget/widgetUserDialog.js"></script>
     <script src="../../../common/js/widget/widgetVerify.js"></script>
     <!-- [js] business -->
-    <script src="../../js/dock/conf.js"></script>
-    <script src="../../../platform/platformConf.js"></script>
     <script src="../../js/dock/dock.js"></script>
     <script src="../../js/dock/util.js"></script>
     <script src="../../js/menu/menuFileBrowser.js"></script>

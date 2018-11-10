@@ -15,6 +15,7 @@ function confWebMobile() {
 }
 function confAppPC() {
     confClientType = enumConfClientType.appPC;
+    platformUtil = new PlatformUtilAppPC();
 }
 function confAppMobile() {
     confClientType = enumConfClientType.appMobile;
