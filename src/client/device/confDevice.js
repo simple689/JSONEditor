@@ -17,6 +17,8 @@ function confWebMobile() {
     confDeviceType = enumConfDeviceType.webMobile;
 }
 function confAppPC() {
+    confProjectRoot = "/project_JSONEditor/";
+    confCommonRoot = "/common/";
     confDeviceType = enumConfDeviceType.appPC;
     confDeviceUtil = new DeviceUtilAppPC();
     confDeviceExec = new DeviceExecAppPC();

@@ -9,3 +9,7 @@ var confDeviceType = enumConfDeviceType.webPC;
 
 var confDeviceUtil = null;
 var confDeviceExec = null;
+
+// project
+var confProjectRoot = "/project_/";
+var confCommonRoot = "/common/";
