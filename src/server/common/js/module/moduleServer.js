@@ -3,7 +3,7 @@ var url = require('url');
 
 module.exports = ModuleServer;
 
-const APIData = require('../API/APIData.js');
+const APIData = require('../../../project_JSONEditor/js/API/APIData.js');
 const ModuleRouter = require('./moduleRouter.js');
 const base64 = require('hi-base64');
 

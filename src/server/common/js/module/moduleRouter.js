@@ -1,7 +1,7 @@
-const API = require('../API/API.js');
-const APIData = require('../API/APIData.js');
-const APIUtil = require('../API/APIUtil.js');
-const Util = require('../base/util.js');
+const API = require('../../../project_JSONEditor/js/API/API.js');
+const APIData = require('../../../project_JSONEditor/js/API/APIData.js');
+const APIUtil = require('../../../project_JSONEditor/js/API/APIUtil.js');
+const Util = require('../util.js');
 
 const ModuleMysql = require('./moduleMysql.js');
 const ModuleFileSystem = require('./moduleFileSystem.js');

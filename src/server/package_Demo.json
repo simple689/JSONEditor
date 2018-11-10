@@ -2,8 +2,7 @@
   "name": "teddy",
   "version": "1.0.0",
   "description": "Editor",
-  // "main": "test/index.js",
-  "main": "project_Demo/js/business/editor/index.js",
+  "main": "project_Demo/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
