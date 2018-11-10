@@ -5,7 +5,12 @@ function PlatformUtilAppPC() {
 PlatformUtilAppPC.prototype = new PlatformUtilBase();
 PlatformUtilAppPC.prototype.constructor = PlatformUtilAppPC;
 
-PlatformUtilAppPC.fileBrowser = {};
+PlatformUtilAppPC.prototype.a = function () {
+    PlatformUtilBase.prototype.a.apply(this, arguments);
+    console.log("aa");
+}
+
+// PlatformUtilAppPC.fileBrowser = {};
 // fileBrowser
 // 获取文件浏览器目录结构
 // 添加文件夹
@@ -15,14 +20,14 @@ PlatformUtilAppPC.fileBrowser = {};
 // 刷新文件浏览器目录结构
 // 读取文件
 // 保存文件
-PlatformUtilAppPC.fileBrowser.a = function () {
-    PlatformUtilBase.prototype.a.apply(this, arguments);
-
-    var path = require("path");
-    var dataPath = require('nw.gui').App.dataPath; // 数据存储地址
-    console.log(dataPath);
-    console.log("a");
-}
-PlatformUtilAppPC.fileBrowser.addFolder = function () {
-    console.log("addFolder");
-}
+// PlatformUtilAppPC.fileBrowser.a = function () {
+//     PlatformUtilBase.prototype.a.apply(this, arguments);
+//
+//     var path = require("path");
+//     var dataPath = require('nw.gui').App.dataPath; // 数据存储地址
+//     console.log(dataPath);
+//     console.log("a");
+// }
+// PlatformUtilAppPC.fileBrowser.addFolder = function () {
+//     console.log("addFolder");
+// }

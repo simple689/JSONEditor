@@ -53,7 +53,7 @@ function init() {
     // PlatformUtilAppPC.fileBrowser.a();
     // PlatformUtilAppPC.fileBrowser.addFolder();
     platformUtil.a();
-    platformUtil.b();
+    platformUtil.fileBrowser.b();
     platformUtil.c();
 
 }

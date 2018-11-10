@@ -5,7 +5,9 @@ PlatformUtilBase.prototype.a = function () {
     console.log("a");
 }
 
-PlatformUtilBase.prototype.b = function () {
+PlatformUtilBase.prototype.fileBrowser = {};
+
+PlatformUtilBase.prototype.fileBrowser.b = function () {
     console.log("b");
 }
 
