@@ -10,10 +10,10 @@ WidgetHttpXHR._enumOpenType = {
     post: 1
 }
 
-WidgetHttpXHR.prototype.createRequest = function (exec, funcSuccess, funcError) {
+WidgetHttpXHR.prototype.createRequest = function(exec, funcSuccess, funcError) {
     this._request = new XMLHttpRequest(); // 创建对象
     this._request._exec = exec;
-    this._request.onreadystatechange = function (ev) {
+    this._request.onreadystatechange = function(ev) {
         // 状态从 0 到 4 发生变化
         // 0: 请求未初始化
         // 1: 服务器连接已建立
@@ -33,13 +33,13 @@ WidgetHttpXHR.prototype.createRequest = function (exec, funcSuccess, funcError) 
         }
     }
 }
-WidgetHttpXHR.prototype.sendRequestGet = function (url) {
+WidgetHttpXHR.prototype.sendRequestGet = function(url) {
     this.sendRequest(WidgetHttpXHR._enumOpenType.get, url, null);
 }
-WidgetHttpXHR.prototype.sendRequestPost = function (url, postStr) {
+WidgetHttpXHR.prototype.sendRequestPost = function(url, postStr) {
     this.sendRequest(WidgetHttpXHR._enumOpenType.post, url, postStr);
 }
-WidgetHttpXHR.prototype.sendRequest = function (openType, url, postStr) {
+WidgetHttpXHR.prototype.sendRequest = function(openType, url, postStr) {
     if (!this._request) {
         return false;
     }

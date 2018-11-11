@@ -4,11 +4,11 @@ function WidgetDrop() {
 WidgetDrop._borderColorNormal = "rgba(102,102,102,0)";
 WidgetDrop._borderColorFocus = "rgba(102,102,102,1)";
 
-WidgetDrop.createDrop = function (elementParent, exec, callback) {
+WidgetDrop.createDrop = function(elementParent, exec, callback) {
     var elementDrop = WidgetHtml.addDiv(elementParent);
     return WidgetDrop.addDrop(elementDrop, exec, callback);
 }
-WidgetDrop.addDrop = function (elementParent, exec, callback) {
+WidgetDrop.addDrop = function(elementParent, exec, callback) {
     WidgetHtml.classAdd(elementParent, "widgetDrop");
     elementParent._exec = exec;
     elementParent._callback = callback;
@@ -24,28 +24,28 @@ WidgetDrop.addDrop = function (elementParent, exec, callback) {
     return elementParent;
 }
 
-WidgetDrop.onDragOverDocument = function (e) {
+WidgetDrop.onDragOverDocument = function(e) {
     e.preventDefault(); // 只有在onDragOver中阻止默认行为才能触发onDrop而不是onDragLeave
 }
-WidgetDrop.onDropDocument = function (e) {
+WidgetDrop.onDropDocument = function(e) {
     e.preventDefault(); // 阻止onDrop的默认行为（在新窗口中打开拖进的图片）
 }
-WidgetDrop.onDragOverItem = function (e) {
+WidgetDrop.onDragOverItem = function(e) {
     this.style.borderColor = WidgetDrop._borderColorFocus;
     e.stopPropagation();
     e.preventDefault();
 }
-WidgetDrop.onDragEnterItem = function (e) {
+WidgetDrop.onDragEnterItem = function(e) {
     this.style.borderColor = WidgetDrop._borderColorFocus;
     e.stopPropagation();
     e.preventDefault();
 }
-WidgetDrop.onDragLeaveItem = function (e) {
+WidgetDrop.onDragLeaveItem = function(e) {
     this.style.borderColor = WidgetDrop._borderColorNormal;
     e.stopPropagation();
     e.preventDefault();
 }
-WidgetDrop.onDropItem = function (e) {
+WidgetDrop.onDropItem = function(e) {
     this.style.borderColor = WidgetDrop._borderColorNormal;
     e.stopPropagation();
     e.preventDefault();

@@ -7,7 +7,7 @@ WidgetVerify._l = 42; // 滑块边长
 WidgetVerify._L = WidgetVerify._l + WidgetVerify._r * 2; // 滑块实际边长
 WidgetVerify._PI = Math.PI;
 
-WidgetVerify.prototype.create = function (elementParent, funcSuccess, funcFail) {
+WidgetVerify.prototype.create = function(elementParent, funcSuccess, funcFail) {
     this._elementParent = elementParent;
     this._funcSuccess = funcSuccess;
     this._funcFail = funcFail;
@@ -17,7 +17,7 @@ WidgetVerify.prototype.create = function (elementParent, funcSuccess, funcFail) 
     this.draw();
     this.bindEvent();
 }
-WidgetVerify.prototype.initHtml = function () {
+WidgetVerify.prototype.initHtml = function() {
     var canvas = WidgetHtml.createCanvas(WidgetVerify._w, WidgetVerify._h); // 画布
 
     var canvasBlock = canvas.cloneNode(true); // 滑块
@@ -67,7 +67,7 @@ WidgetVerify.prototype.initHtml = function () {
         _sliderText: sliderText
     })
 }
-WidgetVerify.prototype.initImg = function () {
+WidgetVerify.prototype.initImg = function() {
     var img = WidgetVerify.createImg(this, function () {
         var widgetVerify = this._exec;
         widgetVerify._canvasCtx.drawImage(this, 0, 0, WidgetVerify._w, WidgetVerify._h);
@@ -102,7 +102,7 @@ WidgetVerify.getRandomImgWeb = function() {
 WidgetVerify.getRandomNumberByRange = function(start, end) {
     return Math.round(Math.random() * (end - start) + start);
 }
-WidgetVerify.prototype.draw = function () {
+WidgetVerify.prototype.draw = function() {
     // 随机创建滑块的位置
     this.x = WidgetVerify.getRandomNumberByRange(WidgetVerify._L + 10, WidgetVerify._w - (WidgetVerify._L + 10));
     this.y = WidgetVerify.getRandomNumberByRange(10 + WidgetVerify._r * 2, WidgetVerify._h - (WidgetVerify._L + 10));
@@ -129,7 +129,7 @@ WidgetVerify.draw = function(ctx, operation, x, y) {
     ctx.globalCompositeOperation = "xor";
     ctx.fill();
 }
-WidgetVerify.prototype.bindEvent = function () {
+WidgetVerify.prototype.bindEvent = function() {
     this._elementParent.onselectstart = () => false;
     this._refreshIcon.onclick = () => {
         this.reset()
@@ -191,7 +191,7 @@ function sum(x, y) {
 function square(x) {
     return x * x;
 }
-WidgetVerify.prototype.verify = function () {
+WidgetVerify.prototype.verify = function() {
     var arr = this.trail; // 拖动时y轴的移动距离
     var average = arr.reduce(sum) / arr.length; // 平均值
     var deviations = arr.map(x => x - average); // 偏差数组
@@ -202,7 +202,7 @@ WidgetVerify.prototype.verify = function () {
         TuringTest: average !== stddev, // 只是简单的验证拖动轨迹，相等时一般为0，表示可能非人为操作
     }
 }
-WidgetVerify.prototype.reset = function () {
+WidgetVerify.prototype.reset = function() {
     this._sliderContainer.className = 'WidgetVerifySliderContainer';
     this._sliderBlock.style.left = 0;
     this._canvasBlock.style.left = 0;
@@ -211,7 +211,7 @@ WidgetVerify.prototype.reset = function () {
     this._img.src = WidgetVerify.getRandomImg();
     this.draw();
 }
-WidgetVerify.prototype.clean = function () {
+WidgetVerify.prototype.clean = function() {
     this._canvasCtx.clearRect(0, 0, WidgetVerify._w, WidgetVerify._h);
     this._canvasBlockCtx.clearRect(0, 0, WidgetVerify._w, WidgetVerify._h);
     this._canvasBlock.width = WidgetVerify._w;

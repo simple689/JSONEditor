@@ -1,7 +1,7 @@
 function MenuFileTitleOnClick() {
 }
 
-MenuFileTitleOnClick.onClickRefresh = function (e) {
+MenuFileTitleOnClick.onClickRefresh = function(e) {
     if (e && e._menu && e._menu._exec) {
         var elementTabTitle = e._menu._exec;
         var widgetTab = elementTabTitle._widgetTab;
@@ -13,19 +13,19 @@ MenuFileTitleOnClick.onClickRefresh = function (e) {
         // if (func) func(this);
     }
 }
-MenuFileTitleOnClick.onClickSave = function (e) {
+MenuFileTitleOnClick.onClickSave = function(e) {
     // var func = WidgetFileUtil.getExec(this).onClickSave;
     // if (func) func(this);
 }
-MenuFileTitleOnClick.onClickSaveAs = function (e) {
+MenuFileTitleOnClick.onClickSaveAs = function(e) {
     // var func = WidgetFileUtil.getExec(this).onClickSaveAs;
     // if (func) func(this);
 }
-MenuFileTitleOnClick.onClickDownLoad = function (e) {
+MenuFileTitleOnClick.onClickDownLoad = function(e) {
     // var func = WidgetFileUtil.getExec(this).onClickDownLoad;
     // if (func) func(this);
 }
-MenuFileTitleOnClick.closeTitle = function (e) {
+MenuFileTitleOnClick.closeTitle = function(e) {
     if (e._menu._exec) {
         var elementTabTitle = e._menu._exec;
         elementTabTitle._widgetTab.closeTitle(elementTabTitle);

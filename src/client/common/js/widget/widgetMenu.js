@@ -11,13 +11,13 @@ function WidgetMenu() {
 
 WidgetMenu._menuList = new Array();
 WidgetMenu._menuPadding = 6;
-WidgetMenu.prototype.createMenu = function (elementParent) {
+WidgetMenu.prototype.createMenu = function(elementParent) {
     this._elementParent = WidgetHtml.addDiv(elementParent);
     WidgetHtml.classAdd(this._elementParent, "widgetMenu");
 
     WidgetMenu._menuList.push(this);
 }
-WidgetMenu.prototype.createMenuWithHtml = function (elementParent, html) {
+WidgetMenu.prototype.createMenuWithHtml = function(elementParent, html) {
     this.createMenu(elementParent);
     if (!this._elementParent) {
         return;
@@ -27,12 +27,12 @@ WidgetMenu.prototype.createMenuWithHtml = function (elementParent, html) {
         });
     }
 }
-WidgetMenu.prototype.addUl = function (elementParent) {
+WidgetMenu.prototype.addUl = function(elementParent) {
     var ul = WidgetHtml.createElement("ul");
     elementParent.appendChild(ul);
     return ul;
 }
-WidgetMenu.prototype.addLi = function (elementParent, title, event, param) {
+WidgetMenu.prototype.addLi = function(elementParent, title, event, param) {
     var li = WidgetHtml.createElement("li");
     elementParent.appendChild(li);
     li.onclick = WidgetMenu.onClickLi;
@@ -41,12 +41,12 @@ WidgetMenu.prototype.addLi = function (elementParent, title, event, param) {
     li.innerHTML = title;
     return li;
 }
-WidgetMenu.onClickLi = function () {
+WidgetMenu.onClickLi = function() {
     if (this._event) {
         this._event(this._param);
     }
 }
-WidgetMenu.prototype.parseList = function (elementParen, list) {
+WidgetMenu.prototype.parseList = function(elementParen, list) {
     var ul = this.addUl(elementParen);
     for (var o in list) {
         var menuListItem = list[o];
@@ -60,7 +60,7 @@ WidgetMenu.prototype.parseList = function (elementParen, list) {
  * 弹出菜单
  * menu：菜单
  * */
-WidgetMenu.showMenu = function (menu, e, exec) {
+WidgetMenu.showMenu = function(menu, e, exec) {
     var e = e || window.event;
     e.cancelBubble = true; // 屏蔽向上一层发送事件
     menu._exec = exec;
@@ -77,7 +77,7 @@ WidgetMenu.showMenu = function (menu, e, exec) {
         }
 
         li._menu = menu;
-        li.onmouseenter = function () { // 鼠标移入
+        li.onmouseenter = function() { // 鼠标移入
             var liThis = this;
             WidgetHtml.classAdd(liThis, "active");
             WidgetMenu.hideMenuLi(liThis);
@@ -89,7 +89,7 @@ WidgetMenu.showMenu = function (menu, e, exec) {
                 }
             }
         };
-        li.onmouseout = function () { // 鼠标移出
+        li.onmouseout = function() { // 鼠标移出
             var liThis = this;
             WidgetHtml.classRemove(liThis, "active");
         };
@@ -100,18 +100,18 @@ WidgetMenu.showMenu = function (menu, e, exec) {
     }
     return false;
 }
-WidgetMenu.hideMenuAll = function () {
+WidgetMenu.hideMenuAll = function() {
     for (var i in WidgetMenu._menuList) {
         WidgetMenu.hideMenu(WidgetMenu._menuList[i]);
     }
 }
-WidgetMenu.hideMenu = function (menu) {
+WidgetMenu.hideMenu = function(menu) {
     var ulList = menu._elementParent.getElementsByTagName("ul");
     for (var i = 0; i < ulList.length; i++) {
         setElementDisplay(ulList[i], false);
     }
 }
-WidgetMenu.hideMenuLi = function (li) {
+WidgetMenu.hideMenuLi = function(li) {
     for (var i = 0; i < li.parentNode.children.length; i++) {
         if (li.parentNode.children[i].getElementsByTagName("ul")[0]) {
             setElementDisplay(li.parentNode.children[i].getElementsByTagName("ul")[0], false);

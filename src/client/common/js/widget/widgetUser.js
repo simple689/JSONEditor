@@ -4,7 +4,7 @@ function WidgetUser() {
 WidgetUser._jsonLoginCache = null;
 WidgetUser._widgetUserDialog = null;
 
-WidgetUser.init = function (elementParent) {
+WidgetUser.init = function(elementParent) {
     WidgetUser._elementParent = elementParent;
     if (WidgetUser._jsonLoginCache) {
         WidgetUser.initMenuLogout();
@@ -12,13 +12,13 @@ WidgetUser.init = function (elementParent) {
         WidgetUser.initMenuLogin();
     }
 }
-WidgetUser.initMenuLogin = function () {
+WidgetUser.initMenuLogin = function() {
     var jsonObjCtrl = new JsonObjCtrl(this, null, null);
     jsonObjCtrl._value = "登录";
     jsonObjCtrl._onClick = WidgetUser.onClickMenuLogin;
     WidgetHtml.addInput(WidgetUser._elementParent, jsonObjCtrl, WidgetHtml._enumInputType._button);
 }
-WidgetUser.initMenuLogout = function () {
+WidgetUser.initMenuLogout = function() {
     var jsonObjCtrl = new JsonObjCtrl(this, null, null);
     jsonObjCtrl._value = "用户";
     jsonObjCtrl._valueList = new MenuListCtrl();
@@ -27,14 +27,14 @@ WidgetUser.initMenuLogout = function () {
     WidgetHtml.addInput(WidgetUser._elementParent, jsonObjCtrl, WidgetHtml._enumInputType._buttonMenu);
 }
 // 点击事件 menu
-WidgetUser.onClickMenuLogin = function () {
+WidgetUser.onClickMenuLogin = function() {
     WidgetUser._widgetUserDialog = new WidgetUserDialog();
     WidgetUser._widgetUserDialog.createDialogLogin();
 }
-WidgetUser.onClickMenuLogout = function () {
+WidgetUser.onClickMenuLogout = function() {
 }
 // 点击事件
-WidgetUser.onClickLogin = function () {
+WidgetUser.onClickLogin = function() {
     var userName = WidgetUser._widgetUserDialog.getUserName();
     var userPWD = WidgetUser._widgetUserDialog.getUserPWD();
 
@@ -45,7 +45,7 @@ WidgetUser.onClickLogin = function () {
     jsonData[APIData._userPWD] = userPWD;
     WidgetHttpAJAX.createPost(null, jsonData, WidgetUser._widgetUserDialog, WidgetUser.ajaxCompleteLogin);
 }
-WidgetUser.ajaxCompleteLogin = function (widgetUserDialog, error, jsonData) {
+WidgetUser.ajaxCompleteLogin = function(widgetUserDialog, error, jsonData) {
     if (error) {
     } else {
         if (jsonData[APIData._token]) {
@@ -59,9 +59,9 @@ WidgetUser.ajaxCompleteLogin = function (widgetUserDialog, error, jsonData) {
         widgetUserDialog._widgetDialog.close();
     }
 }
-WidgetUser.onClickForgetPWD = function () {
+WidgetUser.onClickForgetPWD = function() {
     // WidgetUser._widgetUserDialog.createDialogLogin();
 }
-WidgetUser.onClickRegister = function () {
+WidgetUser.onClickRegister = function() {
     // WidgetUser._widgetUserDialog.createDialogLogin();
 }

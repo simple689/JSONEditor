@@ -16,7 +16,7 @@ var myMarked = require('marked');
 var renderer = new myMarked.Renderer();
 
 // Override function
-renderer.heading = function (text, level) {
+renderer.heading = function(text, level) {
   var escapedText = text.toLowerCase().replace(/[^\w]+/g, '-');
 
   return `

@@ -2,7 +2,7 @@ function WidgetSearch() {
 }
 
 WidgetSearch._searchList = new Array();
-WidgetSearch.prototype.createSearch = function (exec, elementParent) {
+WidgetSearch.prototype.createSearch = function(exec, elementParent) {
     this._exec = exec;
     // $(elementBrother).after(this._searchText);
 
@@ -35,7 +35,7 @@ WidgetSearch.prototype.createSearch = function (exec, elementParent) {
     return this;
 }
 // 获取历史记录
-WidgetSearch.getHistory = function (itemKey) {
+WidgetSearch.getHistory = function(itemKey) {
     var cookieStr = document.cookie;
     var cookieList = cookieStr.split("; ");
     for (var i = 0; i < cookieList.length; i++) {
@@ -46,7 +46,7 @@ WidgetSearch.getHistory = function (itemKey) {
     }
 }
 // 点击搜索按钮
-WidgetSearch.onClickSearchBtn = function () {
+WidgetSearch.onClickSearchBtn = function() {
     var res = WidgetSearch.getHistory("searchHistory");
     var list = decodeURI(res).split(',');
     if (list.length > 19) {
@@ -71,7 +71,7 @@ WidgetSearch.onClickSearchBtn = function () {
     date.setTime(date.getTime() + 10 * 24 * 3600 * 1000);
     document.cookie = 'searchHistory=' + encodeURI(valNew) + ';expires=' + date.toGMTString() + ';path=/';
 }
-WidgetSearch.onKeyUpSearchText = function (event) {
+WidgetSearch.onKeyUpSearchText = function(event) {
     // 键盘事件 key == 13 (回车) key == 38 (向上) key== 40 (向下)
     var ctrl = this._widgetSearch;
     var searchHistoryItemListLen = ctrl._searchHistoryItemList.length;
@@ -110,27 +110,27 @@ WidgetSearch.onKeyUpSearchText = function (event) {
     }
 }
 // 搜索框聚焦
-WidgetSearch.onFocusSearchText = function () {
+WidgetSearch.onFocusSearchText = function() {
     WidgetSearch.showHistory(this._widgetSearch, null);
 }
 // 点击选中搜索词语(后隐藏历史记录)
-WidgetSearch.onClickSearchHistoryItem = function () {
+WidgetSearch.onClickSearchHistoryItem = function() {
     var searchText = this._widgetSearch._searchText;
     var searchHistoryBox = this._widgetSearch._searchHistoryBox;
     var str = this.innerHTML;
     searchText.value = str;
     setElementDisplay(searchHistoryBox, false);
 }
-WidgetSearch.onMouseEnterSearchHistoryItem = function () {
+WidgetSearch.onMouseEnterSearchHistoryItem = function() {
     var liThis = this;
     WidgetHtml.classAdd(liThis, "active");
 }
-WidgetSearch.onMouseOutSearchHistoryItem = function () {
+WidgetSearch.onMouseOutSearchHistoryItem = function() {
     var liThis = this;
     WidgetHtml.classRemove(liThis, "active");
 }
 // 展示全部记录
-WidgetSearch.showHistory = function (ctrl, searchValue) {
+WidgetSearch.showHistory = function(ctrl, searchValue) {
     $(ctrl._searchHistory).empty();
     if (ctrl._searchHistoryItemList) {
         var listLen = ctrl._searchHistoryItemList.length;
@@ -179,18 +179,18 @@ WidgetSearch.showHistory = function (ctrl, searchValue) {
     }
 }
 // 搜索框失去焦点
-WidgetSearch.stopPropagation = function (e) {
+WidgetSearch.stopPropagation = function(e) {
     if (e.stopPropagation) {
         e.stopPropagation();
     } else {
         e.cancelBubble = true;
     }
 }
-WidgetSearch.hideSearchAll = function () {
+WidgetSearch.hideSearchAll = function() {
     for (var i in WidgetSearch._searchList) {
         WidgetSearch.hideSearch(WidgetSearch._searchList[i]);
     }
 }
-WidgetSearch.hideSearch = function (search) {
+WidgetSearch.hideSearch = function(search) {
     setElementDisplay(search._searchHistoryBox, false);
 }
