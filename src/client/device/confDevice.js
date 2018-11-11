@@ -4,8 +4,8 @@
     } else {
         confWebPC();
     }
-    if (confDeviceUtil && confDeviceExec) {
-        confDeviceExec.init();
+    if (gDeviceUtil && gDeviceExec) {
+        gDeviceExec.init();
     }
 })();
 
@@ -20,8 +20,8 @@ function confAppPC() {
     confProjectRoot = "/project_JSONEditor/";
     confCommonRoot = "/common/";
     confDeviceType = enumConfDeviceType.appPC;
-    confDeviceUtil = new DeviceUtilAppPC();
-    confDeviceExec = new DeviceExecAppPC();
+    gDeviceUtil = new DeviceUtilAppPC();
+    gDeviceExec = new DeviceExecAppPC();
 }
 function confAppMobile() {
     confDeviceType = enumConfDeviceType.appMobile;

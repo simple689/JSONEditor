@@ -86,7 +86,7 @@ ModuleFileSystem.readFileFromRoot = function(filePath, callback) {
 ModuleFileSystem.readFileSync = function(filePath) { // 同步方法
     return ModuleFileSystem.readFileFromRootSync(ModuleFileSystem._runPath + filePath);
 }
-ModuleFileSystem.readFileFromRootSync = function(filePath, data) {
+ModuleFileSystem.readFileFromRootSync = function(filePath) {
     var normalizePath = path.normalize(filePath);
     return fs.readFileSync(normalizePath, "utf8");
 }

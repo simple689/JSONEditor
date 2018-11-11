@@ -7,8 +7,8 @@ var enumConfDeviceType = {
 }
 var confDeviceType = enumConfDeviceType.webPC;
 
-var confDeviceUtil = null;
-var confDeviceExec = null;
+var gDeviceUtil = null;
+var gDeviceExec = null;
 
 // project
 var confProjectRoot = "/project_/";

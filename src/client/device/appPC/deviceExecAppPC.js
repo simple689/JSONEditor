@@ -13,10 +13,23 @@ DeviceExecAppPC.prototype.init = function () {
     // 获取本地历史记录文件
     var dataPath = nw.App.dataPath; // 数据存储地址
     console.log(dataPath);
-    var filePath  = dataPath + '/exec.conf';
-    confDeviceUtil.fileSystem.writeFileFromRootSync(filePath, 'conf');
-    var fileData = confDeviceUtil.fileSystem.readFileFromRootSync(filePath);
-    console.log(fileData);
+    var userDir = dataPath + '/user';
+    gDeviceUtil.fileSystem.mkDirs(userDir, function() {
+        var filePath  = dataPath + '/user/exec.conf';
+        gDeviceUtil.fileSystem.exists(filePath, function(exists) {
+            if (!exists) {
+                var fileData = '{}';
+                var jsonObj = JSON.parse(fileData);
+                jsonObj.path = 'a';
+                fileData = JSON.stringify(jsonObj, null, 2)
+                LogBase.log(fileData);
+                gDeviceUtil.fileSystem.writeFileFromRootSync(filePath, fileData);
+
+                var fileData = gDeviceUtil.fileSystem.readFileFromRootSync(filePath);
+                console.log(fileData);
+            }
+        });
+    });
 
     // 获取文件中的窗口配置 x y width height
     // 如果为空，窗口最大化，回调中把窗口配置信息记录到文件
@@ -60,8 +73,8 @@ DeviceExecAppPC.prototype.init = function () {
     // 获取文件中的文件夹配置
     // DeviceUtilAppPC.fileBrowser.a();
     // DeviceUtilAppPC.fileBrowser.addFolder();
-    confDeviceUtil.a();
-    confDeviceUtil.fileBrowser.b();
+    gDeviceUtil.a();
+    gDeviceUtil.fileBrowser.b();
 }
 // win.setBadgeLabel(label)
 
