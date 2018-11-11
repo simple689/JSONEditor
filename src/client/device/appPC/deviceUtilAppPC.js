@@ -10,6 +10,31 @@ DeviceUtilAppPC.prototype.a = function () {
     console.log("aa");
 }
 
+// 读文件
+DeviceUtilAppPC.prototype.fileSystem.readFile = function(filePath, callback) { // 异步方法
+    // this.fileSystem.readFileFromRoot(ModuleFileSystem._runPath + filePath, callback);
+}
+DeviceUtilAppPC.prototype.fileSystem.readFileFromRoot = function(filePath, callback) {
+    // var normalizePath = path.normalize(filePath);
+    // fs.readFile(normalizePath, "utf8", function(err, data) {
+    //     if (err) {
+    //         console.log('读文件操作失败');
+    //     } else {
+    //         console.log('读文件操作成功');
+    //         if (callback) {
+    //             callback();
+    //         }
+    //     }
+    // });
+}
+DeviceUtilAppPC.prototype.fileSystem.readFileSync = function(filePath) { // 同步方法
+    return this.fileSystem.readFileFromRootSync(ModuleFileSystem._runPath + filePath);
+}
+DeviceUtilAppPC.prototype.fileSystem.readFileFromRootSync = function(filePath, data) {
+    var normalizePath = path.normalize(filePath);
+    return fs.readFileSync(normalizePath, "utf8");
+}
+
 // DeviceUtilAppPC.fileBrowser = {};
 // fileBrowser
 // 获取文件浏览器目录结构

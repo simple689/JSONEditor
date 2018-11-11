@@ -11,7 +11,7 @@ DeviceExecAppPC.prototype.init = function () {
     var win = nw.Window.get();
     // win.showDevTools();
     // 获取本地历史记录文件
-    confDeviceUtil.fileBrowser.b();
+    confDeviceUtil.fileSystem.getFile();
 
     // 获取文件中的窗口配置 x y width height
     // 如果为空，窗口最大化，回调中把窗口配置信息记录到文件

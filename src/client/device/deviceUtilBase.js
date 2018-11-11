@@ -8,10 +8,11 @@ DeviceUtilBase.prototype.a = function() {
 DeviceUtilBase.prototype.fileSystem = {};
 DeviceUtilBase.prototype.fileBrowser = {};
 
-DeviceUtilBase.prototype.fileSystem.a = function() {
-
+// 读文件
+DeviceUtilBase.prototype.fileSystem.readFile = function() { // 异步方法
 }
-
+DeviceUtilBase.prototype.fileSystem.readFileSync = function() { // 同步方法
+}
 
 DeviceUtilBase.prototype.fileBrowser.b = function() {
     console.log("b");
