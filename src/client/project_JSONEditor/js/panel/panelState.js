@@ -5,7 +5,7 @@ function PanelState() {
 PanelState.prototype = new WidgetPanelBase();
 PanelState.prototype.constructor = PanelState;
 
-PanelState.prototype.init = function(elementParentID) {
+PanelState.prototype.init = function (elementParentID) {
     WidgetPanelBase.prototype.init.apply(this, arguments);
 
     var elementParent = getElementById(this._elementParentID);

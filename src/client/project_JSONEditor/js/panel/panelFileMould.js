@@ -5,7 +5,7 @@ function PanelFileMould() {
 PanelFileMould.prototype = new WidgetPanelFileBase();
 PanelFileMould.prototype.constructor = PanelFileMould;
 
-PanelFileMould.prototype.init = function(elementParentID) {
+PanelFileMould.prototype.init = function (elementParentID) {
     WidgetPanelFileBase.prototype.init.apply(this, arguments);
 
     this._historyItem = confPanelFileMould;
@@ -17,11 +17,11 @@ PanelFileMould.prototype.init = function(elementParentID) {
     this._menuRightContent.createMenuWithHtml(document.body, null);
 }
 
-PanelFileMould.loadedHome = function(exec, htmlRoot) {
+PanelFileMould.loadedHome = function (exec, htmlRoot) {
 
 }
 
-PanelFileMould.prototype.loadedJson = function(fileReader) {
+PanelFileMould.prototype.loadedJson = function (fileReader) {
     var fileName = fileReader._elementTabTitle._title;
     var obj = WidgetFileBrowser._jsonFileBrowser[APIData._jsonMould];
 

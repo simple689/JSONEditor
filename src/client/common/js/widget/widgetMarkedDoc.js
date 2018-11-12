@@ -74,7 +74,7 @@ WidgetMarkedDoc.prototype.initRight = function (right) {
     WidgetHtml.classAdd(this._divRightContent, "widgetMarkedDocRightContent");
     WidgetHtml.classAdd(this._divRightContent, "markdown-body");
 };
-WidgetMarkedDoc.prototype.hashChange = function(elementHash) {
+WidgetMarkedDoc.prototype.hashChange = function (elementHash) {
     var hash = elementHash;
     if (elementHash) {
         hash = elementHash.substr(1);
@@ -108,7 +108,7 @@ WidgetMarkedDoc.prototype.hashChange = function(elementHash) {
 
     // history.replaceState('', document.title, url);
 }
-WidgetMarkedDoc.prototype.fetchPage = function(page) {
+WidgetMarkedDoc.prototype.fetchPage = function (page) {
     if (page === this._renderedPage) {
         return Promise.resolve();
     }
@@ -130,7 +130,7 @@ WidgetMarkedDoc.prototype.fetchPage = function(page) {
                 + '<p>' + e.message + '</p>';
         });
 }
-WidgetMarkedDoc.prototype.fetchAnchor = function(anchor) {
+WidgetMarkedDoc.prototype.fetchAnchor = function (anchor) {
     if (!anchor) {
         this._divRightContent.scrollTo(0, 0);
         return;

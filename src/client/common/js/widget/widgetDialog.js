@@ -11,7 +11,7 @@ WidgetDialog._enumFileBrowserType = {
     _save: 1
 }
 
-WidgetDialog.prototype.createDialog = function(elementParent, title, callback, callbackLoadedHtml) {
+WidgetDialog.prototype.createDialog = function (elementParent, title, callback, callbackLoadedHtml) {
     this._elementParent = WidgetHtml.addDiv(elementParent);
     WidgetHtml.classAdd(this._elementParent, "widgetDialogRoot");
     this._elementParent._widgetDialog = this;
@@ -49,13 +49,13 @@ WidgetDialog.prototype.createDialog = function(elementParent, title, callback, c
     this._callback = callback;
     this._callbackLoadedHtml = callbackLoadedHtml;
 }
-WidgetDialog.loadedHtml = function(widgetDialog) {
+WidgetDialog.loadedHtml = function (widgetDialog) {
     if (widgetDialog._callbackLoadedHtml) {
         widgetDialog._callbackLoadedHtml(widgetDialog);
     }
     WidgetDialog.autoCenter(widgetDialog._elementDialog);
 }
-WidgetDialog.autoCenter = function(element) {
+WidgetDialog.autoCenter = function (element) {
     // 获取可见窗口大小
     var bodyW = document.documentElement.clientWidth;
     var bodyH = document.documentElement.clientHeight;
@@ -66,15 +66,15 @@ WidgetDialog.autoCenter = function(element) {
     element.style.left = (bodyW - elementW) / 2 + 'px';
     element.style.top = (bodyH - elementH) / 2 + 'px';
 };
-WidgetDialog.resizeWindow = function() {
+WidgetDialog.resizeWindow = function () {
     for (var i in WidgetDialog._dialogList) {
         WidgetDialog.autoCenter(WidgetDialog._dialogList[i]._elementDialog);
     }
 };
-WidgetDialog.prototype.close = function() {
+WidgetDialog.prototype.close = function () {
     this._elementParent.remove();
 }
-WidgetDialog.onClickCancel = function() {
+WidgetDialog.onClickCancel = function () {
     var exec = WidgetFileUtil.getExec(this);
     if (!exec) {
         exec = this._widgetDialog;
@@ -86,7 +86,7 @@ WidgetDialog.onClickCancel = function() {
         exec.close();
     }
 }
-WidgetDialog.prototype.createDialogWithHtml = function(elementParent, title, jsonObjCtrl, html, callbackLoadedHtml) {
+WidgetDialog.prototype.createDialogWithHtml = function (elementParent, title, jsonObjCtrl, html, callbackLoadedHtml) {
     this.createDialog(elementParent, title, null, callbackLoadedHtml);
     if (!this._elementDialogContent) {
         return;
@@ -100,7 +100,7 @@ WidgetDialog.prototype.createDialogWithHtml = function(elementParent, title, jso
         WidgetDialog.loadedHtml(this);
     }
 }
-WidgetDialog.prototype.createDialogOneInput = function(elementParent, title, description, callback) {
+WidgetDialog.prototype.createDialogOneInput = function (elementParent, title, description, callback) {
     this.createDialog(elementParent, title, callback, null);
 
     // 描述
@@ -128,7 +128,7 @@ WidgetDialog.prototype.createDialogOneInput = function(elementParent, title, des
 
     WidgetDialog.loadedHtml(this);
 }
-WidgetDialog.prototype.createDialogChoiceList = function(elementParent, title, description, choiceList, callback) {
+WidgetDialog.prototype.createDialogChoiceList = function (elementParent, title, description, choiceList, callback) {
     this.createDialog(elementParent, title, callback, null);
 
     // 描述
@@ -150,7 +150,7 @@ WidgetDialog.prototype.createDialogChoiceList = function(elementParent, title, d
 
     WidgetDialog.loadedHtml(this);
 }
-WidgetDialog.prototype.createDialogFileBrowser = function(elementParent, title, jsonObjCtrl, fileBrowserType, callback) {
+WidgetDialog.prototype.createDialogFileBrowser = function (elementParent, title, jsonObjCtrl, fileBrowserType, callback) {
     this.createDialog(elementParent, title, callback, null);
     this._jsonObjCtrl = jsonObjCtrl;
     // 获取可见窗口大小
@@ -242,7 +242,7 @@ WidgetDialog.prototype.createDialogFileBrowser = function(elementParent, title, 
     WidgetDialog.loadedHtml(this);
 }
 
-WidgetDialog.onClickOneInputConfirm = function() {
+WidgetDialog.onClickOneInputConfirm = function () {
     var jsonObjCtrl = WidgetFileUtil.getJsonObjCtrl(this);
     if (!jsonObjCtrl) {
         return;
@@ -258,7 +258,7 @@ WidgetDialog.onClickOneInputConfirm = function() {
     exec.close();
 }
 
-WidgetDialog.onClickFileBrowserOpen = function() {
+WidgetDialog.onClickFileBrowserOpen = function () {
     var jsonObjCtrl = WidgetFileUtil.getJsonObjCtrl(this);
     if (!jsonObjCtrl) {
         return;
@@ -281,7 +281,7 @@ WidgetDialog.onClickFileBrowserOpen = function() {
     }
     exec.close();
 }
-WidgetDialog.onClickFileBrowserSave = function() {
+WidgetDialog.onClickFileBrowserSave = function () {
     var jsonObjCtrl = WidgetFileUtil.getJsonObjCtrl(this);
     if (!jsonObjCtrl) {
         return;

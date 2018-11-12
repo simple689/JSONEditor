@@ -5,7 +5,7 @@ function PanelToolBar() {
 PanelToolBar.prototype = new WidgetPanelBase();
 PanelToolBar.prototype.constructor = PanelToolBar;
 
-PanelToolBar.prototype.init = function(elementParentID) {
+PanelToolBar.prototype.init = function (elementParentID) {
     WidgetPanelBase.prototype.init.apply(this, arguments);
 
     var elementParent = getElementById(this._elementParentID);

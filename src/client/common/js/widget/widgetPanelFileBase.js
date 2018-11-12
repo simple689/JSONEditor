@@ -5,7 +5,7 @@ function WidgetPanelFileBase() {
 WidgetPanelFileBase.prototype = new WidgetPanelBase();
 WidgetPanelFileBase.prototype.constructor = WidgetPanelFileBase;
 
-WidgetPanelFileBase.prototype.init = function(elementParentID) {
+WidgetPanelFileBase.prototype.init = function (elementParentID) {
     WidgetPanelBase.prototype.init.apply(this, arguments);
 
     var elementParent = getElementById(this._elementParentID);
@@ -17,13 +17,13 @@ WidgetPanelFileBase.prototype.init = function(elementParentID) {
     this._menuRightTitle = new WidgetMenu();
     this._menuRightContent = new WidgetMenu();
 }
-WidgetPanelFileBase.handleFiles = function(exec, fileList) {
+WidgetPanelFileBase.handleFiles = function (exec, fileList) {
     for (var i = 0; i < fileList.length; i++) {
         var file = fileList[i];
         exec._widgetTab.addTabWithFile(file);
     }
 }
-WidgetPanelFileBase.prototype.tabOnContextMenu = function(ele, e, onContextMenuType) {
+WidgetPanelFileBase.prototype.tabOnContextMenu = function (ele, e, onContextMenuType) {
     switch (onContextMenuType) {
         case WidgetTab._enumOnContextMenuType.tabTitle : {
             WidgetMenu.showMenu(this._menuRightTitle, e, ele);
@@ -35,5 +35,5 @@ WidgetPanelFileBase.prototype.tabOnContextMenu = function(ele, e, onContextMenuT
         }
     }
 }
-WidgetPanelFileBase.prototype.loadedJson = function(fileReader) {
+WidgetPanelFileBase.prototype.loadedJson = function (fileReader) {
 }

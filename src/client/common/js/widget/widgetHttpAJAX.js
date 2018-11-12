@@ -7,7 +7,7 @@ WidgetHttpAJAX._enumOpenType = {
 }
 function jsonpCallback(data) {
 }
-WidgetHttpAJAX.createGetJsonp = function(url, jsonObj, exec, callback) { // 明文，不安全
+WidgetHttpAJAX.createGetJsonp = function (url, jsonObj, exec, callback) { // 明文，不安全
     $.ajax({
         _exec : exec,
         _callback : callback,
@@ -33,7 +33,7 @@ WidgetHttpAJAX.createGetJsonp = function(url, jsonObj, exec, callback) { // 明�
         }
     });
 }
-WidgetHttpAJAX.createPost = function(url, jsonObj, exec, callback) {
+WidgetHttpAJAX.createPost = function (url, jsonObj, exec, callback) {
     if (!url) {
         url = confHttpRoot;
     }

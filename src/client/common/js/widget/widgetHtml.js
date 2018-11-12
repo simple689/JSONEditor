@@ -16,22 +16,22 @@ WidgetHtml._enumInputType = {
     _color: 11
 }
 
-WidgetHtml.createElement = function(tagName) {
+WidgetHtml.createElement = function (tagName) {
     return document.createElement(tagName);
 }
-WidgetHtml.createCanvas = function(width, height) {
+WidgetHtml.createCanvas = function (width, height) {
     var canvas = WidgetHtml.createElement('canvas');
     canvas.width = width;
     canvas.height = height;
     return canvas;
 }
-WidgetHtml.classAdd = function(tag, className) {
+WidgetHtml.classAdd = function (tag, className) {
     tag.classList.add(className);
 }
-WidgetHtml.classRemove = function(tag, className) {
+WidgetHtml.classRemove = function (tag, className) {
     tag.classList.remove(className);
 }
-WidgetHtml.classContains = function(tag, className) {
+WidgetHtml.classContains = function (tag, className) {
     return tag.classList.contains(className);
 }
 

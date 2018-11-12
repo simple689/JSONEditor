@@ -5,7 +5,7 @@ function PanelFileLink() {
 PanelFileLink.prototype = new WidgetPanelFileBase();
 PanelFileLink.prototype.constructor = PanelFileLink;
 
-PanelFileLink.prototype.init = function(elementParentID) {
+PanelFileLink.prototype.init = function (elementParentID) {
     WidgetPanelFileBase.prototype.init.apply(this, arguments);
 
     this._historyItem = confPanelFileLink;
@@ -17,9 +17,9 @@ PanelFileLink.prototype.init = function(elementParentID) {
     this._menuRightContent.createMenuWithHtml(document.body, null);
 }
 
-PanelFileLink.loadedHome = function(exec, htmlRoot) {
+PanelFileLink.loadedHome = function (exec, htmlRoot) {
 }
 
-PanelFileLink.prototype.loadedJson = function(fileReader) {
+PanelFileLink.prototype.loadedJson = function (fileReader) {
     var fileName = fileReader._elementTabTitle._title;
 }

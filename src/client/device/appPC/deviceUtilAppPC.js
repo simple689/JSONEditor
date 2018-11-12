@@ -58,6 +58,7 @@ DeviceUtilAppPC.prototype.fileSystem.writeFileSync = function(filePath, data) { 
 }
 DeviceUtilAppPC.prototype.fileSystem.writeFileFromRootSync = function(filePath, data) {
     var normalizePath = path.normalize(filePath);
+    console.log('writeFileSync = ', filePath);
     fs.writeFileSync(normalizePath, data);
 }
 
@@ -83,6 +84,7 @@ DeviceUtilAppPC.prototype.fileSystem.readFileSync = function(filePath) { // 同�
 }
 DeviceUtilAppPC.prototype.fileSystem.readFileFromRootSync = function(filePath) {
     var normalizePath = path.normalize(filePath);
+    console.log('readFileSync = ', filePath);
     return fs.readFileSync(normalizePath, "utf8");
 }
 // 删文件
@@ -90,14 +92,14 @@ DeviceUtilAppPC.prototype.fileSystem.delFile = function(filePath, callback) {
     // ModuleFileSystem.delFileFromRoot(ModuleFileSystem._runPath + filePath, callback);
 }
 DeviceUtilAppPC.prototype.fileSystem.delFileFromRoot = function(filePath, callback) {
-    // var normalizePath = path.normalize(filePath);
-    // fs.unlink(normalizePath, function (err) {
-    //     if(err) throw err;
-    //     console.log('成功')
-    //     if (callback) {
-    //         callback();
-    //     }
-    // })
+    var normalizePath = path.normalize(filePath);
+    fs.unlink(normalizePath, function (err) {
+        if(err) throw err;
+        console.log('删除文件成功！')
+        if (callback) {
+            callback();
+        }
+    })
 }
 
 // [demo] getDirFiles
