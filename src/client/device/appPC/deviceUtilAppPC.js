@@ -10,7 +10,6 @@ DeviceUtilAppPC.prototype.constructor = DeviceUtilAppPC;
 
 DeviceUtilAppPC.prototype.a = function () {
     DeviceUtilBase.prototype.a.apply(this, arguments);
-    console.log("aa");
 }
 
 DeviceUtilAppPC.prototype.fileSystem.exists = function(fileOrDirPath, callback) {
@@ -19,10 +18,9 @@ DeviceUtilAppPC.prototype.fileSystem.exists = function(fileOrDirPath, callback) 
     });
 }
 DeviceUtilAppPC.prototype.fileSystem.existsSync = function(fileOrDirPath) {
-    var normalizePath = path.normalize(fileOrDirPath);
-    console.log('existsSync = ', fileOrDirPath);
-    // return fs.existsSync(normalizePath);
-    return false;
+    var exists = fs.existsSync(fileOrDirPath);
+    console.log('existsSync[ ' + exists + ' ] = ' + fileOrDirPath);
+    return exists;
 }
 
 // EditorFileSystem.readFile = function(filePath, callback) {
@@ -100,7 +98,7 @@ DeviceUtilAppPC.prototype.fileSystem.delFileFromRoot = function(filePath, callba
     var normalizePath = path.normalize(filePath);
     fs.unlink(normalizePath, function (err) {
         if(err) throw err;
-        console.log('删除文件成功！')
+        console.log('delFile = ', filePath);
         if (callback) {
             callback();
         }
@@ -149,14 +147,13 @@ DeviceUtilAppPC.prototype.fileSystem.isFile = function(stat) {
 
 // 文件夹
 DeviceUtilAppPC.prototype.fileSystem.mkDirs = function(dirPath, callback) { // 创建目录结构
-    var dirAry = dirPath.split('/');
     fs.exists(dirPath, function(exists) {
         if (exists) {
-            // console.log('文件夹已存在！');
             callback();
         } else {
+            var dirAry = dirPath.split('/');
             gDeviceUtil.fileSystem.mkDir(0, dirAry, function() {
-                console.log('文件夹创建完毕！');
+                console.log('文件夹创建完毕 = ', dirPath);
                 callback();
             });
         }
@@ -164,7 +161,6 @@ DeviceUtilAppPC.prototype.fileSystem.mkDirs = function(dirPath, callback) { // �
 }
 DeviceUtilAppPC.prototype.fileSystem.mkDir = function(index, dirAry, callback) { // 创建文件夹
     var len = dirAry.length;
-    console.log(len);
     if (index >= len || index > 10) {
         callback();
         return;
@@ -178,18 +174,21 @@ DeviceUtilAppPC.prototype.fileSystem.mkDir = function(index, dirAry, callback) {
     }
     if (currentDir.length == 0) {
         gDeviceUtil.fileSystem.mkDir(index + 1, dirAry, callback);
+        return;
     }
     fs.exists(currentDir, function(exists) {
         if (exists) {
-            console.log(currentDir + '文件夹已存在！');
+            // console.log('文件夹已存在 = ', currentDir);
             gDeviceUtil.fileSystem.mkDir(index + 1, dirAry, callback);
+            return;
         } else {
             fs.mkdir(currentDir, function(err) {
                 if (err) {
-                    console.log('创建文件夹出错！');
+                    // console.log('创建文件夹出错 = ', currentDir);
                 } else {
-                    console.log(currentDir + '文件夹创建成功！');
+                    // console.log('文件夹创建成功 = ', currentDir);
                     gDeviceUtil.fileSystem.mkDir(index + 1, dirAry, callback);
+                    return;
                 }
             });
         }

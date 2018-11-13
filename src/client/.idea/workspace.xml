@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c33da4-3d3f-4eaa-925e-fc43c1209efc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/device/appPC/deviceExecAppPC.js" beforeDir="false" afterPath="$PROJECT_DIR$/device/appPC/deviceExecAppPC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device/appPC/deviceUtilAppPC.js" beforeDir="false" afterPath="$PROJECT_DIR$/device/appPC/deviceUtilAppPC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device/deviceExecBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/device/deviceExecBase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device/deviceUtilBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/device/deviceUtilBase.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,9 +21,10 @@
     <session id="-1235890671">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -27,27 +32,28 @@
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Window" value="1" />
           <entry key="html" value="2" />
-          <entry key="js" value="38" />
-          <entry key="json" value="4" />
+          <entry key="js" value="41" />
+          <entry key="json" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="38" />
+          <entry key="JSON" value="6" />
+          <entry key="JavaScript" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="5" />
-          <entry key="js" value="1530" />
+          <entry key="js" value="1699" />
           <entry key="json" value="206" />
         </counts>
       </usages-collector>
@@ -55,7 +61,7 @@
         <counts>
           <entry key="HTML" value="5" />
           <entry key="JSON" value="206" />
-          <entry key="JavaScript" value="1530" />
+          <entry key="JavaScript" value="1699" />
         </counts>
       </usages-collector>
     </session>
@@ -65,8 +71,49 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/device/appPC/deviceExecAppPC.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+            <state relative-caret-position="219">
+              <caret line="101" column="44" lean-forward="true" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mock://extensions::nw.Window">
+          <provider selected="true" editor-type-id="vmFileEditor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device/appPC/deviceUtilAppPC.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="217" column="14" selection-start-line="217" selection-start-column="7" selection-end-line="217" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device/deviceUtilBase.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device/deviceExecBase.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -74,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="139" column="2" lean-forward="true" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
+            <state relative-caret-position="253">
+              <caret line="139" column="29" lean-forward="true" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -95,7 +142,6 @@
       <find>confCommonRoot</find>
       <find>confProjectRoot</find>
       <find>nw.</find>
-      <find>mkdir</find>
       <find>confDeviceUtil</find>
       <find>confDeviceExec</find>
       <find>JSON</find>
@@ -110,8 +156,12 @@
       <find>isMaximize</find>
       <find>isReload</find>
       <find>exists</find>
-      <find>maximize</find>
       <find>reloadConfPath</find>
+      <find>8</find>
+      <find>mkdir</find>
+      <find>reload</find>
+      <find>console</find>
+      <find>maximize</find>
     </findStrings>
     <replaceStrings>
       <replace>= function(</replace>
@@ -129,18 +179,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/common/js/confBase.js" />
-        <option value="$PROJECT_DIR$/device/deviceUtilBase.js" />
         <option value="$PROJECT_DIR$/device/confDevice.js" />
         <option value="$PROJECT_DIR$/project_JSONEditor/html/index.html" />
-        <option value="$PROJECT_DIR$/device/appPC/deviceUtilAppPC.js" />
         <option value="$PROJECT_DIR$/a.js" />
         <option value="$PROJECT_DIR$/b.js" />
         <option value="$PROJECT_DIR$/node-main.js" />
         <option value="$PROJECT_DIR$/c.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/device/appPC/node-main.js" />
         <option value="$PROJECT_DIR$/device/appPC/bg-script.js" />
+        <option value="$PROJECT_DIR$/device/deviceExecBase.js" />
+        <option value="$PROJECT_DIR$/device/deviceUtilBase.js" />
+        <option value="$PROJECT_DIR$/device/appPC/deviceUtilAppPC.js" />
         <option value="$PROJECT_DIR$/project_JSONEditor/js/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/device/appPC/deviceExecAppPC.js" />
       </list>
     </option>
@@ -156,8 +207,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="497" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="717" />
@@ -262,15 +312,17 @@
       <workItem from="1542026548909" duration="336000" />
       <workItem from="1542026891012" duration="1709000" />
       <workItem from="1542071293459" duration="688000" />
-      <workItem from="1542072130620" duration="4096000" />
+      <workItem from="1542072130620" duration="5418000" />
+      <workItem from="1542093246848" duration="892000" />
+      <workItem from="1542094184046" duration="2462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21537000" />
+    <option name="totallyTimeSpent" value="26213000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="717" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="717" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
@@ -279,7 +331,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3312" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -297,6 +349,21 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/device/appPC/deviceExecAppPC.js</url>
+          <line>83</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package_JSONEditor.json">
@@ -316,28 +383,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device/deviceExecBase.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project_Demo/js/conf.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/project_Demo/js/index.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device/deviceUtilBase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device/appPC/deviceUtilAppPC.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/js/widget/base/widgetElement.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -395,16 +445,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/c.js" />
     <entry file="file://$PROJECT_DIR$/device/appPC/node-main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -416,23 +457,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device/deviceExecBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device/deviceUtilBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device/appPC/deviceUtilAppPC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="217" column="14" selection-start-line="217" selection-start-column="7" selection-end-line="217" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="139" column="2" lean-forward="true" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
+        <state relative-caret-position="253">
+          <caret line="139" column="29" lean-forward="true" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/device/appPC/deviceExecAppPC.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+        <state relative-caret-position="219">
+          <caret line="101" column="44" lean-forward="true" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,6 @@ function DeviceUtilBase() {
 }
 
 DeviceUtilBase.prototype.a = function() {
-    console.log("a");
 }
 
 DeviceUtilBase.prototype.fileSystem = {};
@@ -26,8 +25,4 @@ DeviceUtilBase.prototype.fileSystem.readFileFromRoot = function(filePath, callba
 DeviceUtilBase.prototype.fileSystem.readFileSync = function(filePath) { // 同步方法
 }
 DeviceUtilBase.prototype.fileSystem.readFileFromRootSync = function(filePath) {
-}
-
-DeviceUtilBase.prototype.fileBrowser.b = function() {
-    console.log("b");
 }

@@ -2,13 +2,13 @@ var nw = require('nw.gui');
 var win = nw.Window.get();
 var dataPath = nw.App.dataPath; // 数据存储路径
 console.log(dataPath);
-var userDataDir = '/user'; // 用户数据存储文件夹
+var userDataDir = '/../user'; // 用户数据存储文件夹
 var userDataPath = dataPath + userDataDir; // 用户数据存储路径
 
 var execConfPath  = userDataPath + '/exec.conf'; // 配置文件路径
 var execConfJsonObj = {};
 
-var reloadConfPath  = userDataPath + '/reload.conf'; // 配置文件路径
+var reloadTempPath  = userDataPath + '/reload.temp'; // 配置文件路径
 
 function DeviceExecAppPC() {
     DeviceExecBase.call(this);
@@ -58,45 +58,15 @@ DeviceExecAppPC.prototype.init = function () {
 }
 
 DeviceExecAppPC.prototype.initExecConf = function () {
-    // 最大化回调，窗口重载
-    win.on('maximize', function () {
+    win.on('maximize', function(event) {
         console.log("maximize");
-        gDeviceUtil.fileSystem.writeFileFromRootSync(reloadConfPath, "");
-        win.reloadIgnoringCache();
+        gDeviceUtil.fileSystem.writeFileFromRootSync(reloadTempPath, "");
     });
-
-    var isExists = gDeviceUtil.fileSystem.existsSync(reloadConfPath);
+    var isExists = gDeviceUtil.fileSystem.existsSync(reloadTempPath);
     if (isExists) {
-        console.log("reload");
-        gDeviceUtil.fileSystem.delFileFromRoot(reloadConfPath);
+        console.log("isReload");
+        gDeviceUtil.fileSystem.delFileFromRoot(reloadTempPath);
         // 把窗口配置信息存入文件
-        if (!execConfJsonObj.hasOwnProperty("window")) {
-            execConfJsonObj.window = {};
-        }
-        execConfJsonObj.window.x = win.x;
-        execConfJsonObj.window.y = win.y;
-        execConfJsonObj.window.width = win.width;
-        execConfJsonObj.window.height = win.height;
-    } else {
-        // 获取文件中的窗口配置 x y width height
-        if (execConfJsonObj.hasOwnProperty("window")) {
-            if (execConfJsonObj.window.x !== win.x ||
-                execConfJsonObj.window.y !== win.y ||
-                execConfJsonObj.window.width !== win.width ||
-                execConfJsonObj.window.height !== win.height) {
-                win.moveTo(execConfJsonObj.window.x, execConfJsonObj.window.y);
-                win.resizeTo(execConfJsonObj.window.width, execConfJsonObj.window.height);
-
-                gDeviceUtil.fileSystem.writeFileFromRootSync(reloadConfPath, "");
-                win.reloadIgnoringCache();
-            }
-        } else { // 如果为空，窗口最大化
-            win.maximize();
-        }
-    }
-
-    // 窗口关闭，回调中把窗口配置信息记录到文件
-    win.on('close', function(event) {
         if (!execConfJsonObj.hasOwnProperty("window")) {
             execConfJsonObj.window = {};
         }
@@ -108,22 +78,42 @@ DeviceExecAppPC.prototype.initExecConf = function () {
         var fileData = JSON.stringify(execConfJsonObj, null, 2)
         LogBase.log(fileData);
         gDeviceUtil.fileSystem.writeFileFromRootSync(execConfPath, fileData);
-
-        if (global.tray && event != 'quit') {
-            win.hide();
-        } else {
-            win.close(true);
-            nw.App.quit();
+    } else {
+        console.log("first load");
+        // 获取文件中的窗口配置 x y width height
+        if (execConfJsonObj.hasOwnProperty("window")) {
+            if (execConfJsonObj.window.x !== win.x ||
+                execConfJsonObj.window.y !== win.y ||
+                execConfJsonObj.window.width !== win.width ||
+                execConfJsonObj.window.height !== win.height) {
+                console.log("first resize");
+                win.moveTo(execConfJsonObj.window.x, execConfJsonObj.window.y);
+                win.resizeTo(execConfJsonObj.window.width, execConfJsonObj.window.height + execConfJsonObj.window.y);
+                gDeviceUtil.fileSystem.writeFileFromRootSync(reloadTempPath, "");
+            }
+        } else { // 如果为空，窗口最大化
+            console.log("first maximize");
+            win.maximize();
         }
-    });
-
-    // 获取本地历史记录文件
-    // 获取文件中的文件夹配置
-    // DeviceUtilAppPC.fileBrowser.a();
-    // DeviceUtilAppPC.fileBrowser.addFolder();
-    // gDeviceUtil.a();
-    // gDeviceUtil.fileBrowser.b();
+    }
 }
+// 窗口关闭，回调中把窗口配置信息记录到文件
+// win.on('close', function(event) {
+//     if (global.tray && event != 'quit') {
+//         win.hide();
+//     } else {
+//         win.close(true);
+//         nw.App.quit();
+//     }
+// });
+
+// 获取本地历史记录文件
+// 获取文件中的文件夹配置
+// DeviceUtilAppPC.fileBrowser.a();
+// DeviceUtilAppPC.fileBrowser.addFolder();
+// gDeviceUtil.a();
+// gDeviceUtil.fileBrowser.b();
+
 // win.setBadgeLabel(label)
 
 //     win.on('minimize', function () {
