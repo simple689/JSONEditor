@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c33da4-3d3f-4eaa-925e-fc43c1209efc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/device/appPC/bg-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/device/appPC/bg-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device/appPC/deviceExecAppPC.js" beforeDir="false" afterPath="$PROJECT_DIR$/device/appPC/deviceExecAppPC.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,7 +47,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="5" />
-          <entry key="js" value="1529" />
+          <entry key="js" value="1530" />
           <entry key="json" value="206" />
         </counts>
       </usages-collector>
@@ -56,27 +55,27 @@
         <counts>
           <entry key="HTML" value="5" />
           <entry key="JSON" value="206" />
-          <entry key="JavaScript" value="1529" />
+          <entry key="JavaScript" value="1530" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/device/appPC/deviceExecAppPC.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+            <state relative-caret-position="284">
+              <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="137" column="32" lean-forward="true" selection-start-line="137" selection-start-column="32" selection-end-line="137" selection-end-column="32" />
+            <state relative-caret-position="231">
+              <caret line="139" column="2" lean-forward="true" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -141,8 +140,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/device/appPC/node-main.js" />
         <option value="$PROJECT_DIR$/device/appPC/bg-script.js" />
-        <option value="$PROJECT_DIR$/device/appPC/deviceExecAppPC.js" />
         <option value="$PROJECT_DIR$/project_JSONEditor/js/index.js" />
+        <option value="$PROJECT_DIR$/device/appPC/deviceExecAppPC.js" />
       </list>
     </option>
   </component>
@@ -233,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.javaScript">
+  <component name="RunManager" selected="NW.js.nwJS">
     <configuration name="javaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/client/project_JSONEditor/html/index.html">
       <method v="2" />
     </configuration>
@@ -263,24 +262,24 @@
       <workItem from="1542026548909" duration="336000" />
       <workItem from="1542026891012" duration="1709000" />
       <workItem from="1542071293459" duration="688000" />
-      <workItem from="1542072130620" duration="3917000" />
+      <workItem from="1542072130620" duration="4096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21358000" />
+    <option name="totallyTimeSpent" value="21537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3312" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -423,17 +422,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device/appPC/deviceExecAppPC.js">
+    <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        <state relative-caret-position="231">
+          <caret line="139" column="2" lean-forward="true" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/index.js">
+    <entry file="file://$PROJECT_DIR$/device/appPC/deviceExecAppPC.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="137" column="32" lean-forward="true" selection-start-line="137" selection-start-column="32" selection-end-line="137" selection-end-column="32" />
+        <state relative-caret-position="284">
+          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
         </state>
       </provider>
     </entry>
