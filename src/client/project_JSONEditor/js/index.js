@@ -11,6 +11,7 @@ var gPanelFileMould = null;
 var gPanelFileLink = null;
 
 function initWidgetDock() {
+    // return;
     gDock = DSXDFUtil.createDSXDFUtil();
     loadDockLayout();
     initDockPanel();
@@ -18,6 +19,7 @@ function initWidgetDock() {
 }
 
 function onBeforeUnload() {
+    // return;
     saveDockLayout();
 }
 
@@ -135,7 +137,7 @@ function onContextMenuDocument() {
 }
 
 function onResizeWindow() {
-    // window.location.reload();
+    window.location.reload();
     // window.history.go(0);
     // initDockLayout();
     WidgetDialog.resizeWindow();
@@ -144,6 +146,7 @@ function onResizeWindow() {
 
 // exe
 $(document).ready(function () {
+    // return;
     console.log("[dock] start");
     LogBase.init();
     WidgetHistory.init();
