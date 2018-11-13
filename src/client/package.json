@@ -1,4 +1,29 @@
 {
   "name": "JSONEditor",
-  "main": "project_JSONEditor/html/index.html"
+  "main": "./project_JSONEditor/html/index.html",
+  "build": "1445048139741", //这是为了给更新时判断版本用的
+  "version": "0.0.1", //当前版本
+  "description": "Nw.js JSONEditor",
+  "nodejs": true,
+  "node-main": "./device/appPC/node-main.js",
+  "single-instance": false,
+  "bg-script": "./device/appPC/bg-script.js",
+  "window": {
+//    "icon": "assest/img/logo.png",
+    "position": "center",
+    "width": 1280,
+    "height": 800,
+//    "toolbar": true,//是否隐藏窗口的工具条
+//    "frame": true,//是否显示最外层的框架，设为false之后 窗口的最小化、最大化、关闭 就没有了
+//    "resizable": true,
+    "min_width": 200,
+    "min_height": 100
+  },
+  "contributors": [
+    {
+      "name": "赵欢",
+      "email": "zhaohuan689@163.com",
+      "web": "http://teddy.com"
+    }
+  ]
 }

@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c33da4-3d3f-4eaa-925e-fc43c1209efc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/device/appPC/bg-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device/appPC/node-main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/js/widget/widgetDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetDialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/js/widget/widgetHtml.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetHtml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/js/widget/widgetHttpAJAX.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetHttpAJAX.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/js/widget/widgetHttpXHR.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetHttpXHR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/js/widget/widgetMarkedDoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetMarkedDoc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/js/widget/widgetMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/js/widget/widgetPanelFileBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/js/widget/widgetPanelFileBase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/device/appPC/deviceExecAppPC.js" beforeDir="false" afterPath="$PROJECT_DIR$/device/appPC/deviceExecAppPC.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/device/appPC/deviceUtilAppPC.js" beforeDir="false" afterPath="$PROJECT_DIR$/device/appPC/deviceUtilAppPC.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/doc/USING_PRO.md" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/doc/USING_PRO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/menu/menuFileBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/menu/menuFileBrowser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/menu/menuFileTitleOnClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/menu/menuFileTitleOnClick.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelFileLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelFileLink.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelFileMould.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelFileMould.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelState.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelToolBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_JSONEditor/js/panel/panelToolBar.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,39 +23,45 @@
     <session id="-1235890671">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="js" value="18" />
-          <entry key="json" value="3" />
+          <entry key="html" value="2" />
+          <entry key="js" value="33" />
+          <entry key="json" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="18" />
+          <entry key="HTML" value="2" />
+          <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="5" />
-          <entry key="js" value="1265" />
+          <entry key="js" value="1507" />
+          <entry key="json" value="206" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="5" />
-          <entry key="JavaScript" value="1265" />
+          <entry key="JSON" value="206" />
+          <entry key="JavaScript" value="1507" />
         </counts>
       </usages-collector>
     </session>
@@ -77,8 +71,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/device/appPC/deviceExecAppPC.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="71" column="50" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
+            <state relative-caret-position="296">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device/appPC/node-main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/device/appPC/bg-script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -86,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="146" column="11" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
+            <state relative-caret-position="246">
+              <caret line="140" column="28" lean-forward="true" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -95,22 +116,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project_JSONEditor/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="135" column="6" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/device/appPC/deviceUtilAppPC.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="2070">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -130,7 +149,10 @@
       <find>= function (</find>
       <find>= function(</find>
       <find>hasOwnProperty</find>
+      <find>isMaximize</find>
       <find>isReload</find>
+      <find>maximize</find>
+      <find>exists</find>
     </findStrings>
     <replaceStrings>
       <replace>= function(</replace>
@@ -147,14 +169,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/common/js/confBase.js" />
         <option value="$PROJECT_DIR$/device/deviceUtilBase.js" />
         <option value="$PROJECT_DIR$/device/confDevice.js" />
         <option value="$PROJECT_DIR$/project_JSONEditor/html/index.html" />
-        <option value="$PROJECT_DIR$/project_JSONEditor/js/index.js" />
-        <option value="$PROJECT_DIR$/device/appPC/deviceExecAppPC.js" />
         <option value="$PROJECT_DIR$/device/appPC/deviceUtilAppPC.js" />
+        <option value="$PROJECT_DIR$/a.js" />
+        <option value="$PROJECT_DIR$/b.js" />
+        <option value="$PROJECT_DIR$/node-main.js" />
+        <option value="$PROJECT_DIR$/project_JSONEditor/js/index.js" />
+        <option value="$PROJECT_DIR$/c.js" />
+        <option value="$PROJECT_DIR$/device/appPC/deviceExecAppPC.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/device/appPC/node-main.js" />
+        <option value="$PROJECT_DIR$/device/appPC/bg-script.js" />
       </list>
     </option>
   </component>
@@ -170,6 +198,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="497" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="717" />
@@ -180,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,34 +227,28 @@
               <item name="device" type="462c0819:PsiDirectoryNode" />
               <item name="appPC" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="project_JSONEditor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="project_JSONEditor" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="project_JSONEditor" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/workTeddy/JSONEditor/src/client/package.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/device/appPC" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -266,12 +288,16 @@
       <workItem from="1541849011713" duration="831000" />
       <workItem from="1541936439481" duration="5308000" />
       <workItem from="1541989097444" duration="3494000" />
-      <workItem from="1541992631519" duration="3136000" />
+      <workItem from="1541992631519" duration="5050000" />
+      <workItem from="1542026548909" duration="336000" />
+      <workItem from="1542026891012" duration="1709000" />
+      <workItem from="1542071293459" duration="688000" />
+      <workItem from="1542072130620" duration="3317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12794000" />
+    <option name="totallyTimeSpent" value="20758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="6" />
@@ -307,21 +333,18 @@
       <breakpoints>
         <line-breakpoint type="javascript">
           <url>file://$PROJECT_DIR$/device/appPC/deviceExecAppPC.js</url>
-          <line>63</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="52" />
+          <line>70</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint type="javascript">
           <url>file://$PROJECT_DIR$/device/appPC/deviceExecAppPC.js</url>
-          <line>52</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="53" />
+          <line>69</line>
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint type="javascript">
           <url>file://$PROJECT_DIR$/device/appPC/deviceExecAppPC.js</url>
-          <line>46</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="55" />
+          <line>68</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -339,20 +362,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package_Demo.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device/confDevice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/js/confBase.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -377,31 +386,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/device/appPC/deviceUtilAppPC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/js/widget/base/widgetElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/js/widget/base/widgetJsonCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/js/widget/base/widgetMenuCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/js/widget/base/widgetUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/js/widget/widgetFile/base/widgetFileBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/js/widget/widgetFile/base/widgetFileMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="61" column="43" lean-forward="true" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device/confDevice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project_JSONEditor/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="135" column="6" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
+        <state relative-caret-position="2070">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project_JSONEditor/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="146" column="11" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
+        <state relative-caret-position="246">
+          <caret line="140" column="28" lean-forward="true" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="28" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/device/appPC/deviceExecAppPC.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="71" column="50" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
+        <state relative-caret-position="296">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device/appPC/deviceUtilAppPC.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="197">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device/appPC/node-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device/appPC/bg-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>

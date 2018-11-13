@@ -13,12 +13,17 @@ DeviceUtilAppPC.prototype.a = function () {
     console.log("aa");
 }
 
-DeviceUtilAppPC.prototype.fileSystem.exists = function(pathFileOrDir, callback) {
-    fs.exists(pathFileOrDir, function(exists) {
+DeviceUtilAppPC.prototype.fileSystem.exists = function(fileOrDirPath, callback) {
+    fs.exists(fileOrDirPath, function(exists) {
         callback(exists);
     });
 }
-
+DeviceUtilAppPC.prototype.fileSystem.existsSync = function(fileOrDirPath) {
+    var normalizePath = path.normalize(fileOrDirPath);
+    console.log('existsSync = ', fileOrDirPath);
+    // return fs.existsSync(normalizePath);
+    return false;
+}
 
 // EditorFileSystem.readFile = function(filePath, callback) {
 //     fs.readFile(filePath, 'utf8', function (err, data) {
@@ -147,7 +152,7 @@ DeviceUtilAppPC.prototype.fileSystem.mkDirs = function(dirPath, callback) { // �
     var dirAry = dirPath.split('/');
     fs.exists(dirPath, function(exists) {
         if (exists) {
-            console.log('文件夹已存在！');
+            // console.log('文件夹已存在！');
             callback();
         } else {
             gDeviceUtil.fileSystem.mkDir(0, dirAry, function() {
